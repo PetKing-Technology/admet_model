@@ -1,0 +1,6 @@
+row_data/
+.cursor/
+output/
+*.sh
+*.log
+model_path/

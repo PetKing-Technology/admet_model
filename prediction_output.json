@@ -1,0 +1,144 @@
+{
+    "CC(C)OC(=O)CC(=O)CSc1nc2c(cc1C#N)CCC2": {
+        "logp": {
+            "prediction": 2.67864179116814,
+            "uncertainty": 0.03391240284778263,
+            "confidence": "Low-confidence",
+            "interpretation": "excellent"
+        },
+        "pka_acidic": {
+            "prediction": 6.975601481691181,
+            "uncertainty": 1.0387301270296518,
+            "confidence": "Low-confidence"
+        },
+        "cl-plasma": {
+            "prediction": 7.335493374401781,
+            "uncertainty": 0.760278804647534,
+            "confidence": "Low-confidence"
+        },
+        "logs": {
+            "prediction": -4.399875539072057,
+            "uncertainty": 0.009936818207290088,
+            "confidence": "High-confidence",
+            "interpretation": "poor"
+        },
+        "logvdss": {
+            "prediction": 0.11090586256814672,
+            "uncertainty": 0.0061429078008511905,
+            "confidence": "Low-confidence",
+            "interpretation": "excellent"
+        },
+        "pka_basic": {
+            "prediction": 5.376012566708188,
+            "uncertainty": 0.593857389574449,
+            "confidence": "Low-confidence"
+        },
+        "t12": {
+            "prediction": 1.0889464020464132,
+            "uncertainty": 0.2621174356237508,
+            "confidence": "Low-confidence",
+            "interpretation": "medium"
+        },
+        "logd": {
+            "prediction": 2.747943334160103,
+            "uncertainty": 0.010090726999991695,
+            "confidence": "High-confidence",
+            "interpretation": "excellent"
+        },
+        "mdck": {
+            "prediction": -4.456311480210387,
+            "uncertainty": 0.0106400987424351,
+            "confidence": "Low-confidence",
+            "interpretation": "poor"
+        },
+        "caco2": {
+            "prediction": -4.582441144040267,
+            "uncertainty": 0.0012761399838012721,
+            "confidence": "High-confidence",
+            "interpretation": "excellent"
+        },
+        "ppb": {
+            "prediction": 86.06458944465108,
+            "uncertainty": 24.56824088598114,
+            "confidence": "Low-confidence",
+            "interpretation": "excellent"
+        },
+        "cl-int": {
+            "prediction": -1.6978667274550074,
+            "uncertainty": 0.02305167914351225,
+            "confidence": "Low-confidence"
+        },
+        "ames": {
+            "prediction": 0.17389333248138428,
+            "confidence": "excellent"
+        },
+        "lm-human": {
+            "prediction": 0.5267126063505808,
+            "confidence": "medium"
+        },
+        "herg-10um": {
+            "prediction": 0.04961438104510307,
+            "confidence": "excellent"
+        },
+        "lm-mouse": {
+            "prediction": 0.6346981326738993,
+            "confidence": "medium"
+        },
+        "f50": {
+            "prediction": 0.5485173066457113,
+            "confidence": "medium"
+        },
+        "pgp_inh": {
+            "prediction": 0.7434066335360209,
+            "confidence": "poor"
+        },
+        "dili": {
+            "prediction": 0.9756605426470438,
+            "confidence": "poor"
+        },
+        "herg": {
+            "prediction": 0.014377707690679623,
+            "confidence": "excellent"
+        },
+        "oatp1b1": {
+            "prediction": 0.7012903491655985,
+            "confidence": "poor"
+        },
+        "cyp3a4-inh": {
+            "prediction": 0.4187419017155965,
+            "confidence": "medium"
+        },
+        "cyp2d6-sub": {
+            "prediction": 0.06593569205142558,
+            "confidence": "excellent"
+        },
+        "cyp3a4-sub": {
+            "prediction": 0.7243819832801819,
+            "confidence": "poor"
+        },
+        "aggregators": {
+            "prediction": 0.13754604570567608,
+            "confidence": "excellent"
+        },
+        "oatp1b3": {
+            "prediction": 0.7133294741312662,
+            "confidence": "poor"
+        },
+        "pgp_sub": {
+            "prediction": 0.005650929757393897,
+            "confidence": "excellent"
+        },
+        "cyp2d6-inh": {
+            "prediction": 0.006311918667051941,
+            "confidence": "excellent"
+        },
+        "carcinogenicity": {
+            "prediction": 0.3484528263409932,
+            "confidence": "medium"
+        },
+        "bbb": {
+            "prediction": 0.305301987255613,
+            "confidence": "medium"
+        }
+    }
+}
