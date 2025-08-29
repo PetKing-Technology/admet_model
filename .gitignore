@@ -4,3 +4,4 @@ output/
 *.sh
 *.log
 model_path/
+__pycache__/

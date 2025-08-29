@@ -1,0 +1,5006 @@
+{
+    "CC(=O)OC1=CC=CC=C1C(=O)O": {
+        "logp": {
+            "prediction": [
+                1.1552313291552303
+            ],
+            "uncertainty": [
+                0.0001439177166135952
+            ],
+            "confidence": [
+                "High-confidence"
+            ],
+            "interpretation": [
+                "excellent"
+            ]
+        },
+        "pka_acidic": {
+            "prediction": [
+                3.8397766871994476
+            ],
+            "uncertainty": [
+                0.024797062646179313
+            ],
+            "confidence": [
+                "High-confidence"
+            ],
+            "interpretation": [
+                null
+            ]
+        },
+        "cl-plasma": {
+            "prediction": [
+                3.981293697160247
+            ],
+            "uncertainty": [
+                0.16884354520223255
+            ],
+            "confidence": [
+                "High-confidence"
+            ],
+            "interpretation": [
+                null
+            ]
+        },
+        "logs": {
+            "prediction": [
+                -1.5256922924663134
+            ],
+            "uncertainty": [
+                0.0002447127013591732
+            ],
+            "confidence": [
+                "High-confidence"
+            ],
+            "interpretation": [
+                "excellent"
+            ]
+        },
+        "logvdss": {
+            "prediction": [
+                -0.6127581315689811
+            ],
+            "uncertainty": [
+                0.000348552267910307
+            ],
+            "confidence": [
+                "High-confidence"
+            ],
+            "interpretation": [
+                "excellent"
+            ]
+        },
+        "pka_basic": {
+            "prediction": [
+                5.666269286319495
+            ],
+            "uncertainty": [
+                0.09200423467457597
+            ],
+            "confidence": [
+                "Low-confidence"
+            ],
+            "interpretation": [
+                null
+            ]
+        },
+        "t12": {
+            "prediction": [
+                1.6961266464830764
+            ],
+            "uncertainty": [
+                0.007104227651814732
+            ],
+            "confidence": [
+                "High-confidence"
+            ],
+            "interpretation": [
+                "medium"
+            ]
+        },
+        "logd": {
+            "prediction": [
+                0.8906667097211433
+            ],
+            "uncertainty": [
+                0.024885315950782805
+            ],
+            "confidence": [
+                "Low-confidence"
+            ],
+            "interpretation": [
+                "poor"
+            ]
+        },
+        "mdck": {
+            "prediction": [
+                -4.569881377925192
+            ],
+            "uncertainty": [
+                0.02960949855164685
+            ],
+            "confidence": [
+                "Low-confidence"
+            ],
+            "interpretation": [
+                "poor"
+            ]
+        },
+        "caco2": {
+            "prediction": [
+                -5.049948011428761
+            ],
+            "uncertainty": [
+                0.005669023368973569
+            ],
+            "confidence": [
+                "Low-confidence"
+            ],
+            "interpretation": [
+                "excellent"
+            ]
+        },
+        "ppb": {
+            "prediction": [
+                55.09510444822744
+            ],
+            "uncertainty": [
+                7.611349642407731
+            ],
+            "confidence": [
+                "Low-confidence"
+            ],
+            "interpretation": [
+                "excellent"
+            ]
+        },
+        "cl-int": {
+            "prediction": [
+                -0.7220940228461531
+            ],
+            "uncertainty": [
+                0.0045154114048048255
+            ],
+            "confidence": [
+                "Low-confidence"
+            ],
+            "interpretation": [
+                null
+            ]
+        },
+        "ames": {
+            "prediction": [
+                0.006673770646254222
+            ],
+            "confidence": [
+                "excellent"
+            ]
+        },
+        "lm-human": {
+            "prediction": [
+                5.8466159285804524e-06
+            ],
+            "confidence": [
+                "excellent"
+            ]
+        },
+        "herg-10um": {
+            "prediction": [
+                0.11140093704064687
+            ],
+            "confidence": [
+                "excellent"
+            ]
+        },
+        "lm-mouse": {
+            "prediction": [
+                0.030704574038585026
+            ],
+            "confidence": [
+                "excellent"
+            ]
+        },
+        "f50": {
+            "prediction": [
+                0.4269580791393916
+            ],
+            "confidence": [
+                "medium"
+            ]
+        },
+        "pgp_inh": {
+            "prediction": [
+                6.477650698037222e-06
+            ],
+            "confidence": [
+                "excellent"
+            ]
+        },
+        "dili": {
+            "prediction": [
+                0.46570126215616864
+            ],
+            "confidence": [
+                "medium"
+            ]
+        },
+        "herg": {
+            "prediction": [
+                0.011468108471793434
+            ],
+            "confidence": [
+                "excellent"
+            ]
+        },
+        "oatp1b1": {
+            "prediction": [
+                0.42429109414418537
+            ],
+            "confidence": [
+                "medium"
+            ]
+        },
+        "cyp3a4-inh": {
+            "prediction": [
+                4.691575001440166e-05
+            ],
+            "confidence": [
+                "excellent"
+            ]
+        },
+        "cyp2d6-sub": {
+            "prediction": [
+                0.00393917230636968
+            ],
+            "confidence": [
+                "excellent"
+            ]
+        },
+        "cyp3a4-sub": {
+            "prediction": [
+                0.001424374126334745
+            ],
+            "confidence": [
+                "excellent"
+            ]
+        },
+        "aggregators": {
+            "prediction": [
+                0.00011225859816477168
+            ],
+            "confidence": [
+                "excellent"
+            ]
+        },
+        "oatp1b3": {
+            "prediction": [
+                0.6375072797139486
+            ],
+            "confidence": [
+                "medium"
+            ]
+        },
+        "pgp_sub": {
+            "prediction": [
+                0.01989075952830414
+            ],
+            "confidence": [
+                "excellent"
+            ]
+        },
+        "cyp2d6-inh": {
+            "prediction": [
+                0.02955906605347991
+            ],
+            "confidence": [
+                "excellent"
+            ]
+        },
+        "carcinogenicity": {
+            "prediction": [
+                0.1257743015885353
+            ],
+            "confidence": [
+                "excellent"
+            ]
+        },
+        "bbb": {
+            "prediction": [
+                0.9302685260772705
+            ],
+            "confidence": [
+                "poor"
+            ]
+        },
+        "Physicochemical_Property": {
+            "TPSA": 63.60000000000001,
+            "nRot": 2,
+            "nHA": 3,
+            "nHD": 1,
+            "MW": 180.15899999999996,
+            "LogP": 1.3101,
+            "QED": 0.5501217966938848,
+            "SAscore": 1.580039750008826,
+            "Lipinski": {
+                "MW": {
+                    "value": 180.15899999999996,
+                    "pass": true,
+                    "rule": "MW \u2264 500"
+                },
+                "LogP": {
+                    "value": 1.3101,
+                    "pass": true,
+                    "rule": "LogP \u2264 5"
+                },
+                "HBA": {
+                    "value": 3,
+                    "pass": true,
+                    "rule": "HBA \u2264 10"
+                },
+                "HBD": {
+                    "value": 1,
+                    "pass": true,
+                    "rule": "HBD \u2264 5"
+                },
+                "total_passed": 4,
+                "overall_pass": true
+            },
+            "Pfizer": {
+                "MW": {
+                    "value": 180.15899999999996,
+                    "pass": true,
+                    "rule": "MW \u2264 400"
+                },
+                "LogP": {
+                    "value": 1.3101,
+                    "pass": true,
+                    "rule": "LogP \u2264 4.15"
+                },
+                "HBA": {
+                    "value": 3,
+                    "pass": true,
+                    "rule": "HBA \u2264 8"
+                },
+                "HBD": {
+                    "value": 1,
+                    "pass": true,
+                    "rule": "HBD \u2264 5"
+                },
+                "nRot": {
+                    "value": 2,
+                    "pass": true,
+                    "rule": "nRot \u2264 10"
+                },
+                "TPSA": {
+                    "value": 63.60000000000001,
+                    "pass": true,
+                    "rule": "TPSA \u2264 90"
+                },
+                "total_passed": 6,
+                "overall_pass": true
+            },
+            "BMS": {
+                "MW": {
+                    "value": 180.15899999999996,
+                    "pass": true,
+                    "rule": "MW \u2264 400"
+                },
+                "LogP": {
+                    "value": 1.3101,
+                    "pass": true,
+                    "rule": "LogP \u2264 4.0"
+                },
+                "HBA": {
+                    "value": 3,
+                    "pass": true,
+                    "rule": "HBA \u2264 8"
+                },
+                "HBD": {
+                    "value": 1,
+                    "pass": true,
+                    "rule": "HBD \u2264 3"
+                },
+                "nRot": {
+                    "value": 2,
+                    "pass": true,
+                    "rule": "nRot \u2264 8"
+                },
+                "TPSA": {
+                    "value": 63.60000000000001,
+                    "pass": true,
+                    "rule": "TPSA \u2264 90"
+                },
+                "total_passed": 6,
+                "overall_pass": true
+            },
+            "PAINS": false
+        }
+    },
+    "NC(=O)N1C2=CC=CC=C2C=C2C=CC=CC=C21": {
+        "logp": {
+            "prediction": [
+                2.7417883208125953
+            ],
+            "uncertainty": [
+                0.0104496698426928
+            ],
+            "confidence": [
+                "Low-confidence"
+            ],
+            "interpretation": [
+                "excellent"
+            ]
+        },
+        "pka_acidic": {
+            "prediction": [
+                9.312157936154248
+            ],
+            "uncertainty": [
+                0.26438630791922435
+            ],
+            "confidence": [
+                "Low-confidence"
+            ],
+            "interpretation": [
+                null
+            ]
+        },
+        "cl-plasma": {
+            "prediction": [
+                6.425775247992756
+            ],
+            "uncertainty": [
+                2.568997300235516
+            ],
+            "confidence": [
+                "Low-confidence"
+            ],
+            "interpretation": [
+                null
+            ]
+        },
+        "logs": {
+            "prediction": [
+                -3.3429948830153187
+            ],
+            "uncertainty": [
+                0.1032686947231447
+            ],
+            "confidence": [
+                "Low-confidence"
+            ],
+            "interpretation": [
+                "excellent"
+            ]
+        },
+        "logvdss": {
+            "prediction": [
+                -0.052182144836307974
+            ],
+            "uncertainty": [
+                0.01607273932935026
+            ],
+            "confidence": [
+                "Low-confidence"
+            ],
+            "interpretation": [
+                "excellent"
+            ]
+        },
+        "pka_basic": {
+            "prediction": [
+                4.015539308306896
+            ],
+            "uncertainty": [
+                0.42540531419119887
+            ],
+            "confidence": [
+                "Low-confidence"
+            ],
+            "interpretation": [
+                null
+            ]
+        },
+        "t12": {
+            "prediction": [
+                1.09826644005038
+            ],
+            "uncertainty": [
+                0.05429384561855333
+            ],
+            "confidence": [
+                "Low-confidence"
+            ],
+            "interpretation": [
+                "medium"
+            ]
+        },
+        "logd": {
+            "prediction": [
+                2.602097122031718
+            ],
+            "uncertainty": [
+                0.024701795361606216
+            ],
+            "confidence": [
+                "Low-confidence"
+            ],
+            "interpretation": [
+                "excellent"
+            ]
+        },
+        "mdck": {
+            "prediction": [
+                -4.563746048484663
+            ],
+            "uncertainty": [
+                0.005474463047669076
+            ],
+            "confidence": [
+                "Low-confidence"
+            ],
+            "interpretation": [
+                "poor"
+            ]
+        },
+        "caco2": {
+            "prediction": [
+                -4.606419893799299
+            ],
+            "uncertainty": [
+                0.021252585861457618
+            ],
+            "confidence": [
+                "Low-confidence"
+            ],
+            "interpretation": [
+                "excellent"
+            ]
+        },
+        "ppb": {
+            "prediction": [
+                88.53352422422113
+            ],
+            "uncertainty": [
+                8.132088324710821
+            ],
+            "confidence": [
+                "Low-confidence"
+            ],
+            "interpretation": [
+                "excellent"
+            ]
+        },
+        "cl-int": {
+            "prediction": [
+                -1.4661406517077147
+            ],
+            "uncertainty": [
+                0.02193073451064409
+            ],
+            "confidence": [
+                "Low-confidence"
+            ],
+            "interpretation": [
+                null
+            ]
+        },
+        "ames": {
+            "prediction": [
+                0.680841272075971
+            ],
+            "confidence": [
+                "medium"
+            ]
+        },
+        "lm-human": {
+            "prediction": [
+                0.003924931079382077
+            ],
+            "confidence": [
+                "excellent"
+            ]
+        },
+        "herg-10um": {
+            "prediction": [
+                0.023210011623935618
+            ],
+            "confidence": [
+                "excellent"
+            ]
+        },
+        "lm-mouse": {
+            "prediction": [
+                0.9736922184626261
+            ],
+            "confidence": [
+                "poor"
+            ]
+        },
+        "f50": {
+            "prediction": [
+                0.9046874046325684
+            ],
+            "confidence": [
+                "poor"
+            ]
+        },
+        "pgp_inh": {
+            "prediction": [
+                0.08084241921703021
+            ],
+            "confidence": [
+                "excellent"
+            ]
+        },
+        "dili": {
+            "prediction": [
+                0.9977251887321472
+            ],
+            "confidence": [
+                "poor"
+            ]
+        },
+        "herg": {
+            "prediction": [
+                0.015775220264913514
+            ],
+            "confidence": [
+                "excellent"
+            ]
+        },
+        "oatp1b1": {
+            "prediction": [
+                0.11238678552520771
+            ],
+            "confidence": [
+                "excellent"
+            ]
+        },
+        "cyp3a4-inh": {
+            "prediction": [
+                0.03566278115128322
+            ],
+            "confidence": [
+                "excellent"
+            ]
+        },
+        "cyp2d6-sub": {
+            "prediction": [
+                0.6533790677785873
+            ],
+            "confidence": [
+                "medium"
+            ]
+        },
+        "cyp3a4-sub": {
+            "prediction": [
+                0.8142259120941162
+            ],
+            "confidence": [
+                "poor"
+            ]
+        },
+        "aggregators": {
+            "prediction": [
+                0.36204759279886883
+            ],
+            "confidence": [
+                "medium"
+            ]
+        },
+        "oatp1b3": {
+            "prediction": [
+                0.25369632818425697
+            ],
+            "confidence": [
+                "excellent"
+            ]
+        },
+        "pgp_sub": {
+            "prediction": [
+                0.29827017057687044
+            ],
+            "confidence": [
+                "excellent"
+            ]
+        },
+        "cyp2d6-inh": {
+            "prediction": [
+                0.007915787786866227
+            ],
+            "confidence": [
+                "excellent"
+            ]
+        },
+        "carcinogenicity": {
+            "prediction": [
+                0.7102604806423187
+            ],
+            "confidence": [
+                "poor"
+            ]
+        },
+        "bbb": {
+            "prediction": [
+                0.9963472286860148
+            ],
+            "confidence": [
+                "poor"
+            ]
+        },
+        "Physicochemical_Property": {
+            "TPSA": 46.330000000000005,
+            "nRot": 0,
+            "nHA": 1,
+            "nHD": 1,
+            "MW": 236.274,
+            "LogP": 2.978600000000002,
+            "QED": 0.739147334861468,
+            "SAscore": 3.1213642425599613,
+            "Lipinski": {
+                "MW": {
+                    "value": 236.274,
+                    "pass": true,
+                    "rule": "MW \u2264 500"
+                },
+                "LogP": {
+                    "value": 2.978600000000002,
+                    "pass": true,
+                    "rule": "LogP \u2264 5"
+                },
+                "HBA": {
+                    "value": 1,
+                    "pass": true,
+                    "rule": "HBA \u2264 10"
+                },
+                "HBD": {
+                    "value": 1,
+                    "pass": true,
+                    "rule": "HBD \u2264 5"
+                },
+                "total_passed": 4,
+                "overall_pass": true
+            },
+            "Pfizer": {
+                "MW": {
+                    "value": 236.274,
+                    "pass": true,
+                    "rule": "MW \u2264 400"
+                },
+                "LogP": {
+                    "value": 2.978600000000002,
+                    "pass": true,
+                    "rule": "LogP \u2264 4.15"
+                },
+                "HBA": {
+                    "value": 1,
+                    "pass": true,
+                    "rule": "HBA \u2264 8"
+                },
+                "HBD": {
+                    "value": 1,
+                    "pass": true,
+                    "rule": "HBD \u2264 5"
+                },
+                "nRot": {
+                    "value": 0,
+                    "pass": true,
+                    "rule": "nRot \u2264 10"
+                },
+                "TPSA": {
+                    "value": 46.330000000000005,
+                    "pass": true,
+                    "rule": "TPSA \u2264 90"
+                },
+                "total_passed": 6,
+                "overall_pass": true
+            },
+            "BMS": {
+                "MW": {
+                    "value": 236.274,
+                    "pass": true,
+                    "rule": "MW \u2264 400"
+                },
+                "LogP": {
+                    "value": 2.978600000000002,
+                    "pass": true,
+                    "rule": "LogP \u2264 4.0"
+                },
+                "HBA": {
+                    "value": 1,
+                    "pass": true,
+                    "rule": "HBA \u2264 8"
+                },
+                "HBD": {
+                    "value": 1,
+                    "pass": true,
+                    "rule": "HBD \u2264 3"
+                },
+                "nRot": {
+                    "value": 0,
+                    "pass": true,
+                    "rule": "nRot \u2264 8"
+                },
+                "TPSA": {
+                    "value": 46.330000000000005,
+                    "pass": true,
+                    "rule": "TPSA \u2264 90"
+                },
+                "total_passed": 6,
+                "overall_pass": true
+            },
+            "PAINS": false
+        }
+    },
+    "CC1OC2CC3C4CCC5CC(O)CCC5(C)C4CCC3(C)C2(O)CC1OC1OC(C)C(O)C(O)C1O": {
+        "logp": {
+            "prediction": [
+                2.0796975919208514
+            ],
+            "uncertainty": [
+                0.03083198345452498
+            ],
+            "confidence": [
+                "Low-confidence"
+            ],
+            "interpretation": [
+                "excellent"
+            ]
+        },
+        "pka_acidic": {
+            "prediction": [
+                7.230637416664719
+            ],
+            "uncertainty": [
+                1.0795549831827884
+            ],
+            "confidence": [
+                "Low-confidence"
+            ],
+            "interpretation": [
+                null
+            ]
+        },
+        "cl-plasma": {
+            "prediction": [
+                6.163086818275815
+            ],
+            "uncertainty": [
+                5.081177463771731
+            ],
+            "confidence": [
+                "Low-confidence"
+            ],
+            "interpretation": [
+                null
+            ]
+        },
+        "logs": {
+            "prediction": [
+                -4.838835878145478
+            ],
+            "uncertainty": [
+                0.0706246877003025
+            ],
+            "confidence": [
+                "Low-confidence"
+            ],
+            "interpretation": [
+                "poor"
+            ]
+        },
+        "logvdss": {
+            "prediction": [
+                -0.1633753176860958
+            ],
+            "uncertainty": [
+                0.007807682433814786
+            ],
+            "confidence": [
+                "Low-confidence"
+            ],
+            "interpretation": [
+                "excellent"
+            ]
+        },
+        "pka_basic": {
+            "prediction": [
+                7.181053985287295
+            ],
+            "uncertainty": [
+                0.2666036795566882
+            ],
+            "confidence": [
+                "Low-confidence"
+            ],
+            "interpretation": [
+                null
+            ]
+        },
+        "t12": {
+            "prediction": [
+                2.5765274293915605
+            ],
+            "uncertainty": [
+                0.20860308493729374
+            ],
+            "confidence": [
+                "Low-confidence"
+            ],
+            "interpretation": [
+                "medium"
+            ]
+        },
+        "logd": {
+            "prediction": [
+                2.879320805844484
+            ],
+            "uncertainty": [
+                0.02461634189579165
+            ],
+            "confidence": [
+                "Low-confidence"
+            ],
+            "interpretation": [
+                "excellent"
+            ]
+        },
+        "mdck": {
+            "prediction": [
+                -4.91144148222546
+            ],
+            "uncertainty": [
+                0.0005619486709775856
+            ],
+            "confidence": [
+                "High-confidence"
+            ],
+            "interpretation": [
+                "poor"
+            ]
+        },
+        "caco2": {
+            "prediction": [
+                -5.4943152724485325
+            ],
+            "uncertainty": [
+                0.013757487307291427
+            ],
+            "confidence": [
+                "Low-confidence"
+            ],
+            "interpretation": [
+                "poor"
+            ]
+        },
+        "ppb": {
+            "prediction": [
+                86.85710094077349
+            ],
+            "uncertainty": [
+                34.04393404800976
+            ],
+            "confidence": [
+                "Low-confidence"
+            ],
+            "interpretation": [
+                "excellent"
+            ]
+        },
+        "cl-int": {
+            "prediction": [
+                -1.2751909047110805
+            ],
+            "uncertainty": [
+                0.02226242214194163
+            ],
+            "confidence": [
+                "Low-confidence"
+            ],
+            "interpretation": [
+                null
+            ]
+        },
+        "ames": {
+            "prediction": [
+                0.4866794943809509
+            ],
+            "confidence": [
+                "medium"
+            ]
+        },
+        "lm-human": {
+            "prediction": [
+                0.00030718967309439904
+            ],
+            "confidence": [
+                "excellent"
+            ]
+        },
+        "herg-10um": {
+            "prediction": [
+                0.10193705085354547
+            ],
+            "confidence": [
+                "excellent"
+            ]
+        },
+        "lm-mouse": {
+            "prediction": [
+                0.06458781411978028
+            ],
+            "confidence": [
+                "excellent"
+            ]
+        },
+        "f50": {
+            "prediction": [
+                0.3362278963128726
+            ],
+            "confidence": [
+                "medium"
+            ]
+        },
+        "pgp_inh": {
+            "prediction": [
+                0.06933628829816978
+            ],
+            "confidence": [
+                "excellent"
+            ]
+        },
+        "dili": {
+            "prediction": [
+                0.42719631393750507
+            ],
+            "confidence": [
+                "medium"
+            ]
+        },
+        "herg": {
+            "prediction": [
+                0.0008748288053842165
+            ],
+            "confidence": [
+                "excellent"
+            ]
+        },
+        "oatp1b1": {
+            "prediction": [
+                0.0010351137704371165
+            ],
+            "confidence": [
+                "excellent"
+            ]
+        },
+        "cyp3a4-inh": {
+            "prediction": [
+                0.0009438990770528714
+            ],
+            "confidence": [
+                "excellent"
+            ]
+        },
+        "cyp2d6-sub": {
+            "prediction": [
+                0.2681461718554298
+            ],
+            "confidence": [
+                "excellent"
+            ]
+        },
+        "cyp3a4-sub": {
+            "prediction": [
+                0.6237972577412924
+            ],
+            "confidence": [
+                "medium"
+            ]
+        },
+        "aggregators": {
+            "prediction": [
+                0.01066762674599886
+            ],
+            "confidence": [
+                "excellent"
+            ]
+        },
+        "oatp1b3": {
+            "prediction": [
+                0.08185828911761443
+            ],
+            "confidence": [
+                "excellent"
+            ]
+        },
+        "pgp_sub": {
+            "prediction": [
+                0.20040720949570337
+            ],
+            "confidence": [
+                "excellent"
+            ]
+        },
+        "cyp2d6-inh": {
+            "prediction": [
+                8.446339176219434e-07
+            ],
+            "confidence": [
+                "excellent"
+            ]
+        },
+        "carcinogenicity": {
+            "prediction": [
+                0.03620577013740937
+            ],
+            "confidence": [
+                "excellent"
+            ]
+        },
+        "bbb": {
+            "prediction": [
+                0.9425187905629476
+            ],
+            "confidence": [
+                "poor"
+            ]
+        },
+        "Physicochemical_Property": {
+            "TPSA": 128.84,
+            "nRot": 2,
+            "nHA": 8,
+            "nHD": 5,
+            "MW": 524.6950000000003,
+            "LogP": 2.1210999999999998,
+            "QED": 0.3716488571284026,
+            "SAscore": 5.292537080102737,
+            "Lipinski": {
+                "MW": {
+                    "value": 524.6950000000003,
+                    "pass": false,
+                    "rule": "MW \u2264 500"
+                },
+                "LogP": {
+                    "value": 2.1210999999999998,
+                    "pass": true,
+                    "rule": "LogP \u2264 5"
+                },
+                "HBA": {
+                    "value": 8,
+                    "pass": true,
+                    "rule": "HBA \u2264 10"
+                },
+                "HBD": {
+                    "value": 5,
+                    "pass": true,
+                    "rule": "HBD \u2264 5"
+                },
+                "total_passed": 3,
+                "overall_pass": true
+            },
+            "Pfizer": {
+                "MW": {
+                    "value": 524.6950000000003,
+                    "pass": false,
+                    "rule": "MW \u2264 400"
+                },
+                "LogP": {
+                    "value": 2.1210999999999998,
+                    "pass": true,
+                    "rule": "LogP \u2264 4.15"
+                },
+                "HBA": {
+                    "value": 8,
+                    "pass": true,
+                    "rule": "HBA \u2264 8"
+                },
+                "HBD": {
+                    "value": 5,
+                    "pass": true,
+                    "rule": "HBD \u2264 5"
+                },
+                "nRot": {
+                    "value": 2,
+                    "pass": true,
+                    "rule": "nRot \u2264 10"
+                },
+                "TPSA": {
+                    "value": 128.84,
+                    "pass": false,
+                    "rule": "TPSA \u2264 90"
+                },
+                "total_passed": 4,
+                "overall_pass": true
+            },
+            "BMS": {
+                "MW": {
+                    "value": 524.6950000000003,
+                    "pass": false,
+                    "rule": "MW \u2264 400"
+                },
+                "LogP": {
+                    "value": 2.1210999999999998,
+                    "pass": true,
+                    "rule": "LogP \u2264 4.0"
+                },
+                "HBA": {
+                    "value": 8,
+                    "pass": true,
+                    "rule": "HBA \u2264 8"
+                },
+                "HBD": {
+                    "value": 5,
+                    "pass": false,
+                    "rule": "HBD \u2264 3"
+                },
+                "nRot": {
+                    "value": 2,
+                    "pass": true,
+                    "rule": "nRot \u2264 8"
+                },
+                "TPSA": {
+                    "value": 128.84,
+                    "pass": false,
+                    "rule": "TPSA \u2264 90"
+                },
+                "total_passed": 3,
+                "overall_pass": false
+            },
+            "PAINS": false
+        }
+    },
+    "CC(C)(C)C1=CC=C(C=C1)C(O)(CCCN2CCC(CC2)C(O)(C3=CC=CC=C3)C4=CC=CC=C4)C5=CC=CC=C5": {
+        "logp": {
+            "prediction": [
+                6.653809914712945
+            ],
+            "uncertainty": [
+                0.1756633781386654
+            ],
+            "confidence": [
+                "Low-confidence"
+            ],
+            "interpretation": [
+                "poor"
+            ]
+        },
+        "pka_acidic": {
+            "prediction": [
+                9.516110458879124
+            ],
+            "uncertainty": [
+                0.46070146582756877
+            ],
+            "confidence": [
+                "Low-confidence"
+            ],
+            "interpretation": [
+                null
+            ]
+        },
+        "cl-plasma": {
+            "prediction": [
+                4.883383051261667
+            ],
+            "uncertainty": [
+                1.7171345061309928
+            ],
+            "confidence": [
+                "Low-confidence"
+            ],
+            "interpretation": [
+                null
+            ]
+        },
+        "logs": {
+            "prediction": [
+                -7.5454902652521385
+            ],
+            "uncertainty": [
+                0.1661442763464791
+            ],
+            "confidence": [
+                "Low-confidence"
+            ],
+            "interpretation": [
+                "poor"
+            ]
+        },
+        "logvdss": {
+            "prediction": [
+                0.9140249018343733
+            ],
+            "uncertainty": [
+                0.010007711780006145
+            ],
+            "confidence": [
+                "Low-confidence"
+            ],
+            "interpretation": [
+                "excellent"
+            ]
+        },
+        "pka_basic": {
+            "prediction": [
+                8.490292496413078
+            ],
+            "uncertainty": [
+                0.872604597414238
+            ],
+            "confidence": [
+                "Low-confidence"
+            ],
+            "interpretation": [
+                null
+            ]
+        },
+        "t12": {
+            "prediction": [
+                0.6912137859441918
+            ],
+            "uncertainty": [
+                0.23128947168285002
+            ],
+            "confidence": [
+                "Low-confidence"
+            ],
+            "interpretation": [
+                "poor"
+            ]
+        },
+        "logd": {
+            "prediction": [
+                4.717813957470332
+            ],
+            "uncertainty": [
+                0.061564989449024665
+            ],
+            "confidence": [
+                "Low-confidence"
+            ],
+            "interpretation": [
+                "poor"
+            ]
+        },
+        "mdck": {
+            "prediction": [
+                -5.581428977874651
+            ],
+            "uncertainty": [
+                0.009127437760302115
+            ],
+            "confidence": [
+                "Low-confidence"
+            ],
+            "interpretation": [
+                "poor"
+            ]
+        },
+        "caco2": {
+            "prediction": [
+                -4.944698014120644
+            ],
+            "uncertainty": [
+                0.0009427454206658581
+            ],
+            "confidence": [
+                "High-confidence"
+            ],
+            "interpretation": [
+                "excellent"
+            ]
+        },
+        "ppb": {
+            "prediction": [
+                78.77629665500656
+            ],
+            "uncertainty": [
+                2.1964151578968085
+            ],
+            "confidence": [
+                "High-confidence"
+            ],
+            "interpretation": [
+                "excellent"
+            ]
+        },
+        "cl-int": {
+            "prediction": [
+                -2.2205840723103356
+            ],
+            "uncertainty": [
+                0.037359364848044585
+            ],
+            "confidence": [
+                "Low-confidence"
+            ],
+            "interpretation": [
+                null
+            ]
+        },
+        "ames": {
+            "prediction": [
+                0.0005933201076307645
+            ],
+            "confidence": [
+                "excellent"
+            ]
+        },
+        "lm-human": {
+            "prediction": [
+                0.3394574346020818
+            ],
+            "confidence": [
+                "medium"
+            ]
+        },
+        "herg-10um": {
+            "prediction": [
+                0.9822683930397034
+            ],
+            "confidence": [
+                "poor"
+            ]
+        },
+        "lm-mouse": {
+            "prediction": [
+                0.46338391055663425
+            ],
+            "confidence": [
+                "medium"
+            ]
+        },
+        "f50": {
+            "prediction": [
+                0.2853737274805705
+            ],
+            "confidence": [
+                "excellent"
+            ]
+        },
+        "pgp_inh": {
+            "prediction": [
+                0.9992074767748514
+            ],
+            "confidence": [
+                "poor"
+            ]
+        },
+        "dili": {
+            "prediction": [
+                0.0018685404587207206
+            ],
+            "confidence": [
+                "excellent"
+            ]
+        },
+        "herg": {
+            "prediction": [
+                0.9988910754521688
+            ],
+            "confidence": [
+                "poor"
+            ]
+        },
+        "oatp1b1": {
+            "prediction": [
+                0.24454797059297562
+            ],
+            "confidence": [
+                "excellent"
+            ]
+        },
+        "cyp3a4-inh": {
+            "prediction": [
+                0.04225490832080444
+            ],
+            "confidence": [
+                "excellent"
+            ]
+        },
+        "cyp2d6-sub": {
+            "prediction": [
+                0.5528666774431864
+            ],
+            "confidence": [
+                "medium"
+            ]
+        },
+        "cyp3a4-sub": {
+            "prediction": [
+                0.9180518190066019
+            ],
+            "confidence": [
+                "poor"
+            ]
+        },
+        "aggregators": {
+            "prediction": [
+                0.4124722306927045
+            ],
+            "confidence": [
+                "medium"
+            ]
+        },
+        "oatp1b3": {
+            "prediction": [
+                0.4642954170703888
+            ],
+            "confidence": [
+                "medium"
+            ]
+        },
+        "pgp_sub": {
+            "prediction": [
+                0.9194231430689493
+            ],
+            "confidence": [
+                "poor"
+            ]
+        },
+        "cyp2d6-inh": {
+            "prediction": [
+                0.9768543044726054
+            ],
+            "confidence": [
+                "poor"
+            ]
+        },
+        "carcinogenicity": {
+            "prediction": [
+                0.003418270517916729
+            ],
+            "confidence": [
+                "excellent"
+            ]
+        },
+        "bbb": {
+            "prediction": [
+                0.3852569858233134
+            ],
+            "confidence": [
+                "medium"
+            ]
+        },
+        "Physicochemical_Property": {
+            "TPSA": 43.7,
+            "nRot": 9,
+            "nHA": 3,
+            "nHD": 2,
+            "MW": 547.7830000000002,
+            "LogP": 7.64830000000001,
+            "QED": 0.22621015642265097,
+            "SAscore": 3.0597789972888183,
+            "Lipinski": {
+                "MW": {
+                    "value": 547.7830000000002,
+                    "pass": false,
+                    "rule": "MW \u2264 500"
+                },
+                "LogP": {
+                    "value": 7.64830000000001,
+                    "pass": false,
+                    "rule": "LogP \u2264 5"
+                },
+                "HBA": {
+                    "value": 3,
+                    "pass": true,
+                    "rule": "HBA \u2264 10"
+                },
+                "HBD": {
+                    "value": 2,
+                    "pass": true,
+                    "rule": "HBD \u2264 5"
+                },
+                "total_passed": 2,
+                "overall_pass": false
+            },
+            "Pfizer": {
+                "MW": {
+                    "value": 547.7830000000002,
+                    "pass": false,
+                    "rule": "MW \u2264 400"
+                },
+                "LogP": {
+                    "value": 7.64830000000001,
+                    "pass": false,
+                    "rule": "LogP \u2264 4.15"
+                },
+                "HBA": {
+                    "value": 3,
+                    "pass": true,
+                    "rule": "HBA \u2264 8"
+                },
+                "HBD": {
+                    "value": 2,
+                    "pass": true,
+                    "rule": "HBD \u2264 5"
+                },
+                "nRot": {
+                    "value": 9,
+                    "pass": true,
+                    "rule": "nRot \u2264 10"
+                },
+                "TPSA": {
+                    "value": 43.7,
+                    "pass": true,
+                    "rule": "TPSA \u2264 90"
+                },
+                "total_passed": 4,
+                "overall_pass": true
+            },
+            "BMS": {
+                "MW": {
+                    "value": 547.7830000000002,
+                    "pass": false,
+                    "rule": "MW \u2264 400"
+                },
+                "LogP": {
+                    "value": 7.64830000000001,
+                    "pass": false,
+                    "rule": "LogP \u2264 4.0"
+                },
+                "HBA": {
+                    "value": 3,
+                    "pass": true,
+                    "rule": "HBA \u2264 8"
+                },
+                "HBD": {
+                    "value": 2,
+                    "pass": true,
+                    "rule": "HBD \u2264 3"
+                },
+                "nRot": {
+                    "value": 9,
+                    "pass": false,
+                    "rule": "nRot \u2264 8"
+                },
+                "TPSA": {
+                    "value": 43.7,
+                    "pass": true,
+                    "rule": "TPSA \u2264 90"
+                },
+                "total_passed": 3,
+                "overall_pass": false
+            },
+            "PAINS": false
+        }
+    },
+    "CC1=C(C)C2=C(C=C1)OC(C)(COC3=CC=C(CC4SC(=O)NC4=O)C=C3)CC2": {
+        "logp": {
+            "prediction": [
+                4.113840485006761
+            ],
+            "uncertainty": [
+                0.07765750749843292
+            ],
+            "confidence": [
+                "Low-confidence"
+            ],
+            "interpretation": [
+                "poor"
+            ]
+        },
+        "pka_acidic": {
+            "prediction": [
+                8.316042332079276
+            ],
+            "uncertainty": [
+                0.3817962928643368
+            ],
+            "confidence": [
+                "Low-confidence"
+            ],
+            "interpretation": [
+                null
+            ]
+        },
+        "cl-plasma": {
+            "prediction": [
+                5.02534320053017
+            ],
+            "uncertainty": [
+                1.3033068240657713
+            ],
+            "confidence": [
+                "Low-confidence"
+            ],
+            "interpretation": [
+                null
+            ]
+        },
+        "logs": {
+            "prediction": [
+                -5.606199534093039
+            ],
+            "uncertainty": [
+                0.19879621038869288
+            ],
+            "confidence": [
+                "Low-confidence"
+            ],
+            "interpretation": [
+                "poor"
+            ]
+        },
+        "logvdss": {
+            "prediction": [
+                -0.15176445043707146
+            ],
+            "uncertainty": [
+                0.002744712320902714
+            ],
+            "confidence": [
+                "Low-confidence"
+            ],
+            "interpretation": [
+                "excellent"
+            ]
+        },
+        "pka_basic": {
+            "prediction": [
+                3.7418431341472034
+            ],
+            "uncertainty": [
+                0.4422162488641703
+            ],
+            "confidence": [
+                "Low-confidence"
+            ],
+            "interpretation": [
+                null
+            ]
+        },
+        "t12": {
+            "prediction": [
+                0.6143791611215449
+            ],
+            "uncertainty": [
+                0.022650182877661407
+            ],
+            "confidence": [
+                "Low-confidence"
+            ],
+            "interpretation": [
+                "poor"
+            ]
+        },
+        "logd": {
+            "prediction": [
+                3.540410325780691
+            ],
+            "uncertainty": [
+                0.007753723528463041
+            ],
+            "confidence": [
+                "High-confidence"
+            ],
+            "interpretation": [
+                "poor"
+            ]
+        },
+        "mdck": {
+            "prediction": [
+                -4.586210987377991
+            ],
+            "uncertainty": [
+                0.00026385911479209767
+            ],
+            "confidence": [
+                "High-confidence"
+            ],
+            "interpretation": [
+                "poor"
+            ]
+        },
+        "caco2": {
+            "prediction": [
+                -4.897783113140814
+            ],
+            "uncertainty": [
+                0.003595860005777496
+            ],
+            "confidence": [
+                "Low-confidence"
+            ],
+            "interpretation": [
+                "excellent"
+            ]
+        },
+        "ppb": {
+            "prediction": [
+                99.72854544421615
+            ],
+            "uncertainty": [
+                0.5258520729767042
+            ],
+            "confidence": [
+                "High-confidence"
+            ],
+            "interpretation": [
+                "poor"
+            ]
+        },
+        "cl-int": {
+            "prediction": [
+                -1.5816235010342463
+            ],
+            "uncertainty": [
+                0.040848493457949164
+            ],
+            "confidence": [
+                "Low-confidence"
+            ],
+            "interpretation": [
+                null
+            ]
+        },
+        "ames": {
+            "prediction": [
+                0.7623372475306193
+            ],
+            "confidence": [
+                "poor"
+            ]
+        },
+        "lm-human": {
+            "prediction": [
+                0.34071187302470207
+            ],
+            "confidence": [
+                "medium"
+            ]
+        },
+        "herg-10um": {
+            "prediction": [
+                0.27125653624534607
+            ],
+            "confidence": [
+                "excellent"
+            ]
+        },
+        "lm-mouse": {
+            "prediction": [
+                0.8399988214174906
+            ],
+            "confidence": [
+                "poor"
+            ]
+        },
+        "f50": {
+            "prediction": [
+                0.5784525275230408
+            ],
+            "confidence": [
+                "medium"
+            ]
+        },
+        "pgp_inh": {
+            "prediction": [
+                0.9833917220433553
+            ],
+            "confidence": [
+                "poor"
+            ]
+        },
+        "dili": {
+            "prediction": [
+                0.9464705983797709
+            ],
+            "confidence": [
+                "poor"
+            ]
+        },
+        "herg": {
+            "prediction": [
+                0.22756323218345642
+            ],
+            "confidence": [
+                "excellent"
+            ]
+        },
+        "oatp1b1": {
+            "prediction": [
+                0.8611011703809103
+            ],
+            "confidence": [
+                "poor"
+            ]
+        },
+        "cyp3a4-inh": {
+            "prediction": [
+                0.8631448547045389
+            ],
+            "confidence": [
+                "poor"
+            ]
+        },
+        "cyp2d6-sub": {
+            "prediction": [
+                0.4934304555257161
+            ],
+            "confidence": [
+                "medium"
+            ]
+        },
+        "cyp3a4-sub": {
+            "prediction": [
+                0.9787575801213583
+            ],
+            "confidence": [
+                "poor"
+            ]
+        },
+        "aggregators": {
+            "prediction": [
+                0.9296380082766215
+            ],
+            "confidence": [
+                "poor"
+            ]
+        },
+        "oatp1b3": {
+            "prediction": [
+                0.9137405753135681
+            ],
+            "confidence": [
+                "poor"
+            ]
+        },
+        "pgp_sub": {
+            "prediction": [
+                0.054077816739057503
+            ],
+            "confidence": [
+                "excellent"
+            ]
+        },
+        "cyp2d6-inh": {
+            "prediction": [
+                0.019968208041973412
+            ],
+            "confidence": [
+                "excellent"
+            ]
+        },
+        "carcinogenicity": {
+            "prediction": [
+                0.5857648452123007
+            ],
+            "confidence": [
+                "medium"
+            ]
+        },
+        "bbb": {
+            "prediction": [
+                0.32672367493311566
+            ],
+            "confidence": [
+                "medium"
+            ]
+        },
+        "Physicochemical_Property": {
+            "TPSA": 64.63,
+            "nRot": 5,
+            "nHA": 5,
+            "nHD": 1,
+            "MW": 411.52300000000014,
+            "LogP": 4.360240000000003,
+            "QED": 0.7919607727880408,
+            "SAscore": 3.4692834693319394,
+            "Lipinski": {
+                "MW": {
+                    "value": 411.52300000000014,
+                    "pass": true,
+                    "rule": "MW \u2264 500"
+                },
+                "LogP": {
+                    "value": 4.360240000000003,
+                    "pass": true,
+                    "rule": "LogP \u2264 5"
+                },
+                "HBA": {
+                    "value": 5,
+                    "pass": true,
+                    "rule": "HBA \u2264 10"
+                },
+                "HBD": {
+                    "value": 1,
+                    "pass": true,
+                    "rule": "HBD \u2264 5"
+                },
+                "total_passed": 4,
+                "overall_pass": true
+            },
+            "Pfizer": {
+                "MW": {
+                    "value": 411.52300000000014,
+                    "pass": false,
+                    "rule": "MW \u2264 400"
+                },
+                "LogP": {
+                    "value": 4.360240000000003,
+                    "pass": false,
+                    "rule": "LogP \u2264 4.15"
+                },
+                "HBA": {
+                    "value": 5,
+                    "pass": true,
+                    "rule": "HBA \u2264 8"
+                },
+                "HBD": {
+                    "value": 1,
+                    "pass": true,
+                    "rule": "HBD \u2264 5"
+                },
+                "nRot": {
+                    "value": 5,
+                    "pass": true,
+                    "rule": "nRot \u2264 10"
+                },
+                "TPSA": {
+                    "value": 64.63,
+                    "pass": true,
+                    "rule": "TPSA \u2264 90"
+                },
+                "total_passed": 4,
+                "overall_pass": true
+            },
+            "BMS": {
+                "MW": {
+                    "value": 411.52300000000014,
+                    "pass": false,
+                    "rule": "MW \u2264 400"
+                },
+                "LogP": {
+                    "value": 4.360240000000003,
+                    "pass": false,
+                    "rule": "LogP \u2264 4.0"
+                },
+                "HBA": {
+                    "value": 5,
+                    "pass": true,
+                    "rule": "HBA \u2264 8"
+                },
+                "HBD": {
+                    "value": 1,
+                    "pass": true,
+                    "rule": "HBD \u2264 3"
+                },
+                "nRot": {
+                    "value": 5,
+                    "pass": true,
+                    "rule": "nRot \u2264 8"
+                },
+                "TPSA": {
+                    "value": 64.63,
+                    "pass": true,
+                    "rule": "TPSA \u2264 90"
+                },
+                "total_passed": 4,
+                "overall_pass": true
+            },
+            "PAINS": false
+        }
+    },
+    "COC1=CC(=CC(=C1OC)OC)C(=O)NC2CCN(CC2)CCCC3=CC=C(C=C3)F": {
+        "logp": {
+            "prediction": [
+                3.121772406608106
+            ],
+            "uncertainty": [
+                0.004898669021061508
+            ],
+            "confidence": [
+                "Low-confidence"
+            ],
+            "interpretation": [
+                "poor"
+            ]
+        },
+        "pka_acidic": {
+            "prediction": [
+                7.544543696036034
+            ],
+            "uncertainty": [
+                1.004622313608607
+            ],
+            "confidence": [
+                "Low-confidence"
+            ],
+            "interpretation": [
+                null
+            ]
+        },
+        "cl-plasma": {
+            "prediction": [
+                6.318943715119301
+            ],
+            "uncertainty": [
+                1.700174464819682
+            ],
+            "confidence": [
+                "Low-confidence"
+            ],
+            "interpretation": [
+                null
+            ]
+        },
+        "logs": {
+            "prediction": [
+                -4.101603854130233
+            ],
+            "uncertainty": [
+                0.026555053195632894
+            ],
+            "confidence": [
+                "Low-confidence"
+            ],
+            "interpretation": [
+                "poor"
+            ]
+        },
+        "logvdss": {
+            "prediction": [
+                0.2334297015634336
+            ],
+            "uncertainty": [
+                0.00921092320320753
+            ],
+            "confidence": [
+                "Low-confidence"
+            ],
+            "interpretation": [
+                "excellent"
+            ]
+        },
+        "pka_basic": {
+            "prediction": [
+                8.695811294184338
+            ],
+            "uncertainty": [
+                0.012133443159825674
+            ],
+            "confidence": [
+                "High-confidence"
+            ],
+            "interpretation": [
+                null
+            ]
+        },
+        "t12": {
+            "prediction": [
+                1.3330212237707098
+            ],
+            "uncertainty": [
+                0.03199307105473781
+            ],
+            "confidence": [
+                "Low-confidence"
+            ],
+            "interpretation": [
+                "medium"
+            ]
+        },
+        "logd": {
+            "prediction": [
+                2.735808894712521
+            ],
+            "uncertainty": [
+                0.026818984704807036
+            ],
+            "confidence": [
+                "Low-confidence"
+            ],
+            "interpretation": [
+                "excellent"
+            ]
+        },
+        "mdck": {
+            "prediction": [
+                -4.730133133876582
+            ],
+            "uncertainty": [
+                0.006500252854269917
+            ],
+            "confidence": [
+                "Low-confidence"
+            ],
+            "interpretation": [
+                "poor"
+            ]
+        },
+        "caco2": {
+            "prediction": [
+                -4.789518133109995
+            ],
+            "uncertainty": [
+                0.009988734628770146
+            ],
+            "confidence": [
+                "Low-confidence"
+            ],
+            "interpretation": [
+                "excellent"
+            ]
+        },
+        "ppb": {
+            "prediction": [
+                84.6259430801013
+            ],
+            "uncertainty": [
+                10.904357828635511
+            ],
+            "confidence": [
+                "Low-confidence"
+            ],
+            "interpretation": [
+                "excellent"
+            ]
+        },
+        "cl-int": {
+            "prediction": [
+                -1.616577398191626
+            ],
+            "uncertainty": [
+                0.010166193488841735
+            ],
+            "confidence": [
+                "Low-confidence"
+            ],
+            "interpretation": [
+                null
+            ]
+        },
+        "ames": {
+            "prediction": [
+                0.004747687838971615
+            ],
+            "confidence": [
+                "excellent"
+            ]
+        },
+        "lm-human": {
+            "prediction": [
+                0.10689651966094971
+            ],
+            "confidence": [
+                "excellent"
+            ]
+        },
+        "herg-10um": {
+            "prediction": [
+                0.9968737761179606
+            ],
+            "confidence": [
+                "poor"
+            ]
+        },
+        "lm-mouse": {
+            "prediction": [
+                0.4671119650204976
+            ],
+            "confidence": [
+                "medium"
+            ]
+        },
+        "f50": {
+            "prediction": [
+                0.9030415018399557
+            ],
+            "confidence": [
+                "poor"
+            ]
+        },
+        "pgp_inh": {
+            "prediction": [
+                0.9754899342854818
+            ],
+            "confidence": [
+                "poor"
+            ]
+        },
+        "dili": {
+            "prediction": [
+                0.07330457328741129
+            ],
+            "confidence": [
+                "excellent"
+            ]
+        },
+        "herg": {
+            "prediction": [
+                0.999899665514628
+            ],
+            "confidence": [
+                "poor"
+            ]
+        },
+        "oatp1b1": {
+            "prediction": [
+                0.3969736347595851
+            ],
+            "confidence": [
+                "medium"
+            ]
+        },
+        "cyp3a4-inh": {
+            "prediction": [
+                0.2812197531263034
+            ],
+            "confidence": [
+                "excellent"
+            ]
+        },
+        "cyp2d6-sub": {
+            "prediction": [
+                0.842419445514679
+            ],
+            "confidence": [
+                "poor"
+            ]
+        },
+        "cyp3a4-sub": {
+            "prediction": [
+                0.8074823220570883
+            ],
+            "confidence": [
+                "poor"
+            ]
+        },
+        "aggregators": {
+            "prediction": [
+                0.021569449144105118
+            ],
+            "confidence": [
+                "excellent"
+            ]
+        },
+        "oatp1b3": {
+            "prediction": [
+                0.5886989732583364
+            ],
+            "confidence": [
+                "medium"
+            ]
+        },
+        "pgp_sub": {
+            "prediction": [
+                0.6282376050949097
+            ],
+            "confidence": [
+                "medium"
+            ]
+        },
+        "cyp2d6-inh": {
+            "prediction": [
+                0.7558287183443705
+            ],
+            "confidence": [
+                "poor"
+            ]
+        },
+        "carcinogenicity": {
+            "prediction": [
+                0.04184850491583347
+            ],
+            "confidence": [
+                "excellent"
+            ]
+        },
+        "bbb": {
+            "prediction": [
+                0.9970940152804056
+            ],
+            "confidence": [
+                "poor"
+            ]
+        },
+        "Physicochemical_Property": {
+            "TPSA": 60.03000000000001,
+            "nRot": 9,
+            "nHA": 5,
+            "nHD": 1,
+            "MW": 430.5200000000002,
+            "LogP": 3.6785000000000023,
+            "QED": 0.6577615251079998,
+            "SAscore": 2.0670533539520495,
+            "Lipinski": {
+                "MW": {
+                    "value": 430.5200000000002,
+                    "pass": true,
+                    "rule": "MW \u2264 500"
+                },
+                "LogP": {
+                    "value": 3.6785000000000023,
+                    "pass": true,
+                    "rule": "LogP \u2264 5"
+                },
+                "HBA": {
+                    "value": 5,
+                    "pass": true,
+                    "rule": "HBA \u2264 10"
+                },
+                "HBD": {
+                    "value": 1,
+                    "pass": true,
+                    "rule": "HBD \u2264 5"
+                },
+                "total_passed": 4,
+                "overall_pass": true
+            },
+            "Pfizer": {
+                "MW": {
+                    "value": 430.5200000000002,
+                    "pass": false,
+                    "rule": "MW \u2264 400"
+                },
+                "LogP": {
+                    "value": 3.6785000000000023,
+                    "pass": true,
+                    "rule": "LogP \u2264 4.15"
+                },
+                "HBA": {
+                    "value": 5,
+                    "pass": true,
+                    "rule": "HBA \u2264 8"
+                },
+                "HBD": {
+                    "value": 1,
+                    "pass": true,
+                    "rule": "HBD \u2264 5"
+                },
+                "nRot": {
+                    "value": 9,
+                    "pass": true,
+                    "rule": "nRot \u2264 10"
+                },
+                "TPSA": {
+                    "value": 60.03000000000001,
+                    "pass": true,
+                    "rule": "TPSA \u2264 90"
+                },
+                "total_passed": 5,
+                "overall_pass": true
+            },
+            "BMS": {
+                "MW": {
+                    "value": 430.5200000000002,
+                    "pass": false,
+                    "rule": "MW \u2264 400"
+                },
+                "LogP": {
+                    "value": 3.6785000000000023,
+                    "pass": true,
+                    "rule": "LogP \u2264 4.0"
+                },
+                "HBA": {
+                    "value": 5,
+                    "pass": true,
+                    "rule": "HBA \u2264 8"
+                },
+                "HBD": {
+                    "value": 1,
+                    "pass": true,
+                    "rule": "HBD \u2264 3"
+                },
+                "nRot": {
+                    "value": 9,
+                    "pass": false,
+                    "rule": "nRot \u2264 8"
+                },
+                "TPSA": {
+                    "value": 60.03000000000001,
+                    "pass": true,
+                    "rule": "TPSA \u2264 90"
+                },
+                "total_passed": 4,
+                "overall_pass": true
+            },
+            "PAINS": false
+        }
+    },
+    "CC(C)C1=C(C(=C(N1CC(CC(=O)O)O)C2=CC=C(C=C2)F)C3=CC=CC=C3)C(=O)NC4=CC=CC=C4": {
+        "logp": {
+            "prediction": [
+                4.502465441057251
+            ],
+            "uncertainty": [
+                0.06278679402599252
+            ],
+            "confidence": [
+                "Low-confidence"
+            ],
+            "interpretation": [
+                "poor"
+            ]
+        },
+        "pka_acidic": {
+            "prediction": [
+                6.15429533563999
+            ],
+            "uncertainty": [
+                0.1549952542393953
+            ],
+            "confidence": [
+                "Low-confidence"
+            ],
+            "interpretation": [
+                null
+            ]
+        },
+        "cl-plasma": {
+            "prediction": [
+                7.155423847401455
+            ],
+            "uncertainty": [
+                5.44872264810553
+            ],
+            "confidence": [
+                "Low-confidence"
+            ],
+            "interpretation": [
+                null
+            ]
+        },
+        "logs": {
+            "prediction": [
+                -4.446546438271928
+            ],
+            "uncertainty": [
+                0.08313320074278607
+            ],
+            "confidence": [
+                "Low-confidence"
+            ],
+            "interpretation": [
+                "poor"
+            ]
+        },
+        "logvdss": {
+            "prediction": [
+                0.3721169687144929
+            ],
+            "uncertainty": [
+                0.01492112835935036
+            ],
+            "confidence": [
+                "Low-confidence"
+            ],
+            "interpretation": [
+                "excellent"
+            ]
+        },
+        "pka_basic": {
+            "prediction": [
+                5.027577756013482
+            ],
+            "uncertainty": [
+                0.33359815973718554
+            ],
+            "confidence": [
+                "Low-confidence"
+            ],
+            "interpretation": [
+                null
+            ]
+        },
+        "t12": {
+            "prediction": [
+                1.2216227551248389
+            ],
+            "uncertainty": [
+                0.050499623542040295
+            ],
+            "confidence": [
+                "Low-confidence"
+            ],
+            "interpretation": [
+                "medium"
+            ]
+        },
+        "logd": {
+            "prediction": [
+                2.171543436347701
+            ],
+            "uncertainty": [
+                0.019678859687003225
+            ],
+            "confidence": [
+                "Low-confidence"
+            ],
+            "interpretation": [
+                "excellent"
+            ]
+        },
+        "mdck": {
+            "prediction": [
+                -5.117682880535393
+            ],
+            "uncertainty": [
+                0.0029093753305744485
+            ],
+            "confidence": [
+                "Low-confidence"
+            ],
+            "interpretation": [
+                "poor"
+            ]
+        },
+        "caco2": {
+            "prediction": [
+                -5.127446996380063
+            ],
+            "uncertainty": [
+                0.01337412989195741
+            ],
+            "confidence": [
+                "Low-confidence"
+            ],
+            "interpretation": [
+                "excellent"
+            ]
+        },
+        "ppb": {
+            "prediction": [
+                98.399373361156
+            ],
+            "uncertainty": [
+                2.358006579501307
+            ],
+            "confidence": [
+                "High-confidence"
+            ],
+            "interpretation": [
+                "poor"
+            ]
+        },
+        "cl-int": {
+            "prediction": [
+                -0.8878711814967438
+            ],
+            "uncertainty": [
+                0.0003344801450075874
+            ],
+            "confidence": [
+                "High-confidence"
+            ],
+            "interpretation": [
+                null
+            ]
+        },
+        "ames": {
+            "prediction": [
+                0.07630082344015439
+            ],
+            "confidence": [
+                "excellent"
+            ]
+        },
+        "lm-human": {
+            "prediction": [
+                0.05716622248291969
+            ],
+            "confidence": [
+                "excellent"
+            ]
+        },
+        "herg-10um": {
+            "prediction": [
+                0.10788345833619435
+            ],
+            "confidence": [
+                "excellent"
+            ]
+        },
+        "lm-mouse": {
+            "prediction": [
+                0.06670708566283186
+            ],
+            "confidence": [
+                "excellent"
+            ]
+        },
+        "f50": {
+            "prediction": [
+                0.8672314683596293
+            ],
+            "confidence": [
+                "poor"
+            ]
+        },
+        "pgp_inh": {
+            "prediction": [
+                0.39987726012865704
+            ],
+            "confidence": [
+                "medium"
+            ]
+        },
+        "dili": {
+            "prediction": [
+                0.9759687980016073
+            ],
+            "confidence": [
+                "poor"
+            ]
+        },
+        "herg": {
+            "prediction": [
+                0.4019796550273895
+            ],
+            "confidence": [
+                "medium"
+            ]
+        },
+        "oatp1b1": {
+            "prediction": [
+                0.46800175309181213
+            ],
+            "confidence": [
+                "medium"
+            ]
+        },
+        "cyp3a4-inh": {
+            "prediction": [
+                0.2160427284737428
+            ],
+            "confidence": [
+                "excellent"
+            ]
+        },
+        "cyp2d6-sub": {
+            "prediction": [
+                0.18178350230058035
+            ],
+            "confidence": [
+                "excellent"
+            ]
+        },
+        "cyp3a4-sub": {
+            "prediction": [
+                0.8852493365605673
+            ],
+            "confidence": [
+                "poor"
+            ]
+        },
+        "aggregators": {
+            "prediction": [
+                0.3005009939273198
+            ],
+            "confidence": [
+                "medium"
+            ]
+        },
+        "oatp1b3": {
+            "prediction": [
+                0.5290928284327189
+            ],
+            "confidence": [
+                "medium"
+            ]
+        },
+        "pgp_sub": {
+            "prediction": [
+                0.16339987516403198
+            ],
+            "confidence": [
+                "excellent"
+            ]
+        },
+        "cyp2d6-inh": {
+            "prediction": [
+                0.18519180888930956
+            ],
+            "confidence": [
+                "excellent"
+            ]
+        },
+        "carcinogenicity": {
+            "prediction": [
+                0.347648024559021
+            ],
+            "confidence": [
+                "medium"
+            ]
+        },
+        "bbb": {
+            "prediction": [
+                0.06623004314800103
+            ],
+            "confidence": [
+                "excellent"
+            ]
+        },
+        "Physicochemical_Property": {
+            "TPSA": 91.56,
+            "nRot": 9,
+            "nHA": 4,
+            "nHD": 3,
+            "MW": 500.57000000000016,
+            "LogP": 6.1725000000000065,
+            "QED": 0.2562120730329948,
+            "SAscore": 2.8617797492668657,
+            "Lipinski": {
+                "MW": {
+                    "value": 500.57000000000016,
+                    "pass": false,
+                    "rule": "MW \u2264 500"
+                },
+                "LogP": {
+                    "value": 6.1725000000000065,
+                    "pass": false,
+                    "rule": "LogP \u2264 5"
+                },
+                "HBA": {
+                    "value": 4,
+                    "pass": true,
+                    "rule": "HBA \u2264 10"
+                },
+                "HBD": {
+                    "value": 3,
+                    "pass": true,
+                    "rule": "HBD \u2264 5"
+                },
+                "total_passed": 2,
+                "overall_pass": false
+            },
+            "Pfizer": {
+                "MW": {
+                    "value": 500.57000000000016,
+                    "pass": false,
+                    "rule": "MW \u2264 400"
+                },
+                "LogP": {
+                    "value": 6.1725000000000065,
+                    "pass": false,
+                    "rule": "LogP \u2264 4.15"
+                },
+                "HBA": {
+                    "value": 4,
+                    "pass": true,
+                    "rule": "HBA \u2264 8"
+                },
+                "HBD": {
+                    "value": 3,
+                    "pass": true,
+                    "rule": "HBD \u2264 5"
+                },
+                "nRot": {
+                    "value": 9,
+                    "pass": true,
+                    "rule": "nRot \u2264 10"
+                },
+                "TPSA": {
+                    "value": 91.56,
+                    "pass": false,
+                    "rule": "TPSA \u2264 90"
+                },
+                "total_passed": 3,
+                "overall_pass": false
+            },
+            "BMS": {
+                "MW": {
+                    "value": 500.57000000000016,
+                    "pass": false,
+                    "rule": "MW \u2264 400"
+                },
+                "LogP": {
+                    "value": 6.1725000000000065,
+                    "pass": false,
+                    "rule": "LogP \u2264 4.0"
+                },
+                "HBA": {
+                    "value": 4,
+                    "pass": true,
+                    "rule": "HBA \u2264 8"
+                },
+                "HBD": {
+                    "value": 3,
+                    "pass": true,
+                    "rule": "HBD \u2264 3"
+                },
+                "nRot": {
+                    "value": 9,
+                    "pass": false,
+                    "rule": "nRot \u2264 8"
+                },
+                "TPSA": {
+                    "value": 91.56,
+                    "pass": false,
+                    "rule": "TPSA \u2264 90"
+                },
+                "total_passed": 2,
+                "overall_pass": false
+            },
+            "PAINS": false
+        }
+    },
+    "CC1=C(C=C(C=C1)NC(=O)C2=CC=C(C=C2)CN3CCN(CC3)C)NC4=NC=CC(=N4)C5=CN=CC=C5": {
+        "logp": {
+            "prediction": [
+                2.5156522128537193
+            ],
+            "uncertainty": [
+                0.044626518576579954
+            ],
+            "confidence": [
+                "Low-confidence"
+            ],
+            "interpretation": [
+                "excellent"
+            ]
+        },
+        "pka_acidic": {
+            "prediction": [
+                8.3529008258903
+            ],
+            "uncertainty": [
+                0.09410794002958767
+            ],
+            "confidence": [
+                "Low-confidence"
+            ],
+            "interpretation": [
+                null
+            ]
+        },
+        "cl-plasma": {
+            "prediction": [
+                8.801830905417008
+            ],
+            "uncertainty": [
+                0.21319288312031404
+            ],
+            "confidence": [
+                "High-confidence"
+            ],
+            "interpretation": [
+                null
+            ]
+        },
+        "logs": {
+            "prediction": [
+                -3.109316736911367
+            ],
+            "uncertainty": [
+                0.1586603935976285
+            ],
+            "confidence": [
+                "Low-confidence"
+            ],
+            "interpretation": [
+                "excellent"
+            ]
+        },
+        "logvdss": {
+            "prediction": [
+                0.6002482191442345
+            ],
+            "uncertainty": [
+                7.745916549262155e-05
+            ],
+            "confidence": [
+                "High-confidence"
+            ],
+            "interpretation": [
+                "excellent"
+            ]
+        },
+        "pka_basic": {
+            "prediction": [
+                5.81935678200995
+            ],
+            "uncertainty": [
+                0.29467796577169736
+            ],
+            "confidence": [
+                "Low-confidence"
+            ],
+            "interpretation": [
+                null
+            ]
+        },
+        "t12": {
+            "prediction": [
+                0.5750007668138574
+            ],
+            "uncertainty": [
+                0.006552251591880387
+            ],
+            "confidence": [
+                "High-confidence"
+            ],
+            "interpretation": [
+                "poor"
+            ]
+        },
+        "logd": {
+            "prediction": [
+                2.6017268201219514
+            ],
+            "uncertainty": [
+                0.019214712495725372
+            ],
+            "confidence": [
+                "Low-confidence"
+            ],
+            "interpretation": [
+                "excellent"
+            ]
+        },
+        "mdck": {
+            "prediction": [
+                -4.973999221615447
+            ],
+            "uncertainty": [
+                0.0014747369706178404
+            ],
+            "confidence": [
+                "Low-confidence"
+            ],
+            "interpretation": [
+                "poor"
+            ]
+        },
+        "caco2": {
+            "prediction": [
+                -5.319655759069723
+            ],
+            "uncertainty": [
+                0.0006429218499199862
+            ],
+            "confidence": [
+                "High-confidence"
+            ],
+            "interpretation": [
+                "poor"
+            ]
+        },
+        "ppb": {
+            "prediction": [
+                95.53927112369983
+            ],
+            "uncertainty": [
+                0.6644351574959728
+            ],
+            "confidence": [
+                "High-confidence"
+            ],
+            "interpretation": [
+                "poor"
+            ]
+        },
+        "cl-int": {
+            "prediction": [
+                -1.788197739474315
+            ],
+            "uncertainty": [
+                0.0007966548639464222
+            ],
+            "confidence": [
+                "High-confidence"
+            ],
+            "interpretation": [
+                null
+            ]
+        },
+        "ames": {
+            "prediction": [
+                0.2942487994829814
+            ],
+            "confidence": [
+                "excellent"
+            ]
+        },
+        "lm-human": {
+            "prediction": [
+                0.8944377303123474
+            ],
+            "confidence": [
+                "poor"
+            ]
+        },
+        "herg-10um": {
+            "prediction": [
+                0.6502132018407186
+            ],
+            "confidence": [
+                "medium"
+            ]
+        },
+        "lm-mouse": {
+            "prediction": [
+                0.9851343830426534
+            ],
+            "confidence": [
+                "poor"
+            ]
+        },
+        "f50": {
+            "prediction": [
+                0.27271516621112823
+            ],
+            "confidence": [
+                "excellent"
+            ]
+        },
+        "pgp_inh": {
+            "prediction": [
+                0.79917045434316
+            ],
+            "confidence": [
+                "poor"
+            ]
+        },
+        "dili": {
+            "prediction": [
+                0.9957207043965658
+            ],
+            "confidence": [
+                "poor"
+            ]
+        },
+        "herg": {
+            "prediction": [
+                0.9618815183639526
+            ],
+            "confidence": [
+                "poor"
+            ]
+        },
+        "oatp1b1": {
+            "prediction": [
+                0.9720011552174886
+            ],
+            "confidence": [
+                "poor"
+            ]
+        },
+        "cyp3a4-inh": {
+            "prediction": [
+                0.8668694694836935
+            ],
+            "confidence": [
+                "poor"
+            ]
+        },
+        "cyp2d6-sub": {
+            "prediction": [
+                0.2937178661425908
+            ],
+            "confidence": [
+                "excellent"
+            ]
+        },
+        "cyp3a4-sub": {
+            "prediction": [
+                0.4472120801607768
+            ],
+            "confidence": [
+                "medium"
+            ]
+        },
+        "aggregators": {
+            "prediction": [
+                0.21499872455994287
+            ],
+            "confidence": [
+                "excellent"
+            ]
+        },
+        "oatp1b3": {
+            "prediction": [
+                0.9925647377967834
+            ],
+            "confidence": [
+                "poor"
+            ]
+        },
+        "pgp_sub": {
+            "prediction": [
+                0.36159276962280273
+            ],
+            "confidence": [
+                "medium"
+            ]
+        },
+        "cyp2d6-inh": {
+            "prediction": [
+                0.7499319513638815
+            ],
+            "confidence": [
+                "poor"
+            ]
+        },
+        "carcinogenicity": {
+            "prediction": [
+                0.14711332321166992
+            ],
+            "confidence": [
+                "excellent"
+            ]
+        },
+        "bbb": {
+            "prediction": [
+                0.5986308852831522
+            ],
+            "confidence": [
+                "medium"
+            ]
+        },
+        "Physicochemical_Property": {
+            "TPSA": 86.28000000000002,
+            "nRot": 7,
+            "nHA": 7,
+            "nHD": 2,
+            "MW": 493.61500000000024,
+            "LogP": 4.590320000000003,
+            "QED": 0.38941616262964607,
+            "SAscore": 2.3316597651325157,
+            "Lipinski": {
+                "MW": {
+                    "value": 493.61500000000024,
+                    "pass": true,
+                    "rule": "MW \u2264 500"
+                },
+                "LogP": {
+                    "value": 4.590320000000003,
+                    "pass": true,
+                    "rule": "LogP \u2264 5"
+                },
+                "HBA": {
+                    "value": 7,
+                    "pass": true,
+                    "rule": "HBA \u2264 10"
+                },
+                "HBD": {
+                    "value": 2,
+                    "pass": true,
+                    "rule": "HBD \u2264 5"
+                },
+                "total_passed": 4,
+                "overall_pass": true
+            },
+            "Pfizer": {
+                "MW": {
+                    "value": 493.61500000000024,
+                    "pass": false,
+                    "rule": "MW \u2264 400"
+                },
+                "LogP": {
+                    "value": 4.590320000000003,
+                    "pass": false,
+                    "rule": "LogP \u2264 4.15"
+                },
+                "HBA": {
+                    "value": 7,
+                    "pass": true,
+                    "rule": "HBA \u2264 8"
+                },
+                "HBD": {
+                    "value": 2,
+                    "pass": true,
+                    "rule": "HBD \u2264 5"
+                },
+                "nRot": {
+                    "value": 7,
+                    "pass": true,
+                    "rule": "nRot \u2264 10"
+                },
+                "TPSA": {
+                    "value": 86.28000000000002,
+                    "pass": true,
+                    "rule": "TPSA \u2264 90"
+                },
+                "total_passed": 4,
+                "overall_pass": true
+            },
+            "BMS": {
+                "MW": {
+                    "value": 493.61500000000024,
+                    "pass": false,
+                    "rule": "MW \u2264 400"
+                },
+                "LogP": {
+                    "value": 4.590320000000003,
+                    "pass": false,
+                    "rule": "LogP \u2264 4.0"
+                },
+                "HBA": {
+                    "value": 7,
+                    "pass": true,
+                    "rule": "HBA \u2264 8"
+                },
+                "HBD": {
+                    "value": 2,
+                    "pass": true,
+                    "rule": "HBD \u2264 3"
+                },
+                "nRot": {
+                    "value": 7,
+                    "pass": true,
+                    "rule": "nRot \u2264 8"
+                },
+                "TPSA": {
+                    "value": 86.28000000000002,
+                    "pass": true,
+                    "rule": "TPSA \u2264 90"
+                },
+                "total_passed": 4,
+                "overall_pass": true
+            },
+            "PAINS": false
+        }
+    },
+    "COC1=CC2=C(C=C1)N=C(N2)CS(=O)C3=NC4=C(N3)C=C(C=C4)OC": {
+        "logp": {
+            "prediction": [
+                2.05035134960657
+            ],
+            "uncertainty": [
+                0.016169155074225117
+            ],
+            "confidence": [
+                "Low-confidence"
+            ],
+            "interpretation": [
+                "excellent"
+            ]
+        },
+        "pka_acidic": {
+            "prediction": [
+                9.961905483902866
+            ],
+            "uncertainty": [
+                0.35136118155534746
+            ],
+            "confidence": [
+                "Low-confidence"
+            ],
+            "interpretation": [
+                null
+            ]
+        },
+        "cl-plasma": {
+            "prediction": [
+                4.399247233409354
+            ],
+            "uncertainty": [
+                0.260074649781199
+            ],
+            "confidence": [
+                "High-confidence"
+            ],
+            "interpretation": [
+                null
+            ]
+        },
+        "logs": {
+            "prediction": [
+                -4.049509230074287
+            ],
+            "uncertainty": [
+                0.15610690011576622
+            ],
+            "confidence": [
+                "Low-confidence"
+            ],
+            "interpretation": [
+                "poor"
+            ]
+        },
+        "logvdss": {
+            "prediction": [
+                -0.4721368085706101
+            ],
+            "uncertainty": [
+                0.002767035605011542
+            ],
+            "confidence": [
+                "Low-confidence"
+            ],
+            "interpretation": [
+                "excellent"
+            ]
+        },
+        "pka_basic": {
+            "prediction": [
+                4.408848578818265
+            ],
+            "uncertainty": [
+                0.25798408137840667
+            ],
+            "confidence": [
+                "Low-confidence"
+            ],
+            "interpretation": [
+                null
+            ]
+        },
+        "t12": {
+            "prediction": [
+                0.7411952150615964
+            ],
+            "uncertainty": [
+                0.008560667028994384
+            ],
+            "confidence": [
+                "High-confidence"
+            ],
+            "interpretation": [
+                "poor"
+            ]
+        },
+        "logd": {
+            "prediction": [
+                2.4715085822581986
+            ],
+            "uncertainty": [
+                0.011781005121179966
+            ],
+            "confidence": [
+                "Low-confidence"
+            ],
+            "interpretation": [
+                "excellent"
+            ]
+        },
+        "mdck": {
+            "prediction": [
+                -5.024090984978108
+            ],
+            "uncertainty": [
+                0.0018866632067080502
+            ],
+            "confidence": [
+                "Low-confidence"
+            ],
+            "interpretation": [
+                "poor"
+            ]
+        },
+        "caco2": {
+            "prediction": [
+                -4.927418492097007
+            ],
+            "uncertainty": [
+                0.007578766146096427
+            ],
+            "confidence": [
+                "Low-confidence"
+            ],
+            "interpretation": [
+                "excellent"
+            ]
+        },
+        "ppb": {
+            "prediction": [
+                93.18677114013992
+            ],
+            "uncertainty": [
+                5.334731956181713
+            ],
+            "confidence": [
+                "Low-confidence"
+            ],
+            "interpretation": [
+                "poor"
+            ]
+        },
+        "cl-int": {
+            "prediction": [
+                -1.218114575648311
+            ],
+            "uncertainty": [
+                0.001544851749528453
+            ],
+            "confidence": [
+                "High-confidence"
+            ],
+            "interpretation": [
+                null
+            ]
+        },
+        "ames": {
+            "prediction": [
+                0.7176785270373026
+            ],
+            "confidence": [
+                "poor"
+            ]
+        },
+        "lm-human": {
+            "prediction": [
+                0.6134011050065359
+            ],
+            "confidence": [
+                "medium"
+            ]
+        },
+        "herg-10um": {
+            "prediction": [
+                0.2454535812139511
+            ],
+            "confidence": [
+                "excellent"
+            ]
+        },
+        "lm-mouse": {
+            "prediction": [
+                0.7626172105471293
+            ],
+            "confidence": [
+                "poor"
+            ]
+        },
+        "f50": {
+            "prediction": [
+                0.8985893328984579
+            ],
+            "confidence": [
+                "poor"
+            ]
+        },
+        "pgp_inh": {
+            "prediction": [
+                0.4596826136112213
+            ],
+            "confidence": [
+                "medium"
+            ]
+        },
+        "dili": {
+            "prediction": [
+                0.9744567473729452
+            ],
+            "confidence": [
+                "poor"
+            ]
+        },
+        "herg": {
+            "prediction": [
+                0.1276826448738575
+            ],
+            "confidence": [
+                "excellent"
+            ]
+        },
+        "oatp1b1": {
+            "prediction": [
+                0.17826315201818943
+            ],
+            "confidence": [
+                "excellent"
+            ]
+        },
+        "cyp3a4-inh": {
+            "prediction": [
+                0.9802401860555013
+            ],
+            "confidence": [
+                "poor"
+            ]
+        },
+        "cyp2d6-sub": {
+            "prediction": [
+                0.5812503198782603
+            ],
+            "confidence": [
+                "medium"
+            ]
+        },
+        "cyp3a4-sub": {
+            "prediction": [
+                0.7335649132728577
+            ],
+            "confidence": [
+                "poor"
+            ]
+        },
+        "aggregators": {
+            "prediction": [
+                0.13756927102804184
+            ],
+            "confidence": [
+                "excellent"
+            ]
+        },
+        "oatp1b3": {
+            "prediction": [
+                0.25339250701169175
+            ],
+            "confidence": [
+                "excellent"
+            ]
+        },
+        "pgp_sub": {
+            "prediction": [
+                0.6830637554327647
+            ],
+            "confidence": [
+                "medium"
+            ]
+        },
+        "cyp2d6-inh": {
+            "prediction": [
+                0.33370839059352875
+            ],
+            "confidence": [
+                "medium"
+            ]
+        },
+        "carcinogenicity": {
+            "prediction": [
+                0.7121031483014425
+            ],
+            "confidence": [
+                "poor"
+            ]
+        },
+        "bbb": {
+            "prediction": [
+                0.020867342585309718
+            ],
+            "confidence": [
+                "excellent"
+            ]
+        },
+        "Physicochemical_Property": {
+            "TPSA": 92.89,
+            "nRot": 5,
+            "nHA": 5,
+            "nHD": 2,
+            "MW": 356.4070000000001,
+            "LogP": 2.7642000000000007,
+            "QED": 0.5734850182316669,
+            "SAscore": 3.029604307096001,
+            "Lipinski": {
+                "MW": {
+                    "value": 356.4070000000001,
+                    "pass": true,
+                    "rule": "MW \u2264 500"
+                },
+                "LogP": {
+                    "value": 2.7642000000000007,
+                    "pass": true,
+                    "rule": "LogP \u2264 5"
+                },
+                "HBA": {
+                    "value": 5,
+                    "pass": true,
+                    "rule": "HBA \u2264 10"
+                },
+                "HBD": {
+                    "value": 2,
+                    "pass": true,
+                    "rule": "HBD \u2264 5"
+                },
+                "total_passed": 4,
+                "overall_pass": true
+            },
+            "Pfizer": {
+                "MW": {
+                    "value": 356.4070000000001,
+                    "pass": true,
+                    "rule": "MW \u2264 400"
+                },
+                "LogP": {
+                    "value": 2.7642000000000007,
+                    "pass": true,
+                    "rule": "LogP \u2264 4.15"
+                },
+                "HBA": {
+                    "value": 5,
+                    "pass": true,
+                    "rule": "HBA \u2264 8"
+                },
+                "HBD": {
+                    "value": 2,
+                    "pass": true,
+                    "rule": "HBD \u2264 5"
+                },
+                "nRot": {
+                    "value": 5,
+                    "pass": true,
+                    "rule": "nRot \u2264 10"
+                },
+                "TPSA": {
+                    "value": 92.89,
+                    "pass": false,
+                    "rule": "TPSA \u2264 90"
+                },
+                "total_passed": 5,
+                "overall_pass": true
+            },
+            "BMS": {
+                "MW": {
+                    "value": 356.4070000000001,
+                    "pass": true,
+                    "rule": "MW \u2264 400"
+                },
+                "LogP": {
+                    "value": 2.7642000000000007,
+                    "pass": true,
+                    "rule": "LogP \u2264 4.0"
+                },
+                "HBA": {
+                    "value": 5,
+                    "pass": true,
+                    "rule": "HBA \u2264 8"
+                },
+                "HBD": {
+                    "value": 2,
+                    "pass": true,
+                    "rule": "HBD \u2264 3"
+                },
+                "nRot": {
+                    "value": 5,
+                    "pass": true,
+                    "rule": "nRot \u2264 8"
+                },
+                "TPSA": {
+                    "value": 92.89,
+                    "pass": false,
+                    "rule": "TPSA \u2264 90"
+                },
+                "total_passed": 5,
+                "overall_pass": true
+            },
+            "PAINS": false
+        }
+    },
+    "CN1CCN(CC1)C2=NC3=CC=CC=C3NC4=C2C=C(C=C4)Cl": {
+        "logp": {
+            "prediction": [
+                3.2620088906016953
+            ],
+            "uncertainty": [
+                0.0029115084996256257
+            ],
+            "confidence": [
+                "High-confidence"
+            ],
+            "interpretation": [
+                "poor"
+            ]
+        },
+        "pka_acidic": {
+            "prediction": [
+                9.242723227034597
+            ],
+            "uncertainty": [
+                0.14052852780010028
+            ],
+            "confidence": [
+                "Low-confidence"
+            ],
+            "interpretation": [
+                null
+            ]
+        },
+        "cl-plasma": {
+            "prediction": [
+                3.9298988258475682
+            ],
+            "uncertainty": [
+                0.5842710494879597
+            ],
+            "confidence": [
+                "Low-confidence"
+            ],
+            "interpretation": [
+                null
+            ]
+        },
+        "logs": {
+            "prediction": [
+                -3.6776695167727795
+            ],
+            "uncertainty": [
+                0.07427483859988726
+            ],
+            "confidence": [
+                "Low-confidence"
+            ],
+            "interpretation": [
+                "excellent"
+            ]
+        },
+        "logvdss": {
+            "prediction": [
+                0.3431264063699319
+            ],
+            "uncertainty": [
+                0.0010223233098965723
+            ],
+            "confidence": [
+                "High-confidence"
+            ],
+            "interpretation": [
+                "excellent"
+            ]
+        },
+        "pka_basic": {
+            "prediction": [
+                7.188679431852944
+            ],
+            "uncertainty": [
+                0.5521721604327041
+            ],
+            "confidence": [
+                "Low-confidence"
+            ],
+            "interpretation": [
+                null
+            ]
+        },
+        "t12": {
+            "prediction": [
+                1.988175841522452
+            ],
+            "uncertainty": [
+                0.18435984454069665
+            ],
+            "confidence": [
+                "Low-confidence"
+            ],
+            "interpretation": [
+                "medium"
+            ]
+        },
+        "logd": {
+            "prediction": [
+                2.7267088986259256
+            ],
+            "uncertainty": [
+                0.01897285928201864
+            ],
+            "confidence": [
+                "Low-confidence"
+            ],
+            "interpretation": [
+                "excellent"
+            ]
+        },
+        "mdck": {
+            "prediction": [
+                -4.598964972341271
+            ],
+            "uncertainty": [
+                0.0014119427126288997
+            ],
+            "confidence": [
+                "High-confidence"
+            ],
+            "interpretation": [
+                "poor"
+            ]
+        },
+        "caco2": {
+            "prediction": [
+                -4.5779783212754115
+            ],
+            "uncertainty": [
+                0.00023590123413441688
+            ],
+            "confidence": [
+                "High-confidence"
+            ],
+            "interpretation": [
+                "excellent"
+            ]
+        },
+        "ppb": {
+            "prediction": [
+                94.75549258803504
+            ],
+            "uncertainty": [
+                1.5213945128743944
+            ],
+            "confidence": [
+                "High-confidence"
+            ],
+            "interpretation": [
+                "poor"
+            ]
+        },
+        "cl-int": {
+            "prediction": [
+                -1.0311788981684102
+            ],
+            "uncertainty": [
+                0.0009826754284114614
+            ],
+            "confidence": [
+                "High-confidence"
+            ],
+            "interpretation": [
+                null
+            ]
+        },
+        "ames": {
+            "prediction": [
+                0.07308405855049689
+            ],
+            "confidence": [
+                "excellent"
+            ]
+        },
+        "lm-human": {
+            "prediction": [
+                0.14495845284545794
+            ],
+            "confidence": [
+                "excellent"
+            ]
+        },
+        "herg-10um": {
+            "prediction": [
+                0.7023872335751852
+            ],
+            "confidence": [
+                "poor"
+            ]
+        },
+        "lm-mouse": {
+            "prediction": [
+                0.9978867570559183
+            ],
+            "confidence": [
+                "poor"
+            ]
+        },
+        "f50": {
+            "prediction": [
+                0.5876414775848389
+            ],
+            "confidence": [
+                "medium"
+            ]
+        },
+        "pgp_inh": {
+            "prediction": [
+                0.9828821818033854
+            ],
+            "confidence": [
+                "poor"
+            ]
+        },
+        "dili": {
+            "prediction": [
+                0.964864989121755
+            ],
+            "confidence": [
+                "poor"
+            ]
+        },
+        "herg": {
+            "prediction": [
+                0.9907732208569845
+            ],
+            "confidence": [
+                "poor"
+            ]
+        },
+        "oatp1b1": {
+            "prediction": [
+                0.9037699302037557
+            ],
+            "confidence": [
+                "poor"
+            ]
+        },
+        "cyp3a4-inh": {
+            "prediction": [
+                0.021613399071308475
+            ],
+            "confidence": [
+                "excellent"
+            ]
+        },
+        "cyp2d6-sub": {
+            "prediction": [
+                0.9258901278177897
+            ],
+            "confidence": [
+                "poor"
+            ]
+        },
+        "cyp3a4-sub": {
+            "prediction": [
+                0.9749636252721151
+            ],
+            "confidence": [
+                "poor"
+            ]
+        },
+        "aggregators": {
+            "prediction": [
+                0.04480383296807607
+            ],
+            "confidence": [
+                "excellent"
+            ]
+        },
+        "oatp1b3": {
+            "prediction": [
+                0.9020891984303793
+            ],
+            "confidence": [
+                "poor"
+            ]
+        },
+        "pgp_sub": {
+            "prediction": [
+                0.48220545798540115
+            ],
+            "confidence": [
+                "medium"
+            ]
+        },
+        "cyp2d6-inh": {
+            "prediction": [
+                0.9218221108118693
+            ],
+            "confidence": [
+                "poor"
+            ]
+        },
+        "carcinogenicity": {
+            "prediction": [
+                0.021686977551629145
+            ],
+            "confidence": [
+                "excellent"
+            ]
+        },
+        "bbb": {
+            "prediction": [
+                0.9998976389567057
+            ],
+            "confidence": [
+                "poor"
+            ]
+        },
+        "Physicochemical_Property": {
+            "TPSA": 30.869999999999997,
+            "nRot": 0,
+            "nHA": 4,
+            "nHD": 1,
+            "MW": 326.831,
+            "LogP": 3.7227000000000023,
+            "QED": 0.8001222420891723,
+            "SAscore": 2.3303103814698147,
+            "Lipinski": {
+                "MW": {
+                    "value": 326.831,
+                    "pass": true,
+                    "rule": "MW \u2264 500"
+                },
+                "LogP": {
+                    "value": 3.7227000000000023,
+                    "pass": true,
+                    "rule": "LogP \u2264 5"
+                },
+                "HBA": {
+                    "value": 4,
+                    "pass": true,
+                    "rule": "HBA \u2264 10"
+                },
+                "HBD": {
+                    "value": 1,
+                    "pass": true,
+                    "rule": "HBD \u2264 5"
+                },
+                "total_passed": 4,
+                "overall_pass": true
+            },
+            "Pfizer": {
+                "MW": {
+                    "value": 326.831,
+                    "pass": true,
+                    "rule": "MW \u2264 400"
+                },
+                "LogP": {
+                    "value": 3.7227000000000023,
+                    "pass": true,
+                    "rule": "LogP \u2264 4.15"
+                },
+                "HBA": {
+                    "value": 4,
+                    "pass": true,
+                    "rule": "HBA \u2264 8"
+                },
+                "HBD": {
+                    "value": 1,
+                    "pass": true,
+                    "rule": "HBD \u2264 5"
+                },
+                "nRot": {
+                    "value": 0,
+                    "pass": true,
+                    "rule": "nRot \u2264 10"
+                },
+                "TPSA": {
+                    "value": 30.869999999999997,
+                    "pass": true,
+                    "rule": "TPSA \u2264 90"
+                },
+                "total_passed": 6,
+                "overall_pass": true
+            },
+            "BMS": {
+                "MW": {
+                    "value": 326.831,
+                    "pass": true,
+                    "rule": "MW \u2264 400"
+                },
+                "LogP": {
+                    "value": 3.7227000000000023,
+                    "pass": true,
+                    "rule": "LogP \u2264 4.0"
+                },
+                "HBA": {
+                    "value": 4,
+                    "pass": true,
+                    "rule": "HBA \u2264 8"
+                },
+                "HBD": {
+                    "value": 1,
+                    "pass": true,
+                    "rule": "HBD \u2264 3"
+                },
+                "nRot": {
+                    "value": 0,
+                    "pass": true,
+                    "rule": "nRot \u2264 8"
+                },
+                "TPSA": {
+                    "value": 30.869999999999997,
+                    "pass": true,
+                    "rule": "TPSA \u2264 90"
+                },
+                "total_passed": 6,
+                "overall_pass": true
+            },
+            "PAINS": false
+        }
+    },
+    "CC1=C2C(C(=O)C3(C(CC4C(C3C(C(C2(C)C)(CC1OC(=O)C(C(C5=CC=CC=C5)NC(=O)C6=CC=CC=C6)O)O)OC(=O)C7=CC=CC=C7)(CO4)OC(=O)C)O)C)OC(=O)C": {
+        "logp": {
+            "prediction": [
+                2.5575831005205765
+            ],
+            "uncertainty": [
+                0.019489991541278506
+            ],
+            "confidence": [
+                "Low-confidence"
+            ],
+            "interpretation": [
+                "excellent"
+            ]
+        },
+        "pka_acidic": {
+            "prediction": [
+                6.061540839661505
+            ],
+            "uncertainty": [
+                0.020965408047636913
+            ],
+            "confidence": [
+                "High-confidence"
+            ],
+            "interpretation": [
+                null
+            ]
+        },
+        "cl-plasma": {
+            "prediction": [
+                6.360468567542488
+            ],
+            "uncertainty": [
+                0.2353504855226447
+            ],
+            "confidence": [
+                "High-confidence"
+            ],
+            "interpretation": [
+                null
+            ]
+        },
+        "logs": {
+            "prediction": [
+                -4.063513649545414
+            ],
+            "uncertainty": [
+                0.23785510850089508
+            ],
+            "confidence": [
+                "Low-confidence"
+            ],
+            "interpretation": [
+                "poor"
+            ]
+        },
+        "logvdss": {
+            "prediction": [
+                -0.13016715091216458
+            ],
+            "uncertainty": [
+                0.026720110034404082
+            ],
+            "confidence": [
+                "Low-confidence"
+            ],
+            "interpretation": [
+                "excellent"
+            ]
+        },
+        "pka_basic": {
+            "prediction": [
+                6.160801529261793
+            ],
+            "uncertainty": [
+                0.20960527620244562
+            ],
+            "confidence": [
+                "Low-confidence"
+            ],
+            "interpretation": [
+                null
+            ]
+        },
+        "t12": {
+            "prediction": [
+                4.555575702719973
+            ],
+            "uncertainty": [
+                0.01802709206222275
+            ],
+            "confidence": [
+                "Low-confidence"
+            ],
+            "interpretation": [
+                "medium"
+            ]
+        },
+        "logd": {
+            "prediction": [
+                2.9996231294184263
+            ],
+            "uncertainty": [
+                0.010926029183801589
+            ],
+            "confidence": [
+                "Low-confidence"
+            ],
+            "interpretation": [
+                "excellent"
+            ]
+        },
+        "mdck": {
+            "prediction": [
+                -4.9281350993887765
+            ],
+            "uncertainty": [
+                0.000723394228629104
+            ],
+            "confidence": [
+                "High-confidence"
+            ],
+            "interpretation": [
+                "poor"
+            ]
+        },
+        "caco2": {
+            "prediction": [
+                -5.945758230432962
+            ],
+            "uncertainty": [
+                0.0025961675447661037
+            ],
+            "confidence": [
+                "High-confidence"
+            ],
+            "interpretation": [
+                "poor"
+            ]
+        },
+        "ppb": {
+            "prediction": [
+                94.04897972744091
+            ],
+            "uncertainty": [
+                4.061519432651039
+            ],
+            "confidence": [
+                "Low-confidence"
+            ],
+            "interpretation": [
+                "poor"
+            ]
+        },
+        "cl-int": {
+            "prediction": [
+                -0.80173295785527
+            ],
+            "uncertainty": [
+                0.0002909983434936647
+            ],
+            "confidence": [
+                "High-confidence"
+            ],
+            "interpretation": [
+                null
+            ]
+        },
+        "ames": {
+            "prediction": [
+                0.15961668019493422
+            ],
+            "confidence": [
+                "excellent"
+            ]
+        },
+        "lm-human": {
+            "prediction": [
+                0.3053349455197652
+            ],
+            "confidence": [
+                "medium"
+            ]
+        },
+        "herg-10um": {
+            "prediction": [
+                0.03602961109330257
+            ],
+            "confidence": [
+                "excellent"
+            ]
+        },
+        "lm-mouse": {
+            "prediction": [
+                0.4788958877325058
+            ],
+            "confidence": [
+                "medium"
+            ]
+        },
+        "f50": {
+            "prediction": [
+                0.13615302741527557
+            ],
+            "confidence": [
+                "excellent"
+            ]
+        },
+        "pgp_inh": {
+            "prediction": [
+                0.947489321231842
+            ],
+            "confidence": [
+                "poor"
+            ]
+        },
+        "dili": {
+            "prediction": [
+                0.883798082669576
+            ],
+            "confidence": [
+                "poor"
+            ]
+        },
+        "herg": {
+            "prediction": [
+                0.13386523878822723
+            ],
+            "confidence": [
+                "excellent"
+            ]
+        },
+        "oatp1b1": {
+            "prediction": [
+                0.32790657381216687
+            ],
+            "confidence": [
+                "medium"
+            ]
+        },
+        "cyp3a4-inh": {
+            "prediction": [
+                0.6825996239980062
+            ],
+            "confidence": [
+                "medium"
+            ]
+        },
+        "cyp2d6-sub": {
+            "prediction": [
+                0.08656748694678147
+            ],
+            "confidence": [
+                "excellent"
+            ]
+        },
+        "cyp3a4-sub": {
+            "prediction": [
+                0.9734259843826294
+            ],
+            "confidence": [
+                "poor"
+            ]
+        },
+        "aggregators": {
+            "prediction": [
+                0.09133638193209966
+            ],
+            "confidence": [
+                "excellent"
+            ]
+        },
+        "oatp1b3": {
+            "prediction": [
+                0.35749400158723194
+            ],
+            "confidence": [
+                "medium"
+            ]
+        },
+        "pgp_sub": {
+            "prediction": [
+                0.8622007171312968
+            ],
+            "confidence": [
+                "poor"
+            ]
+        },
+        "cyp2d6-inh": {
+            "prediction": [
+                0.011398229437569777
+            ],
+            "confidence": [
+                "excellent"
+            ]
+        },
+        "carcinogenicity": {
+            "prediction": [
+                0.16927252213160196
+            ],
+            "confidence": [
+                "excellent"
+            ]
+        },
+        "bbb": {
+            "prediction": [
+                0.284831166267395
+            ],
+            "confidence": [
+                "excellent"
+            ]
+        },
+        "Physicochemical_Property": {
+            "TPSA": 221.28999999999996,
+            "nRot": 10,
+            "nHA": 14,
+            "nHD": 4,
+            "MW": 853.9180000000003,
+            "LogP": 3.735700000000004,
+            "QED": 0.12978619445124503,
+            "SAscore": 5.915623958602232,
+            "Lipinski": {
+                "MW": {
+                    "value": 853.9180000000003,
+                    "pass": false,
+                    "rule": "MW \u2264 500"
+                },
+                "LogP": {
+                    "value": 3.735700000000004,
+                    "pass": true,
+                    "rule": "LogP \u2264 5"
+                },
+                "HBA": {
+                    "value": 14,
+                    "pass": false,
+                    "rule": "HBA \u2264 10"
+                },
+                "HBD": {
+                    "value": 4,
+                    "pass": true,
+                    "rule": "HBD \u2264 5"
+                },
+                "total_passed": 2,
+                "overall_pass": false
+            },
+            "Pfizer": {
+                "MW": {
+                    "value": 853.9180000000003,
+                    "pass": false,
+                    "rule": "MW \u2264 400"
+                },
+                "LogP": {
+                    "value": 3.735700000000004,
+                    "pass": true,
+                    "rule": "LogP \u2264 4.15"
+                },
+                "HBA": {
+                    "value": 14,
+                    "pass": false,
+                    "rule": "HBA \u2264 8"
+                },
+                "HBD": {
+                    "value": 4,
+                    "pass": true,
+                    "rule": "HBD \u2264 5"
+                },
+                "nRot": {
+                    "value": 10,
+                    "pass": true,
+                    "rule": "nRot \u2264 10"
+                },
+                "TPSA": {
+                    "value": 221.28999999999996,
+                    "pass": false,
+                    "rule": "TPSA \u2264 90"
+                },
+                "total_passed": 3,
+                "overall_pass": false
+            },
+            "BMS": {
+                "MW": {
+                    "value": 853.9180000000003,
+                    "pass": false,
+                    "rule": "MW \u2264 400"
+                },
+                "LogP": {
+                    "value": 3.735700000000004,
+                    "pass": true,
+                    "rule": "LogP \u2264 4.0"
+                },
+                "HBA": {
+                    "value": 14,
+                    "pass": false,
+                    "rule": "HBA \u2264 8"
+                },
+                "HBD": {
+                    "value": 4,
+                    "pass": false,
+                    "rule": "HBD \u2264 3"
+                },
+                "nRot": {
+                    "value": 10,
+                    "pass": false,
+                    "rule": "nRot \u2264 8"
+                },
+                "TPSA": {
+                    "value": 221.28999999999996,
+                    "pass": false,
+                    "rule": "TPSA \u2264 90"
+                },
+                "total_passed": 1,
+                "overall_pass": false
+            },
+            "PAINS": false
+        }
+    },
+    "CN1CCC23C4C1CC5=C2C(=C(C=C5)O)OC3C(C=C4)O": {
+        "logp": {
+            "prediction": [
+                0.762876830506535
+            ],
+            "uncertainty": [
+                0.0015881407884479337
+            ],
+            "confidence": [
+                "High-confidence"
+            ],
+            "interpretation": [
+                "excellent"
+            ]
+        },
+        "pka_acidic": {
+            "prediction": [
+                9.926099307185188
+            ],
+            "uncertainty": [
+                0.03694612524917318
+            ],
+            "confidence": [
+                "High-confidence"
+            ],
+            "interpretation": [
+                null
+            ]
+        },
+        "cl-plasma": {
+            "prediction": [
+                24.208402940771464
+            ],
+            "uncertainty": [
+                1.6792209237455609
+            ],
+            "confidence": [
+                "Low-confidence"
+            ],
+            "interpretation": [
+                null
+            ]
+        },
+        "logs": {
+            "prediction": [
+                -2.5612280278074904
+            ],
+            "uncertainty": [
+                0.07366352351979621
+            ],
+            "confidence": [
+                "Low-confidence"
+            ],
+            "interpretation": [
+                "excellent"
+            ]
+        },
+        "logvdss": {
+            "prediction": [
+                0.36688593077152015
+            ],
+            "uncertainty": [
+                0.0010965893691086137
+            ],
+            "confidence": [
+                "High-confidence"
+            ],
+            "interpretation": [
+                "excellent"
+            ]
+        },
+        "pka_basic": {
+            "prediction": [
+                8.01155980884799
+            ],
+            "uncertainty": [
+                0.05671356463443544
+            ],
+            "confidence": [
+                "Low-confidence"
+            ],
+            "interpretation": [
+                null
+            ]
+        },
+        "t12": {
+            "prediction": [
+                2.5481143506565385
+            ],
+            "uncertainty": [
+                0.023532771248460982
+            ],
+            "confidence": [
+                "Low-confidence"
+            ],
+            "interpretation": [
+                "medium"
+            ]
+        },
+        "logd": {
+            "prediction": [
+                0.3448658583799731
+            ],
+            "uncertainty": [
+                0.021767003098074722
+            ],
+            "confidence": [
+                "Low-confidence"
+            ],
+            "interpretation": [
+                "poor"
+            ]
+        },
+        "mdck": {
+            "prediction": [
+                -4.762955733887185
+            ],
+            "uncertainty": [
+                0.030150267365446126
+            ],
+            "confidence": [
+                "Low-confidence"
+            ],
+            "interpretation": [
+                "poor"
+            ]
+        },
+        "caco2": {
+            "prediction": [
+                -4.987524681776272
+            ],
+            "uncertainty": [
+                0.0003671596491798823
+            ],
+            "confidence": [
+                "High-confidence"
+            ],
+            "interpretation": [
+                "excellent"
+            ]
+        },
+        "ppb": {
+            "prediction": [
+                30.138376399343247
+            ],
+            "uncertainty": [
+                2.311594077500672
+            ],
+            "confidence": [
+                "High-confidence"
+            ],
+            "interpretation": [
+                "excellent"
+            ]
+        },
+        "cl-int": {
+            "prediction": [
+                -1.1956630009717168
+            ],
+            "uncertainty": [
+                0.010127192804375573
+            ],
+            "confidence": [
+                "Low-confidence"
+            ],
+            "interpretation": [
+                null
+            ]
+        },
+        "ames": {
+            "prediction": [
+                0.04165966063737869
+            ],
+            "confidence": [
+                "excellent"
+            ]
+        },
+        "lm-human": {
+            "prediction": [
+                3.0410824213807548e-05
+            ],
+            "confidence": [
+                "excellent"
+            ]
+        },
+        "herg-10um": {
+            "prediction": [
+                0.26667986686031026
+            ],
+            "confidence": [
+                "excellent"
+            ]
+        },
+        "lm-mouse": {
+            "prediction": [
+                0.4864032218853633
+            ],
+            "confidence": [
+                "medium"
+            ]
+        },
+        "f50": {
+            "prediction": [
+                0.12783712148666382
+            ],
+            "confidence": [
+                "excellent"
+            ]
+        },
+        "pgp_inh": {
+            "prediction": [
+                0.0001457151023108357
+            ],
+            "confidence": [
+                "excellent"
+            ]
+        },
+        "dili": {
+            "prediction": [
+                0.0005903260635022889
+            ],
+            "confidence": [
+                "excellent"
+            ]
+        },
+        "herg": {
+            "prediction": [
+                0.021734070498496294
+            ],
+            "confidence": [
+                "excellent"
+            ]
+        },
+        "oatp1b1": {
+            "prediction": [
+                0.19733157753944397
+            ],
+            "confidence": [
+                "excellent"
+            ]
+        },
+        "cyp3a4-inh": {
+            "prediction": [
+                3.054179126138479e-05
+            ],
+            "confidence": [
+                "excellent"
+            ]
+        },
+        "cyp2d6-sub": {
+            "prediction": [
+                0.986333946386973
+            ],
+            "confidence": [
+                "poor"
+            ]
+        },
+        "cyp3a4-sub": {
+            "prediction": [
+                0.9989452560742696
+            ],
+            "confidence": [
+                "poor"
+            ]
+        },
+        "aggregators": {
+            "prediction": [
+                0.24753838777542114
+            ],
+            "confidence": [
+                "excellent"
+            ]
+        },
+        "oatp1b3": {
+            "prediction": [
+                0.3990067144234975
+            ],
+            "confidence": [
+                "medium"
+            ]
+        },
+        "pgp_sub": {
+            "prediction": [
+                0.7233485778172811
+            ],
+            "confidence": [
+                "poor"
+            ]
+        },
+        "cyp2d6-inh": {
+            "prediction": [
+                0.00716966821346432
+            ],
+            "confidence": [
+                "excellent"
+            ]
+        },
+        "carcinogenicity": {
+            "prediction": [
+                0.022737088923652966
+            ],
+            "confidence": [
+                "excellent"
+            ]
+        },
+        "bbb": {
+            "prediction": [
+                0.9999616543451945
+            ],
+            "confidence": [
+                "poor"
+            ]
+        },
+        "Physicochemical_Property": {
+            "TPSA": 52.93000000000001,
+            "nRot": 0,
+            "nHA": 4,
+            "nHD": 2,
+            "MW": 285.343,
+            "LogP": 1.1981,
+            "QED": 0.7033474919154648,
+            "SAscore": 5.273601698417644,
+            "Lipinski": {
+                "MW": {
+                    "value": 285.343,
+                    "pass": true,
+                    "rule": "MW \u2264 500"
+                },
+                "LogP": {
+                    "value": 1.1981,
+                    "pass": true,
+                    "rule": "LogP \u2264 5"
+                },
+                "HBA": {
+                    "value": 4,
+                    "pass": true,
+                    "rule": "HBA \u2264 10"
+                },
+                "HBD": {
+                    "value": 2,
+                    "pass": true,
+                    "rule": "HBD \u2264 5"
+                },
+                "total_passed": 4,
+                "overall_pass": true
+            },
+            "Pfizer": {
+                "MW": {
+                    "value": 285.343,
+                    "pass": true,
+                    "rule": "MW \u2264 400"
+                },
+                "LogP": {
+                    "value": 1.1981,
+                    "pass": true,
+                    "rule": "LogP \u2264 4.15"
+                },
+                "HBA": {
+                    "value": 4,
+                    "pass": true,
+                    "rule": "HBA \u2264 8"
+                },
+                "HBD": {
+                    "value": 2,
+                    "pass": true,
+                    "rule": "HBD \u2264 5"
+                },
+                "nRot": {
+                    "value": 0,
+                    "pass": true,
+                    "rule": "nRot \u2264 10"
+                },
+                "TPSA": {
+                    "value": 52.93000000000001,
+                    "pass": true,
+                    "rule": "TPSA \u2264 90"
+                },
+                "total_passed": 6,
+                "overall_pass": true
+            },
+            "BMS": {
+                "MW": {
+                    "value": 285.343,
+                    "pass": true,
+                    "rule": "MW \u2264 400"
+                },
+                "LogP": {
+                    "value": 1.1981,
+                    "pass": true,
+                    "rule": "LogP \u2264 4.0"
+                },
+                "HBA": {
+                    "value": 4,
+                    "pass": true,
+                    "rule": "HBA \u2264 8"
+                },
+                "HBD": {
+                    "value": 2,
+                    "pass": true,
+                    "rule": "HBD \u2264 3"
+                },
+                "nRot": {
+                    "value": 0,
+                    "pass": true,
+                    "rule": "nRot \u2264 8"
+                },
+                "TPSA": {
+                    "value": 52.93000000000001,
+                    "pass": true,
+                    "rule": "TPSA \u2264 90"
+                },
+                "total_passed": 6,
+                "overall_pass": true
+            },
+            "PAINS": false
+        }
+    }
+}
