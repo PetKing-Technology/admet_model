@@ -25,8 +25,11 @@ Follow these steps to set up the necessary environment and dependencies.
 
     ```bash
     pip install chemprop==1.5.2
-    pip install rdkit rdkit-contrib
+    pip install rdkit
     ```
+    由于 torch 版本的问题，用`fixes/utils.py`替换掉 `/path/envs/chemprop/lib/python3.11/site-packages/chemprop/utils.py`包里面原来的 `utils.py`
+
+    或者打开`/path/envs/chemprop/lib/python3.11/site-packages/chemprop/utils.py`文件，在第 106、378 和 422 行 `torch.load`调用处加上`weights_only=False`参数
 
 ## Usage
 

@@ -30,12 +30,14 @@ try:
 except ImportError:
     print("Warning: QED module not available. Install rdkit-contrib for QED support.")
 
+
 # 尝试导入SA Score和PAINS
 try:
     # 添加RDKit Contrib路径
-    conda_prefix = os.environ.get('CONDA_PREFIX')
+    import site
+    conda_prefix = os.path.dirname(site.getsitepackages()[0])
     if conda_prefix:
-        contrib_path = os.path.join(conda_prefix, 'lib', 'python3.11', 'site-packages', 'rdkit', 'Contrib')
+        contrib_path = os.path.join(conda_prefix, 'site-packages', 'rdkit', 'Contrib')
         if os.path.exists(contrib_path):
             sys.path.append(contrib_path)
             print(f"Added RDKit Contrib path: {contrib_path}")
@@ -100,7 +102,7 @@ class MolecularDescriptors:
         results['nHA'] = self.calculate_nha(mol)
         results['nHD'] = self.calculate_nhd(mol)
         results['MW'] = self.calculate_mw(mol)
-        results['LogP'] = self.calculate_logp(mol)
+
         
         # 药物相似性评分（如果可用）
         if QED_AVAILABLE:
@@ -158,12 +160,6 @@ class MolecularDescriptors:
         except:
             return None
     
-    def calculate_logp(self, mol):
-        """计算LogP值"""
-        try:
-            return Descriptors.MolLogP(mol)
-        except:
-            return None
     
     def calculate_qed(self, mol):
         """计算药物相似性评分 (QED)"""
