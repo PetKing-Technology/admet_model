@@ -34,10 +34,11 @@ except ImportError:
 # 尝试导入SA Score和PAINS
 try:
     # 添加RDKit Contrib路径
-    import site
-    conda_prefix = os.path.dirname(site.getsitepackages()[0])
+    import rdkit
+    
+    conda_prefix = os.path.dirname(os.path.dirname(rdkit.__file__))
     if conda_prefix:
-        contrib_path = os.path.join(conda_prefix, 'site-packages', 'rdkit', 'Contrib')
+        contrib_path = os.path.join(conda_prefix, 'rdkit', 'Contrib')
         if os.path.exists(contrib_path):
             sys.path.append(contrib_path)
             print(f"Added RDKit Contrib path: {contrib_path}")
