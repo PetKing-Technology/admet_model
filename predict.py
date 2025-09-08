@@ -39,6 +39,39 @@ COLNAMES_DICT = {
             'pka_basic', 't12', 'logd', 'mdck', 'caco2', 'ppb', 'cl-int']
 }
 
+
+species_mapping = {
+    'ames':'rat', 
+    'lm-human':'human',
+    'lm-mouse':'mouse',
+    'herg-10um':'human', 
+    'f50': 'human', 
+    'pgp_inh': 'human',
+    'pgp_sub':'human',
+    'dili':'human', 
+    'herg':'human', 
+    'oatp1b1':'human',
+    'oatp1b3':'human',
+    'cyp3a4-inh':'human', 
+    'cyp2d6-sub':'human',
+    'cyp3a4-sub':'human', 
+    'cyp2d6-inh':'human', 
+    'carcinogenicity':'human', 
+    'cl-plasma':'human',
+    'mdck':'dog', 
+    'caco2':'human', 
+    'ppb':'human', 
+    'cl-int':'human',
+    't12':'human', 
+    'bbb':'human',
+    'logvdss':'human',
+    'aggregators':'common', 
+    'logp':'common', 
+    'pka_acidic':'common',  
+    'logs':'common', 
+    'pka_basic':'common', 'logd':'common', 
+}
+
 # --- 2. 辅助工具 & 函数 ---
 
 class suppress_stdout_stderr(object):
@@ -290,6 +323,7 @@ def main(smiles_list):
 
         # *** 修改部分：处理回归结果并添加interpretation ***
         for task in COLNAMES_DICT['reg']:
+            
             pred_val = reg_results_df.loc[smiles, task]
             un_val = reg_results_df.loc[smiles, f"{task}_uncertainty"]
             
@@ -310,7 +344,7 @@ def main(smiles_list):
                 "uncertainty": un_val,
                 "confidence": classify_reg_confidence(un_val, UNCERTAINTY_THRESHOLDS.get(task))
             }
-
+            task_output['species'] = species_mapping[task]
             # 2. 调用新函数获取解释，如果存在则添加到字典中
             interpretation = get_regression_interpretation(task, pred_val)
             if interpretation:
@@ -331,8 +365,10 @@ def main(smiles_list):
             
             final_json_output[smiles][task] = {
                 "prediction": prob_val,
-                "confidence": classify_cla_confidence(prob_val)
+                "confidence": classify_cla_confidence(prob_val),
+                'species': species_mapping[task]
             }
+            
         
         # 添加分子描述符结果
         if molecular_descriptors and smiles in molecular_descriptors and molecular_descriptors[smiles]:
@@ -374,22 +410,23 @@ def load_smiles_from_file(file_path):
 if __name__ == '__main__':
     # 确定SMILES列表
     compound_dict = {
-    "aspirin": "CC(=O)OC1=CC=CC=C1C(=O)O",
-    "carbamazepine": "NC(=O)N1C2=CC=CC=C2C=C2C=CC=CC=C21",
-    "digoxin": "CC1OC2CC3C4CCC5CC(O)CCC5(C)C4CCC3(C)C2(O)CC1OC1OC(C)C(O)C(O)C1O",
-    "terfenadine": "CC(C)(C)C1=CC=C(C=C1)C(O)(CCCN2CCC(CC2)C(O)(C3=CC=CC=C3)C4=CC=CC=C4)C5=CC=CC=C5",
-    "troglitazone": "CC1=C(C)C2=C(C=C1)OC(C)(COC3=CC=C(CC4SC(=O)NC4=O)C=C3)CC2",
-    "cisapride": "COC1=CC(=CC(=C1OC)OC)C(=O)NC2CCN(CC2)CCCC3=CC=C(C=C3)F",
-    "atorvastatin": "CC(C)C1=C(C(=C(N1CC(CC(=O)O)O)C2=CC=C(C=C2)F)C3=CC=CC=C3)C(=O)NC4=CC=CC=C4",
-    "imatinib": "CC1=C(C=C(C=C1)NC(=O)C2=CC=C(C=C2)CN3CCN(CC3)C)NC4=NC=CC(=N4)C5=CN=CC=C5",
-    "omeprazole": "COC1=CC2=C(C=C1)N=C(N2)CS(=O)C3=NC4=C(N3)C=C(C=C4)OC",
-    "clozapine": "CN1CCN(CC1)C2=NC3=CC=CC=C3NC4=C2C=C(C=C4)Cl",
-    "paclitaxel": "CC1=C2C(C(=O)C3(C(CC4C(C3C(C(C2(C)C)(CC1OC(=O)C(C(C5=CC=CC=C5)NC(=O)C6=CC=CC=C6)O)O)OC(=O)C7=CC=CC=C7)(CO4)OC(=O)C)O)C)OC(=O)C",
-    "morphine": "CN1CCC23C4C1CC5=C2C(=C(C=C5)O)OC3C(C=C4)O"
+    "Olaparib":"C1CC1C(=O)[N+]1CCN(CC1)C(=O)C3=C(C=CC(=C3)CC4=NNC(=O)C5=CC=CC=C54)F",
+    # "aspirin": "CC(=O)OC1=CC=CC=C1C(=O)O",
+    # "carbamazepine": "NC(=O)N1C2=CC=CC=C2C=C2C=CC=CC=C21",
+    # "digoxin": "CC1OC2CC3C4CCC5CC(O)CCC5(C)C4CCC3(C)C2(O)CC1OC1OC(C)C(O)C(O)C1O",
+    # "terfenadine": "CC(C)(C)C1=CC=C(C=C1)C(O)(CCCN2CCC(CC2)C(O)(C3=CC=CC=C3)C4=CC=CC=C4)C5=CC=CC=C5",
+    # "troglitazone": "CC1=C(C)C2=C(C=C1)OC(C)(COC3=CC=C(CC4SC(=O)NC4=O)C=C3)CC2",
+    # "cisapride": "COC1=CC(=CC(=C1OC)OC)C(=O)NC2CCN(CC2)CCCC3=CC=C(C=C3)F",
+    # "atorvastatin": "CC(C)C1=C(C(=C(N1CC(CC(=O)O)O)C2=CC=C(C=C2)F)C3=CC=CC=C3)C(=O)NC4=CC=CC=C4",
+    # "imatinib": "CC1=C(C=C(C=C1)NC(=O)C2=CC=C(C=C2)CN3CCN(CC3)C)NC4=NC=CC(=N4)C5=CN=CC=C5",
+    # "omeprazole": "COC1=CC2=C(C=C1)N=C(N2)CS(=O)C3=NC4=C(N3)C=C(C=C4)OC",
+    # "clozapine": "CN1CCN(CC1)C2=NC3=CC=CC=C3NC4=C2C=C(C=C4)Cl",
+    # "paclitaxel": "CC1=C2C(C(=O)C3(C(CC4C(C3C(C(C2(C)C)(CC1OC(=O)C(C(C5=CC=CC=C5)NC(=O)C6=CC=CC=C6)O)O)OC(=O)C7=CC=CC=C7)(CO4)OC(=O)C)O)C)OC(=O)C",
+    # "morphine": "CN1CCC23C4C1CC5=C2C(=C(C=C5)O)OC3C(C=C4)O"
 }
 
-    # test_smiles_list = list(compound_dict.values())
-    test_smiles_list = ["CN1CCC23C4C1CC5=C2C(=C(C=C5)O)OC3C(C=C4)O"]*100
+    test_smiles_list = list(compound_dict.values())
+    # test_smiles_list = ["CN1CCC23C4C1CC5=C2C(=C(C=C5)O)OC3C(C=C4)O"]*100
     output = 'output.json'
     start_time = time.time()
     
