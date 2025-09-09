@@ -544,6 +544,17 @@ where AR is the presence of an aromatic or heteroaromatic ring (0 or 1), NAR is 
 
 **Empirical decision**:  0-0.3: excellent (green); 0.3-0.7: medium (yellow); 0.7-1.0(++): poor (red)
 
+#### _<font color=red>DINeurot</font>_ _(new)_
+
+**Data Description**: Drug-induced neurotoxicity (DINeurot) is a very common adverse reaction. Many clinical drugs and industrial chemicals can damage the nervous system in various ways. They can harm both the central nervous system and the peripheral nervous system, leading to neurological symptoms and episodes resembling psychosis. The extent of these damages to the nervous system may be temporary and reversible, or it may result in long-term, irreversible organic injuries.
+
+**Results interpretation**: Category 0: non-neurotoxic (-); Category 1: neurotoxic (+). The output value is the probability of being neurotoxic (+), within the range of 0 to 1.
+
+**Empirical decision**:  0-0.3: excellent (green); 0.3-0.7: medium (yellow); 0.7-1.0(++): poor (red)
+
+
+
+
 #### _<font color=red>H-HT</font>_
 
 **Data Description**: The human hepatotoxicity. Drug induced liver injury is of great concern for patient safety and a major cause for drug withdrawal from the market. Adverse hepatic effects in clinical trials often lead to a late and costly termination of drug development programs.
@@ -552,9 +563,23 @@ where AR is the presence of an aromatic or heteroaromatic ring (0 or 1), NAR is 
 
 **Empirical decision**: 0-0.3: excellent (green); 0.3-0.7: medium (yellow); 0.7-1.0(++): poor (red)
 
+
+#### _<font color=red>Hepatotoxicity</font>_
+
+**Data Description**: Drug induced liver injury is of great concern for patient safety and a major cause for drug withdrawal from the market. Adverse hepatic effects in clinical trials often lead to a late and costly termination of drug development programs. This dataset was collected from three publicly available databases (comprehensive PharmaPendium, ChemIDplus, and manual toxicological literature searches).
+
+**source**: https://pubs.acs.org/doi/10.1021/acs.chemrestox.2c00411
+
+**Results interpretation**: Category 0: non-hepatotoxic; Category 1: hepatotoxic.
+Note: These three datasets on hepatotoxicity—liver injury, Hepatotoxicity I, and Hepatotoxicity II—differ in their data sources.
+
+**Empirical decision**: 0-0.3: excellent (green); 0.3-0.7: medium (yellow); 0.7-1.0(++): poor (red)
+
 #### _<font color=red>DILI</font>_
 
-**Data Description**:  Drug-induced liver injury (DILI) has become the most common safety problem of drug withdrawal from the market over the past 50 years.
+**Data Description**:  Drug-induced liver injury (DILI) has become the most common safety problem of drug withdrawal from the market over the past 50 years.Compounds collected from Zhang et al., (18) Ai et al., (22) Liew et al., (34) and Kotsampasakou et al. (36) were merged and duplicates were removed to build our development set. Compounds collected from Chen et al. (35) (DILIrank benchmark dataset) were used as our independent test set. For Chen et al.’s dataset, only compounds termed “most-DILI” and termed “non-DILI” were selected as positive and negative samples, respectively. Compounds in the independent test set that appeared in the development set were removed to ensure that there was no overlapping between the two datasets. To check for structural validity, all compounds were cross-referenced to PubChem to discard unidentified compounds. 
+
+**Data source**: https://pubs.acs.org/doi/10.1021/acsomega.0c03866
 
 **Results interpretation**:  Category 0: DILI negative(-); Category 1: DILI positive(+). The output value is the probability of being toxic, within the range of 0 to 1.
 

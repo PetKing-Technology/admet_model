@@ -376,13 +376,13 @@ if __name__ == '__main__':
     print("-" * 50)
     
     # 运行数据分割和合并流程
-    INPUT_CLA_DIR = 'ademt_data/wash_cla'  # 分类数据目录
-    OUTPUT_DIR = 'ademt_data/cla_3'
+    INPUT_CLA_DIR = 'row_data/wash_cla'  # 分类数据目录
+    OUTPUT_DIR = 'row_data/cla_3'
     SKIP_FILES = []  # 可以指定要跳过的文件
     
     # 设置分割参数
     SPLIT_RATIOS = (0.8, 0.1, 0.1)  # 训练集, 验证集, 测试集
-    RANDOM_STATE = 587 # 随机种子
+    RANDOM_STATE = 125 # 随机种子
 
     process_and_split_datasets(
         input_dir=INPUT_CLA_DIR, 

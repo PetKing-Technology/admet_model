@@ -66,24 +66,27 @@ def calculate_metrics(args):
     output_csv = args.output_csv
 
     if task == 'cla':
-        sort_list = ['ames',
-                'lm-human',
-                'herg-10um',
-                'lm-mouse',
-                'f50',
-                'pgp_inh',
-                'dili',
-                'herg',
-                'oatp1b1',
-                'cyp3a4-inh',
-                'cyp2d6-sub',
-                'cyp3a4-sub',
-                'aggregators',
-                'oatp1b3',
-                'pgp_sub',
-                'cyp2d6-inh',
-                'carcinogenicity',
-                'bbb']
+        sort_list = [
+        "ames",
+        "lm-human",
+        "herg-10um",
+        "lm-mouse",
+        "f50",
+        "pgp_inh",
+        "dili",
+        "oatp1b1",
+        "cyp3a4-inh",
+        "cyp2d6-sub",
+        "H-HT",
+        "Hepatotoxicity",
+        "cyp3a4-sub",
+        "aggregators",
+        "oatp1b3",
+        "pgp_sub",
+        "cyp2d6-inh",
+        "carcinogenicity",
+        "bbb"
+    ]
 
 
     # 加载CSV文件

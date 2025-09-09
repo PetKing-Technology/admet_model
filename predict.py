@@ -17,7 +17,7 @@ logger = logging.getLogger(__name__)
 # --- 1. 配置区域 ---
 MODEL_PATHS = {
     'reg': "/mnt/newdisk/fuli/ADMET/model_path/reg_model_nordkit2d_2/fold_0",
-    'cla': "/mnt/newdisk/fuli/ADMET/model_path/cla_model_nordkit2d/fold_0"
+    'cla': "/mnt/newdisk/fuli/ADMET/model_path/cla_model_nordkit2d_3/fold_0"
 }
 
 
@@ -31,10 +31,13 @@ UNCERTAINTY_THRESHOLDS = {
     "ppb": 2.8860414398623107, "cl-int": 0.0039910197139036985
 }
 COLNAMES_DICT = {
-   'cla': ['ames', 'lm-human', 'herg-10um', 'lm-mouse', 'f50', 'pgp_inh',
-            'dili', 'herg', 'oatp1b1', 'cyp3a4-inh', 'cyp2d6-sub',
-            'cyp3a4-sub', 'aggregators', 'oatp1b3', 'pgp_sub',
-            'cyp2d6-inh', 'carcinogenicity', 'bbb'],
+   'cla': [
+        "ames", "lm-human", "herg-10um", "lm-mouse",
+        "f50", "pgp_inh", "dili", "oatp1b1", "cyp3a4-inh",
+        "cyp2d6-sub", "H-HT", "Hepatotoxicity", "cyp3a4-sub",
+        "aggregators", "oatp1b3", "pgp_sub", "cyp2d6-inh",
+        "carcinogenicity", "bbb"
+    ],
    'reg': ['logp', 'pka_acidic', 'cl-plasma', 'logs', 'logvdss',
             'pka_basic', 't12', 'logd', 'mdck', 'caco2', 'ppb', 'cl-int']
 }
@@ -49,7 +52,8 @@ species_mapping = {
     'pgp_inh': 'human',
     'pgp_sub':'human',
     'dili':'human', 
-    'herg':'human', 
+    'H-HT':'human',
+    'Hepatotoxicity':'human',
     'oatp1b1':'human',
     'oatp1b3':'human',
     'cyp3a4-inh':'human', 
@@ -410,24 +414,24 @@ def load_smiles_from_file(file_path):
 if __name__ == '__main__':
     # 确定SMILES列表
     compound_dict = {
-    "Olaparib":"C1CC1C(=O)[N+]1CCN(CC1)C(=O)C3=C(C=CC(=C3)CC4=NNC(=O)C5=CC=CC=C54)F",
-    # "aspirin": "CC(=O)OC1=CC=CC=C1C(=O)O",
-    # "carbamazepine": "NC(=O)N1C2=CC=CC=C2C=C2C=CC=CC=C21",
-    # "digoxin": "CC1OC2CC3C4CCC5CC(O)CCC5(C)C4CCC3(C)C2(O)CC1OC1OC(C)C(O)C(O)C1O",
-    # "terfenadine": "CC(C)(C)C1=CC=C(C=C1)C(O)(CCCN2CCC(CC2)C(O)(C3=CC=CC=C3)C4=CC=CC=C4)C5=CC=CC=C5",
-    # "troglitazone": "CC1=C(C)C2=C(C=C1)OC(C)(COC3=CC=C(CC4SC(=O)NC4=O)C=C3)CC2",
-    # "cisapride": "COC1=CC(=CC(=C1OC)OC)C(=O)NC2CCN(CC2)CCCC3=CC=C(C=C3)F",
-    # "atorvastatin": "CC(C)C1=C(C(=C(N1CC(CC(=O)O)O)C2=CC=C(C=C2)F)C3=CC=CC=C3)C(=O)NC4=CC=CC=C4",
-    # "imatinib": "CC1=C(C=C(C=C1)NC(=O)C2=CC=C(C=C2)CN3CCN(CC3)C)NC4=NC=CC(=N4)C5=CN=CC=C5",
-    # "omeprazole": "COC1=CC2=C(C=C1)N=C(N2)CS(=O)C3=NC4=C(N3)C=C(C=C4)OC",
-    # "clozapine": "CN1CCN(CC1)C2=NC3=CC=CC=C3NC4=C2C=C(C=C4)Cl",
-    # "paclitaxel": "CC1=C2C(C(=O)C3(C(CC4C(C3C(C(C2(C)C)(CC1OC(=O)C(C(C5=CC=CC=C5)NC(=O)C6=CC=CC=C6)O)O)OC(=O)C7=CC=CC=C7)(CO4)OC(=O)C)O)C)OC(=O)C",
-    # "morphine": "CN1CCC23C4C1CC5=C2C(=C(C=C5)O)OC3C(C=C4)O"
+    "Olaparib":"C1CC1C(=O)N1CCN(CC1)C(=O)C3=C(C=CC(=C3)CC4=NNC(=O)C5=CC=CC=C54)F",
+    "aspirin": "CC(=O)OC1=CC=CC=C1C(=O)O",
+    "carbamazepine": "NC(=O)N1C2=CC=CC=C2C=C2C=CC=CC=C21",
+    "digoxin": "CC1OC2CC3C4CCC5CC(O)CCC5(C)C4CCC3(C)C2(O)CC1OC1OC(C)C(O)C(O)C1O",
+    "terfenadine": "CC(C)(C)C1=CC=C(C=C1)C(O)(CCCN2CCC(CC2)C(O)(C3=CC=CC=C3)C4=CC=CC=C4)C5=CC=CC=C5",
+    "troglitazone": "CC1=C(C)C2=C(C=C1)OC(C)(COC3=CC=C(CC4SC(=O)NC4=O)C=C3)CC2",
+    "cisapride": "COC1=CC(=CC(=C1OC)OC)C(=O)NC2CCN(CC2)CCCC3=CC=C(C=C3)F",
+    "atorvastatin": "CC(C)C1=C(C(=C(N1CC(CC(=O)O)O)C2=CC=C(C=C2)F)C3=CC=CC=C3)C(=O)NC4=CC=CC=C4",
+    "imatinib": "CC1=C(C=C(C=C1)NC(=O)C2=CC=C(C=C2)CN3CCN(CC3)C)NC4=NC=CC(=N4)C5=CN=CC=C5",
+    "omeprazole": "COC1=CC2=C(C=C1)N=C(N2)CS(=O)C3=NC4=C(N3)C=C(C=C4)OC",
+    "clozapine": "CN1CCN(CC1)C2=NC3=CC=CC=C3NC4=C2C=C(C=C4)Cl",
+    "paclitaxel": "CC1=C2C(C(=O)C3(C(CC4C(C3C(C(C2(C)C)(CC1OC(=O)C(C(C5=CC=CC=C5)NC(=O)C6=CC=CC=C6)O)O)OC(=O)C7=CC=CC=C7)(CO4)OC(=O)C)O)C)OC(=O)C",
+    "morphine": "CN1CCC23C4C1CC5=C2C(=C(C=C5)O)OC3C(C=C4)O"
 }
 
     test_smiles_list = list(compound_dict.values())
     # test_smiles_list = ["CN1CCC23C4C1CC5=C2C(=C(C=C5)O)OC3C(C=C4)O"]*100
-    output = 'output.json'
+    output = 'output_test.json'
     start_time = time.time()
     
     try:

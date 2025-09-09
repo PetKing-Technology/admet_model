@@ -1,316 +1,810 @@
 {
-    "CC(=O)OC1=CC=CC=C1C(=O)O": {
+    "C1CC1C(=O)N1CCN(CC1)C(=O)C3=C(C=CC(=C3)CC4=NNC(=O)C5=CC=CC=C54)F": {
         "logp": {
             "prediction": [
-                1.1552313291552303
+                1.7549847644352612
             ],
             "uncertainty": [
-                0.0001439177166135952
+                0.032047681904918246
             ],
             "confidence": [
-                "High-confidence"
+                "Low-confidence"
             ],
+            "species": "common",
             "interpretation": [
                 "excellent"
             ]
         },
         "pka_acidic": {
             "prediction": [
-                3.8397766871994476
+                6.714780950847403
             ],
             "uncertainty": [
-                0.024797062646179313
+                0.693499979186015
             ],
             "confidence": [
-                "High-confidence"
+                "Low-confidence"
             ],
+            "species": "common",
             "interpretation": [
                 null
             ]
         },
         "cl-plasma": {
             "prediction": [
-                3.981293697160247
+                5.978539904698656
             ],
             "uncertainty": [
-                0.16884354520223255
+                0.1544353513812169
             ],
             "confidence": [
                 "High-confidence"
             ],
+            "species": "human",
             "interpretation": [
                 null
             ]
         },
         "logs": {
             "prediction": [
-                -1.5256922924663134
+                -3.3348474519098996
             ],
             "uncertainty": [
-                0.0002447127013591732
+                0.07892748288645635
             ],
             "confidence": [
-                "High-confidence"
+                "Low-confidence"
             ],
+            "species": "common",
             "interpretation": [
                 "excellent"
             ]
         },
         "logvdss": {
             "prediction": [
-                -0.6127581315689811
+                -0.2394401190454923
             ],
             "uncertainty": [
-                0.000348552267910307
+                0.00041988288142569274
             ],
             "confidence": [
                 "High-confidence"
             ],
+            "species": "human",
             "interpretation": [
                 "excellent"
             ]
         },
         "pka_basic": {
             "prediction": [
-                5.666269286319495
+                6.7807579929216955
             ],
             "uncertainty": [
-                0.09200423467457597
+                0.014255894594683127
             ],
             "confidence": [
-                "Low-confidence"
+                "High-confidence"
             ],
+            "species": "common",
             "interpretation": [
                 null
             ]
         },
         "t12": {
             "prediction": [
-                1.6961266464830764
+                0.6755425113852805
             ],
             "uncertainty": [
-                0.007104227651814732
-            ],
-            "confidence": [
-                "High-confidence"
-            ],
-            "interpretation": [
-                "medium"
-            ]
-        },
-        "logd": {
-            "prediction": [
-                0.8906667097211433
-            ],
-            "uncertainty": [
-                0.024885315950782805
+                0.08521374876797938
             ],
             "confidence": [
                 "Low-confidence"
             ],
+            "species": "human",
             "interpretation": [
                 "poor"
             ]
         },
-        "mdck": {
+        "logd": {
             "prediction": [
-                -4.569881377925192
+                1.4281446801213153
             ],
             "uncertainty": [
-                0.02960949855164685
+                0.012568535563717287
             ],
             "confidence": [
                 "Low-confidence"
             ],
+            "species": "common",
+            "interpretation": [
+                "excellent"
+            ]
+        },
+        "mdck": {
+            "prediction": [
+                -4.926327673993494
+            ],
+            "uncertainty": [
+                0.0038655730035408453
+            ],
+            "confidence": [
+                "Low-confidence"
+            ],
+            "species": "dog",
             "interpretation": [
                 "poor"
             ]
         },
         "caco2": {
             "prediction": [
-                -5.049948011428761
+                -5.356783727667266
             ],
             "uncertainty": [
-                0.005669023368973569
+                0.015817109665597684
             ],
             "confidence": [
                 "Low-confidence"
             ],
+            "species": "human",
             "interpretation": [
-                "excellent"
+                "poor"
             ]
         },
         "ppb": {
             "prediction": [
-                55.09510444822744
+                82.05545281493067
             ],
             "uncertainty": [
-                7.611349642407731
+                2.20530409159619
             ],
             "confidence": [
-                "Low-confidence"
+                "High-confidence"
             ],
+            "species": "human",
             "interpretation": [
                 "excellent"
             ]
         },
         "cl-int": {
             "prediction": [
-                -0.7220940228461531
+                -1.403120609642351
             ],
             "uncertainty": [
-                0.0045154114048048255
+                0.0002212609806064858
             ],
             "confidence": [
-                "Low-confidence"
+                "High-confidence"
             ],
+            "species": "human",
             "interpretation": [
                 null
             ]
         },
         "ames": {
             "prediction": [
-                0.006673770646254222
+                0.5800300439198812
             ],
             "confidence": [
-                "excellent"
-            ]
+                "medium"
+            ],
+            "species": "rat"
         },
         "lm-human": {
             "prediction": [
-                5.8466159285804524e-06
-            ],
-            "confidence": [
-                "excellent"
-            ]
-        },
-        "herg-10um": {
-            "prediction": [
-                0.11140093704064687
-            ],
-            "confidence": [
-                "excellent"
-            ]
-        },
-        "lm-mouse": {
-            "prediction": [
-                0.030704574038585026
-            ],
-            "confidence": [
-                "excellent"
-            ]
-        },
-        "f50": {
-            "prediction": [
-                0.4269580791393916
-            ],
-            "confidence": [
-                "medium"
-            ]
-        },
-        "pgp_inh": {
-            "prediction": [
-                6.477650698037222e-06
-            ],
-            "confidence": [
-                "excellent"
-            ]
-        },
-        "dili": {
-            "prediction": [
-                0.46570126215616864
-            ],
-            "confidence": [
-                "medium"
-            ]
-        },
-        "herg": {
-            "prediction": [
-                0.011468108471793434
-            ],
-            "confidence": [
-                "excellent"
-            ]
-        },
-        "oatp1b1": {
-            "prediction": [
-                0.42429109414418537
-            ],
-            "confidence": [
-                "medium"
-            ]
-        },
-        "cyp3a4-inh": {
-            "prediction": [
-                4.691575001440166e-05
-            ],
-            "confidence": [
-                "excellent"
-            ]
-        },
-        "cyp2d6-sub": {
-            "prediction": [
-                0.00393917230636968
-            ],
-            "confidence": [
-                "excellent"
-            ]
-        },
-        "cyp3a4-sub": {
-            "prediction": [
-                0.001424374126334745
-            ],
-            "confidence": [
-                "excellent"
-            ]
-        },
-        "aggregators": {
-            "prediction": [
-                0.00011225859816477168
-            ],
-            "confidence": [
-                "excellent"
-            ]
-        },
-        "oatp1b3": {
-            "prediction": [
-                0.6375072797139486
-            ],
-            "confidence": [
-                "medium"
-            ]
-        },
-        "pgp_sub": {
-            "prediction": [
-                0.01989075952830414
-            ],
-            "confidence": [
-                "excellent"
-            ]
-        },
-        "cyp2d6-inh": {
-            "prediction": [
-                0.02955906605347991
-            ],
-            "confidence": [
-                "excellent"
-            ]
-        },
-        "carcinogenicity": {
-            "prediction": [
-                0.1257743015885353
-            ],
-            "confidence": [
-                "excellent"
-            ]
-        },
-        "bbb": {
-            "prediction": [
-                0.9302685260772705
+                0.9011191129684448
             ],
             "confidence": [
                 "poor"
+            ],
+            "species": "human"
+        },
+        "herg-10um": {
+            "prediction": [
+                0.021229861304163933
+            ],
+            "confidence": [
+                "excellent"
+            ],
+            "species": "human"
+        },
+        "lm-mouse": {
+            "prediction": [
+                0.9780409733454386
+            ],
+            "confidence": [
+                "poor"
+            ],
+            "species": "mouse"
+        },
+        "f50": {
+            "prediction": [
+                0.8343406120936075
+            ],
+            "confidence": [
+                "poor"
+            ],
+            "species": "human"
+        },
+        "pgp_inh": {
+            "prediction": [
+                0.7707945505777994
+            ],
+            "confidence": [
+                "poor"
+            ],
+            "species": "human"
+        },
+        "dili": {
+            "prediction": [
+                0.9252705971399943
+            ],
+            "confidence": [
+                "poor"
+            ],
+            "species": "human"
+        },
+        "oatp1b1": {
+            "prediction": [
+                0.8899136185646057
+            ],
+            "confidence": [
+                "poor"
+            ],
+            "species": "human"
+        },
+        "cyp3a4-inh": {
+            "prediction": [
+                0.9106024901072184
+            ],
+            "confidence": [
+                "poor"
+            ],
+            "species": "human"
+        },
+        "cyp2d6-sub": {
+            "prediction": [
+                0.5148999989032745
+            ],
+            "confidence": [
+                "medium"
+            ],
+            "species": "human"
+        },
+        "H-HT": {
+            "prediction": [
+                0.9505349198977152
+            ],
+            "confidence": [
+                "poor"
+            ],
+            "species": "human"
+        },
+        "Hepatotoxicity": {
+            "prediction": [
+                0.9012496868769327
+            ],
+            "confidence": [
+                "poor"
+            ],
+            "species": "human"
+        },
+        "cyp3a4-sub": {
+            "prediction": [
+                0.8588389158248901
+            ],
+            "confidence": [
+                "poor"
+            ],
+            "species": "human"
+        },
+        "aggregators": {
+            "prediction": [
+                0.014222174882888794
+            ],
+            "confidence": [
+                "excellent"
+            ],
+            "species": "common"
+        },
+        "oatp1b3": {
+            "prediction": [
+                0.9249631563822428
+            ],
+            "confidence": [
+                "poor"
+            ],
+            "species": "human"
+        },
+        "pgp_sub": {
+            "prediction": [
+                0.14152642091115317
+            ],
+            "confidence": [
+                "excellent"
+            ],
+            "species": "human"
+        },
+        "cyp2d6-inh": {
+            "prediction": [
+                0.0019499667735847954
+            ],
+            "confidence": [
+                "excellent"
+            ],
+            "species": "human"
+        },
+        "carcinogenicity": {
+            "prediction": [
+                0.357952078183492
+            ],
+            "confidence": [
+                "medium"
+            ],
+            "species": "human"
+        },
+        "bbb": {
+            "prediction": [
+                0.15461821605761847
+            ],
+            "confidence": [
+                "excellent"
+            ],
+            "species": "human"
+        },
+        "Physicochemical_Property": {
+            "TPSA": 86.37,
+            "nRot": 4,
+            "nHA": 4,
+            "nHD": 1,
+            "MW": 434.4710000000001,
+            "QED": 0.6830916301031821,
+            "SAscore": 2.3691820298008377,
+            "Lipinski": {
+                "MW": {
+                    "value": 434.4710000000001,
+                    "pass": true,
+                    "rule": "MW \u2264 500"
+                },
+                "LogP": {
+                    "value": 2.3473999999999995,
+                    "pass": true,
+                    "rule": "LogP \u2264 5"
+                },
+                "HBA": {
+                    "value": 4,
+                    "pass": true,
+                    "rule": "HBA \u2264 10"
+                },
+                "HBD": {
+                    "value": 1,
+                    "pass": true,
+                    "rule": "HBD \u2264 5"
+                },
+                "total_passed": 4,
+                "overall_pass": true
+            },
+            "Pfizer": {
+                "MW": {
+                    "value": 434.4710000000001,
+                    "pass": false,
+                    "rule": "MW \u2264 400"
+                },
+                "LogP": {
+                    "value": 2.3473999999999995,
+                    "pass": true,
+                    "rule": "LogP \u2264 4.15"
+                },
+                "HBA": {
+                    "value": 4,
+                    "pass": true,
+                    "rule": "HBA \u2264 8"
+                },
+                "HBD": {
+                    "value": 1,
+                    "pass": true,
+                    "rule": "HBD \u2264 5"
+                },
+                "nRot": {
+                    "value": 4,
+                    "pass": true,
+                    "rule": "nRot \u2264 10"
+                },
+                "TPSA": {
+                    "value": 86.37,
+                    "pass": true,
+                    "rule": "TPSA \u2264 90"
+                },
+                "total_passed": 5,
+                "overall_pass": true
+            },
+            "BMS": {
+                "MW": {
+                    "value": 434.4710000000001,
+                    "pass": false,
+                    "rule": "MW \u2264 400"
+                },
+                "LogP": {
+                    "value": 2.3473999999999995,
+                    "pass": true,
+                    "rule": "LogP \u2264 4.0"
+                },
+                "HBA": {
+                    "value": 4,
+                    "pass": true,
+                    "rule": "HBA \u2264 8"
+                },
+                "HBD": {
+                    "value": 1,
+                    "pass": true,
+                    "rule": "HBD \u2264 3"
+                },
+                "nRot": {
+                    "value": 4,
+                    "pass": true,
+                    "rule": "nRot \u2264 8"
+                },
+                "TPSA": {
+                    "value": 86.37,
+                    "pass": true,
+                    "rule": "TPSA \u2264 90"
+                },
+                "total_passed": 5,
+                "overall_pass": true
+            },
+            "PAINS": false
+        }
+    },
+    "CC(=O)OC1=CC=CC=C1C(=O)O": {
+        "logp": {
+            "prediction": [
+                1.1552313652562538
+            ],
+            "uncertainty": [
+                0.00014392041148569845
+            ],
+            "confidence": [
+                "High-confidence"
+            ],
+            "species": "common",
+            "interpretation": [
+                "excellent"
             ]
+        },
+        "pka_acidic": {
+            "prediction": [
+                3.839776754181217
+            ],
+            "uncertainty": [
+                0.02479705044293823
+            ],
+            "confidence": [
+                "High-confidence"
+            ],
+            "species": "common",
+            "interpretation": [
+                null
+            ]
+        },
+        "cl-plasma": {
+            "prediction": [
+                3.9812937226613045
+            ],
+            "uncertainty": [
+                0.1688434544853603
+            ],
+            "confidence": [
+                "High-confidence"
+            ],
+            "species": "human",
+            "interpretation": [
+                null
+            ]
+        },
+        "logs": {
+            "prediction": [
+                -1.5256923788781425
+            ],
+            "uncertainty": [
+                0.0002447143033341703
+            ],
+            "confidence": [
+                "High-confidence"
+            ],
+            "species": "common",
+            "interpretation": [
+                "excellent"
+            ]
+        },
+        "logvdss": {
+            "prediction": [
+                -0.6127581065415283
+            ],
+            "uncertainty": [
+                0.00034855202147004993
+            ],
+            "confidence": [
+                "High-confidence"
+            ],
+            "species": "human",
+            "interpretation": [
+                "excellent"
+            ]
+        },
+        "pka_basic": {
+            "prediction": [
+                5.666269348925372
+            ],
+            "uncertainty": [
+                0.09200418397742283
+            ],
+            "confidence": [
+                "Low-confidence"
+            ],
+            "species": "common",
+            "interpretation": [
+                null
+            ]
+        },
+        "t12": {
+            "prediction": [
+                1.6961265824520366
+            ],
+            "uncertainty": [
+                0.007104234982067581
+            ],
+            "confidence": [
+                "High-confidence"
+            ],
+            "species": "human",
+            "interpretation": [
+                "medium"
+            ]
+        },
+        "logd": {
+            "prediction": [
+                0.8906666596799221
+            ],
+            "uncertainty": [
+                0.02488530838661096
+            ],
+            "confidence": [
+                "Low-confidence"
+            ],
+            "species": "common",
+            "interpretation": [
+                "poor"
+            ]
+        },
+        "mdck": {
+            "prediction": [
+                -4.569881399426419
+            ],
+            "uncertainty": [
+                0.029609501557235518
+            ],
+            "confidence": [
+                "Low-confidence"
+            ],
+            "species": "dog",
+            "interpretation": [
+                "poor"
+            ]
+        },
+        "caco2": {
+            "prediction": [
+                -5.049948009830302
+            ],
+            "uncertainty": [
+                0.005669024436770087
+            ],
+            "confidence": [
+                "Low-confidence"
+            ],
+            "species": "human",
+            "interpretation": [
+                "excellent"
+            ]
+        },
+        "ppb": {
+            "prediction": [
+                55.09510499309247
+            ],
+            "uncertainty": [
+                7.611351771300178
+            ],
+            "confidence": [
+                "Low-confidence"
+            ],
+            "species": "human",
+            "interpretation": [
+                "excellent"
+            ]
+        },
+        "cl-int": {
+            "prediction": [
+                -0.7220940372266372
+            ],
+            "uncertainty": [
+                0.004515415573058346
+            ],
+            "confidence": [
+                "Low-confidence"
+            ],
+            "species": "human",
+            "interpretation": [
+                null
+            ]
+        },
+        "ames": {
+            "prediction": [
+                0.0052338689953709645
+            ],
+            "confidence": [
+                "excellent"
+            ],
+            "species": "rat"
+        },
+        "lm-human": {
+            "prediction": [
+                4.1854683478318816e-07
+            ],
+            "confidence": [
+                "excellent"
+            ],
+            "species": "human"
+        },
+        "herg-10um": {
+            "prediction": [
+                0.06527360218266647
+            ],
+            "confidence": [
+                "excellent"
+            ],
+            "species": "human"
+        },
+        "lm-mouse": {
+            "prediction": [
+                0.061762178937594094
+            ],
+            "confidence": [
+                "excellent"
+            ],
+            "species": "mouse"
+        },
+        "f50": {
+            "prediction": [
+                0.9075082937876383
+            ],
+            "confidence": [
+                "poor"
+            ],
+            "species": "human"
+        },
+        "pgp_inh": {
+            "prediction": [
+                6.694679258364052e-07
+            ],
+            "confidence": [
+                "excellent"
+            ],
+            "species": "human"
+        },
+        "dili": {
+            "prediction": [
+                0.064996808146437
+            ],
+            "confidence": [
+                "excellent"
+            ],
+            "species": "human"
+        },
+        "oatp1b1": {
+            "prediction": [
+                0.11470707009236018
+            ],
+            "confidence": [
+                "excellent"
+            ],
+            "species": "human"
+        },
+        "cyp3a4-inh": {
+            "prediction": [
+                7.401137052257904e-06
+            ],
+            "confidence": [
+                "excellent"
+            ],
+            "species": "human"
+        },
+        "cyp2d6-sub": {
+            "prediction": [
+                0.0006539996556966798
+            ],
+            "confidence": [
+                "excellent"
+            ],
+            "species": "human"
+        },
+        "H-HT": {
+            "prediction": [
+                0.5358925958474478
+            ],
+            "confidence": [
+                "medium"
+            ],
+            "species": "human"
+        },
+        "Hepatotoxicity": {
+            "prediction": [
+                0.4387365976969401
+            ],
+            "confidence": [
+                "medium"
+            ],
+            "species": "human"
+        },
+        "cyp3a4-sub": {
+            "prediction": [
+                0.009868188722369572
+            ],
+            "confidence": [
+                "excellent"
+            ],
+            "species": "human"
+        },
+        "aggregators": {
+            "prediction": [
+                1.039060498442268e-05
+            ],
+            "confidence": [
+                "excellent"
+            ],
+            "species": "common"
+        },
+        "oatp1b3": {
+            "prediction": [
+                0.8246060609817505
+            ],
+            "confidence": [
+                "poor"
+            ],
+            "species": "human"
+        },
+        "pgp_sub": {
+            "prediction": [
+                0.00742353491174678
+            ],
+            "confidence": [
+                "excellent"
+            ],
+            "species": "human"
+        },
+        "cyp2d6-inh": {
+            "prediction": [
+                0.028783155013419066
+            ],
+            "confidence": [
+                "excellent"
+            ],
+            "species": "human"
+        },
+        "carcinogenicity": {
+            "prediction": [
+                0.017294293579955895
+            ],
+            "confidence": [
+                "excellent"
+            ],
+            "species": "human"
+        },
+        "bbb": {
+            "prediction": [
+                0.9248451391855875
+            ],
+            "confidence": [
+                "poor"
+            ],
+            "species": "human"
         },
         "Physicochemical_Property": {
             "TPSA": 63.60000000000001,
@@ -318,7 +812,6 @@
             "nHA": 3,
             "nHD": 1,
             "MW": 180.15899999999996,
-            "LogP": 1.3101,
             "QED": 0.5501217966938848,
             "SAscore": 1.580039750008826,
             "Lipinski": {
@@ -419,14 +912,15 @@
     "NC(=O)N1C2=CC=CC=C2C=C2C=CC=CC=C21": {
         "logp": {
             "prediction": [
-                2.7417883208125953
+                2.7417882666610596
             ],
             "uncertainty": [
-                0.0104496698426928
+                0.010449658870124168
             ],
             "confidence": [
                 "Low-confidence"
             ],
+            "species": "common",
             "interpretation": [
                 "excellent"
             ]
@@ -436,25 +930,27 @@
                 9.312157936154248
             ],
             "uncertainty": [
-                0.26438630791922435
+                0.2643863181287003
             ],
             "confidence": [
                 "Low-confidence"
             ],
+            "species": "common",
             "interpretation": [
                 null
             ]
         },
         "cl-plasma": {
             "prediction": [
-                6.425775247992756
+                6.425775349996989
             ],
             "uncertainty": [
-                2.568997300235516
+                2.568997586329651
             ],
             "confidence": [
                 "Low-confidence"
             ],
+            "species": "human",
             "interpretation": [
                 null
             ]
@@ -464,81 +960,87 @@
                 -3.3429948830153187
             ],
             "uncertainty": [
-                0.1032686947231447
+                0.10326863586457691
             ],
             "confidence": [
                 "Low-confidence"
             ],
+            "species": "common",
             "interpretation": [
                 "excellent"
             ]
         },
         "logvdss": {
             "prediction": [
-                -0.052182144836307974
+                -0.05218213075836583
             ],
             "uncertainty": [
-                0.01607273932935026
+                0.01607273487734049
             ],
             "confidence": [
                 "Low-confidence"
             ],
+            "species": "human",
             "interpretation": [
                 "excellent"
             ]
         },
         "pka_basic": {
             "prediction": [
-                4.015539308306896
+                4.01553924570102
             ],
             "uncertainty": [
-                0.42540531419119887
+                0.42540521579704915
             ],
             "confidence": [
                 "Low-confidence"
             ],
+            "species": "common",
             "interpretation": [
                 null
             ]
         },
         "t12": {
             "prediction": [
-                1.09826644005038
+                1.098266513228711
             ],
             "uncertainty": [
-                0.05429384561855333
+                0.054293830013095734
             ],
             "confidence": [
                 "Low-confidence"
             ],
+            "species": "human",
             "interpretation": [
                 "medium"
             ]
         },
         "logd": {
             "prediction": [
-                2.602097122031718
+                2.6020970360233693
             ],
             "uncertainty": [
-                0.024701795361606216
+                0.024701774784491093
             ],
             "confidence": [
                 "Low-confidence"
             ],
+            "species": "common",
             "interpretation": [
                 "excellent"
             ]
         },
         "mdck": {
             "prediction": [
-                -4.563746048484663
+                -4.563746029671088
             ],
             "uncertainty": [
-                0.005474463047669076
+                0.005474460633333678
             ],
             "confidence": [
                 "Low-confidence"
             ],
+            "species": "dog",
             "interpretation": [
                 "poor"
             ]
@@ -548,186 +1050,216 @@
                 -4.606419893799299
             ],
             "uncertainty": [
-                0.021252585861457618
+                0.021252570450723596
             ],
             "confidence": [
                 "Low-confidence"
             ],
+            "species": "human",
             "interpretation": [
                 "excellent"
             ]
         },
         "ppb": {
             "prediction": [
-                88.53352422422113
+                88.53352327070733
             ],
             "uncertainty": [
-                8.132088324710821
+                8.13209298277252
             ],
             "confidence": [
                 "Low-confidence"
             ],
+            "species": "human",
             "interpretation": [
                 "excellent"
             ]
         },
         "cl-int": {
             "prediction": [
-                -1.4661406517077147
+                -1.466140655302836
             ],
             "uncertainty": [
-                0.02193073451064409
+                0.02193071887589415
             ],
             "confidence": [
                 "Low-confidence"
             ],
+            "species": "human",
             "interpretation": [
                 null
             ]
         },
         "ames": {
             "prediction": [
-                0.680841272075971
+                0.8167423605918884
             ],
             "confidence": [
-                "medium"
-            ]
+                "poor"
+            ],
+            "species": "rat"
         },
         "lm-human": {
             "prediction": [
-                0.003924931079382077
+                0.20213600665980871
             ],
             "confidence": [
                 "excellent"
-            ]
+            ],
+            "species": "human"
         },
         "herg-10um": {
             "prediction": [
-                0.023210011623935618
+                0.017574587526420753
             ],
             "confidence": [
                 "excellent"
-            ]
+            ],
+            "species": "human"
         },
         "lm-mouse": {
             "prediction": [
-                0.9736922184626261
+                0.9686481356620789
             ],
             "confidence": [
                 "poor"
-            ]
+            ],
+            "species": "mouse"
         },
         "f50": {
             "prediction": [
-                0.9046874046325684
+                0.9841729799906412
             ],
             "confidence": [
                 "poor"
-            ]
+            ],
+            "species": "human"
         },
         "pgp_inh": {
             "prediction": [
-                0.08084241921703021
+                0.2970118063191573
             ],
             "confidence": [
                 "excellent"
-            ]
+            ],
+            "species": "human"
         },
         "dili": {
             "prediction": [
-                0.9977251887321472
+                0.9996041258176168
             ],
             "confidence": [
                 "poor"
-            ]
-        },
-        "herg": {
-            "prediction": [
-                0.015775220264913514
             ],
-            "confidence": [
-                "excellent"
-            ]
+            "species": "human"
         },
         "oatp1b1": {
             "prediction": [
-                0.11238678552520771
+                0.008809696300886571
             ],
             "confidence": [
                 "excellent"
-            ]
+            ],
+            "species": "human"
         },
         "cyp3a4-inh": {
             "prediction": [
-                0.03566278115128322
+                0.013082851597573608
             ],
             "confidence": [
                 "excellent"
-            ]
+            ],
+            "species": "human"
         },
         "cyp2d6-sub": {
             "prediction": [
-                0.6533790677785873
+                0.7537153561909994
             ],
             "confidence": [
-                "medium"
-            ]
+                "poor"
+            ],
+            "species": "human"
+        },
+        "H-HT": {
+            "prediction": [
+                0.8974328438440958
+            ],
+            "confidence": [
+                "poor"
+            ],
+            "species": "human"
+        },
+        "Hepatotoxicity": {
+            "prediction": [
+                0.8041276534398397
+            ],
+            "confidence": [
+                "poor"
+            ],
+            "species": "human"
         },
         "cyp3a4-sub": {
             "prediction": [
-                0.8142259120941162
+                0.9961945414543152
             ],
             "confidence": [
                 "poor"
-            ]
+            ],
+            "species": "human"
         },
         "aggregators": {
             "prediction": [
-                0.36204759279886883
+                0.09173031058162451
             ],
             "confidence": [
-                "medium"
-            ]
+                "excellent"
+            ],
+            "species": "common"
         },
         "oatp1b3": {
             "prediction": [
-                0.25369632818425697
+                0.02404578650991122
             ],
             "confidence": [
                 "excellent"
-            ]
+            ],
+            "species": "human"
         },
         "pgp_sub": {
             "prediction": [
-                0.29827017057687044
+                0.015401988435769454
             ],
             "confidence": [
                 "excellent"
-            ]
+            ],
+            "species": "human"
         },
         "cyp2d6-inh": {
             "prediction": [
-                0.007915787786866227
+                0.0005793088033290891
             ],
             "confidence": [
                 "excellent"
-            ]
+            ],
+            "species": "human"
         },
         "carcinogenicity": {
             "prediction": [
-                0.7102604806423187
+                0.4960215389728546
             ],
             "confidence": [
-                "poor"
-            ]
+                "medium"
+            ],
+            "species": "human"
         },
         "bbb": {
             "prediction": [
-                0.9963472286860148
+                0.9999916156133016
             ],
             "confidence": [
                 "poor"
-            ]
+            ],
+            "species": "human"
         },
         "Physicochemical_Property": {
             "TPSA": 46.330000000000005,
@@ -735,7 +1267,6 @@
             "nHA": 1,
             "nHD": 1,
             "MW": 236.274,
-            "LogP": 2.978600000000002,
             "QED": 0.739147334861468,
             "SAscore": 3.1213642425599613,
             "Lipinski": {
@@ -836,98 +1367,105 @@
     "CC1OC2CC3C4CCC5CC(O)CCC5(C)C4CCC3(C)C2(O)CC1OC1OC(C)C(O)C(O)C1O": {
         "logp": {
             "prediction": [
-                2.0796975919208514
+                2.0796976596102703
             ],
             "uncertainty": [
-                0.03083198345452498
+                0.03083196808495181
             ],
             "confidence": [
                 "Low-confidence"
             ],
+            "species": "common",
             "interpretation": [
                 "excellent"
             ]
         },
         "pka_acidic": {
             "prediction": [
-                7.230637416664719
+                7.23063734968295
             ],
             "uncertainty": [
-                1.0795549831827884
+                1.079555179792699
             ],
             "confidence": [
                 "Low-confidence"
             ],
+            "species": "common",
             "interpretation": [
                 null
             ]
         },
         "cl-plasma": {
             "prediction": [
-                6.163086818275815
+                6.163087086036928
             ],
             "uncertainty": [
-                5.081177463771731
+                5.0811775053565995
             ],
             "confidence": [
                 "Low-confidence"
             ],
+            "species": "human",
             "interpretation": [
                 null
             ]
         },
         "logs": {
             "prediction": [
-                -4.838835878145478
+                -4.83883570532182
             ],
             "uncertainty": [
-                0.0706246877003025
+                0.07062455735095696
             ],
             "confidence": [
                 "Low-confidence"
             ],
+            "species": "common",
             "interpretation": [
                 "poor"
             ]
         },
         "logvdss": {
             "prediction": [
-                -0.1633753176860958
+                -0.16337530830080105
             ],
             "uncertainty": [
-                0.007807682433814786
+                0.007807679111688427
             ],
             "confidence": [
                 "Low-confidence"
             ],
+            "species": "human",
             "interpretation": [
                 "excellent"
             ]
         },
         "pka_basic": {
             "prediction": [
-                7.181053985287295
+                7.181054110499047
             ],
             "uncertainty": [
-                0.2666036795566882
+                0.2666037243441153
             ],
             "confidence": [
                 "Low-confidence"
             ],
+            "species": "common",
             "interpretation": [
                 null
             ]
         },
         "t12": {
             "prediction": [
-                2.5765274293915605
+                2.5765275208644747
             ],
             "uncertainty": [
-                0.20860308493729374
+                0.20860312322784402
             ],
             "confidence": [
                 "Low-confidence"
             ],
+            "species": "human",
             "interpretation": [
                 "medium"
             ]
@@ -937,25 +1475,27 @@
                 2.879320805844484
             ],
             "uncertainty": [
-                0.02461634189579165
+                0.024616347109665426
             ],
             "confidence": [
                 "Low-confidence"
             ],
+            "species": "common",
             "interpretation": [
                 "excellent"
             ]
         },
         "mdck": {
             "prediction": [
-                -4.91144148222546
+                -4.9114414983513806
             ],
             "uncertainty": [
-                0.0005619486709775856
+                0.0005619477825469232
             ],
             "confidence": [
                 "High-confidence"
             ],
+            "species": "dog",
             "interpretation": [
                 "poor"
             ]
@@ -965,186 +1505,216 @@
                 -5.4943152724485325
             ],
             "uncertainty": [
-                0.013757487307291427
+                0.013757491198660432
             ],
             "confidence": [
                 "Low-confidence"
             ],
+            "species": "human",
             "interpretation": [
                 "poor"
             ]
         },
         "ppb": {
             "prediction": [
-                86.85710094077349
+                86.85710162185478
             ],
             "uncertainty": [
-                34.04393404800976
+                34.04395676000422
             ],
             "confidence": [
                 "Low-confidence"
             ],
+            "species": "human",
             "interpretation": [
                 "excellent"
             ]
         },
         "cl-int": {
             "prediction": [
-                -1.2751909047110805
+                -1.2751909226866858
             ],
             "uncertainty": [
-                0.02226242214194163
+                0.022262430511813536
             ],
             "confidence": [
                 "Low-confidence"
             ],
+            "species": "human",
             "interpretation": [
                 null
             ]
         },
         "ames": {
             "prediction": [
-                0.4866794943809509
+                0.6540728012720743
             ],
             "confidence": [
                 "medium"
-            ]
+            ],
+            "species": "rat"
         },
         "lm-human": {
             "prediction": [
-                0.00030718967309439904
+                0.0002449273136638415
             ],
             "confidence": [
                 "excellent"
-            ]
+            ],
+            "species": "human"
         },
         "herg-10um": {
             "prediction": [
-                0.10193705085354547
+                0.16667302697896957
             ],
             "confidence": [
                 "excellent"
-            ]
+            ],
+            "species": "human"
         },
         "lm-mouse": {
             "prediction": [
-                0.06458781411978028
+                0.034594837576150894
             ],
             "confidence": [
                 "excellent"
-            ]
+            ],
+            "species": "mouse"
         },
         "f50": {
             "prediction": [
-                0.3362278963128726
+                0.19201324383417764
             ],
             "confidence": [
-                "medium"
-            ]
+                "excellent"
+            ],
+            "species": "human"
         },
         "pgp_inh": {
             "prediction": [
-                0.06933628829816978
+                0.024521007668226957
             ],
             "confidence": [
                 "excellent"
-            ]
+            ],
+            "species": "human"
         },
         "dili": {
             "prediction": [
-                0.42719631393750507
-            ],
-            "confidence": [
-                "medium"
-            ]
-        },
-        "herg": {
-            "prediction": [
-                0.0008748288053842165
+                0.0638594925403595
             ],
             "confidence": [
                 "excellent"
-            ]
+            ],
+            "species": "human"
         },
         "oatp1b1": {
             "prediction": [
-                0.0010351137704371165
+                0.0016983706639924396
             ],
             "confidence": [
                 "excellent"
-            ]
+            ],
+            "species": "human"
         },
         "cyp3a4-inh": {
             "prediction": [
-                0.0009438990770528714
+                0.0013411297792724024
             ],
             "confidence": [
                 "excellent"
-            ]
+            ],
+            "species": "human"
         },
         "cyp2d6-sub": {
             "prediction": [
-                0.2681461718554298
-            ],
-            "confidence": [
-                "excellent"
-            ]
-        },
-        "cyp3a4-sub": {
-            "prediction": [
-                0.6237972577412924
+                0.4095260881197949
             ],
             "confidence": [
                 "medium"
-            ]
+            ],
+            "species": "human"
+        },
+        "H-HT": {
+            "prediction": [
+                0.07076300183931987
+            ],
+            "confidence": [
+                "excellent"
+            ],
+            "species": "human"
+        },
+        "Hepatotoxicity": {
+            "prediction": [
+                0.060966662441690765
+            ],
+            "confidence": [
+                "excellent"
+            ],
+            "species": "human"
+        },
+        "cyp3a4-sub": {
+            "prediction": [
+                0.24711889525254568
+            ],
+            "confidence": [
+                "excellent"
+            ],
+            "species": "human"
         },
         "aggregators": {
             "prediction": [
-                0.01066762674599886
+                0.016181332835306723
             ],
             "confidence": [
                 "excellent"
-            ]
+            ],
+            "species": "common"
         },
         "oatp1b3": {
             "prediction": [
-                0.08185828911761443
+                0.17454283374051252
             ],
             "confidence": [
                 "excellent"
-            ]
+            ],
+            "species": "human"
         },
         "pgp_sub": {
             "prediction": [
-                0.20040720949570337
+                0.06406443441907565
             ],
             "confidence": [
                 "excellent"
-            ]
+            ],
+            "species": "human"
         },
         "cyp2d6-inh": {
             "prediction": [
-                8.446339176219434e-07
+                2.15226687790467e-05
             ],
             "confidence": [
                 "excellent"
-            ]
+            ],
+            "species": "human"
         },
         "carcinogenicity": {
             "prediction": [
-                0.03620577013740937
+                0.024280833080410957
             ],
             "confidence": [
                 "excellent"
-            ]
+            ],
+            "species": "human"
         },
         "bbb": {
             "prediction": [
-                0.9425187905629476
+                0.6561959783236185
             ],
             "confidence": [
-                "poor"
-            ]
+                "medium"
+            ],
+            "species": "human"
         },
         "Physicochemical_Property": {
             "TPSA": 128.84,
@@ -1152,7 +1722,6 @@
             "nHA": 8,
             "nHD": 5,
             "MW": 524.6950000000003,
-            "LogP": 2.1210999999999998,
             "QED": 0.3716488571284026,
             "SAscore": 5.292537080102737,
             "Lipinski": {
@@ -1253,14 +1822,15 @@
     "CC(C)(C)C1=CC=C(C=C1)C(O)(CCCN2CCC(CC2)C(O)(C3=CC=CC=C3)C4=CC=CC=C4)C5=CC=CC=C5": {
         "logp": {
             "prediction": [
-                6.653809914712945
+                6.653810059117041
             ],
             "uncertainty": [
-                0.1756633781386654
+                0.17566344039529724
             ],
             "confidence": [
                 "Low-confidence"
             ],
+            "species": "common",
             "interpretation": [
                 "poor"
             ]
@@ -1270,137 +1840,147 @@
                 9.516110458879124
             ],
             "uncertainty": [
-                0.46070146582756877
+                0.46070153726414276
             ],
             "confidence": [
                 "Low-confidence"
             ],
+            "species": "common",
             "interpretation": [
                 null
             ]
         },
         "cl-plasma": {
             "prediction": [
-                4.883383051261667
+                4.8833830385111385
             ],
             "uncertainty": [
-                1.7171345061309928
+                1.7171345017474131
             ],
             "confidence": [
                 "Low-confidence"
             ],
+            "species": "human",
             "interpretation": [
                 null
             ]
         },
         "logs": {
             "prediction": [
-                -7.5454902652521385
+                -7.545490438075796
             ],
             "uncertainty": [
-                0.1661442763464791
+                0.16614434301648373
             ],
             "confidence": [
                 "Low-confidence"
             ],
+            "species": "common",
             "interpretation": [
                 "poor"
             ]
         },
         "logvdss": {
             "prediction": [
-                0.9140249018343733
+                0.9140248517794679
             ],
             "uncertainty": [
-                0.010007711780006145
+                0.010007719698397977
             ],
             "confidence": [
                 "Low-confidence"
             ],
+            "species": "human",
             "interpretation": [
                 "excellent"
             ]
         },
         "pka_basic": {
             "prediction": [
-                8.490292496413078
+                8.490292214686635
             ],
             "uncertainty": [
-                0.872604597414238
+                0.8726046166791264
             ],
             "confidence": [
                 "Low-confidence"
             ],
+            "species": "common",
             "interpretation": [
                 null
             ]
         },
         "t12": {
             "prediction": [
-                0.6912137859441918
+                0.6912138591225231
             ],
             "uncertainty": [
-                0.23128947168285002
+                0.2312895007929866
             ],
             "confidence": [
                 "Low-confidence"
             ],
+            "species": "human",
             "interpretation": [
                 "poor"
             ]
         },
         "logd": {
             "prediction": [
-                4.717813957470332
+                4.717813907429111
             ],
             "uncertainty": [
-                0.061564989449024665
+                0.061565024504044885
             ],
             "confidence": [
                 "Low-confidence"
             ],
+            "species": "common",
             "interpretation": [
                 "poor"
             ]
         },
         "mdck": {
             "prediction": [
-                -5.581428977874651
+                -5.581428999375878
             ],
             "uncertainty": [
-                0.009127437760302115
+                0.009127432052057571
             ],
             "confidence": [
                 "Low-confidence"
             ],
+            "species": "dog",
             "interpretation": [
                 "poor"
             ]
         },
         "caco2": {
             "prediction": [
-                -4.944698014120644
+                -4.944698046089838
             ],
             "uncertainty": [
-                0.0009427454206658581
+                0.00094274453658727
             ],
             "confidence": [
                 "High-confidence"
             ],
+            "species": "human",
             "interpretation": [
                 "excellent"
             ]
         },
         "ppb": {
             "prediction": [
-                78.77629665500656
+                78.77629638257405
             ],
             "uncertainty": [
-                2.1964151578968085
+                2.1964140339141522
             ],
             "confidence": [
                 "High-confidence"
             ],
+            "species": "human",
             "interpretation": [
                 "excellent"
             ]
@@ -1415,153 +1995,181 @@
             "confidence": [
                 "Low-confidence"
             ],
+            "species": "human",
             "interpretation": [
                 null
             ]
         },
         "ames": {
             "prediction": [
-                0.0005933201076307645
+                0.015693786554038525
             ],
             "confidence": [
                 "excellent"
-            ]
+            ],
+            "species": "rat"
         },
         "lm-human": {
             "prediction": [
-                0.3394574346020818
+                0.8028417627016703
             ],
             "confidence": [
-                "medium"
-            ]
+                "poor"
+            ],
+            "species": "human"
         },
         "herg-10um": {
             "prediction": [
-                0.9822683930397034
+                0.9910694360733032
             ],
             "confidence": [
                 "poor"
-            ]
+            ],
+            "species": "human"
         },
         "lm-mouse": {
             "prediction": [
-                0.46338391055663425
+                0.8000268936157227
             ],
             "confidence": [
-                "medium"
-            ]
+                "poor"
+            ],
+            "species": "mouse"
         },
         "f50": {
             "prediction": [
-                0.2853737274805705
+                0.06712281952301662
             ],
             "confidence": [
                 "excellent"
-            ]
+            ],
+            "species": "human"
         },
         "pgp_inh": {
             "prediction": [
-                0.9992074767748514
+                0.9851701060930887
             ],
             "confidence": [
                 "poor"
-            ]
+            ],
+            "species": "human"
         },
         "dili": {
             "prediction": [
-                0.0018685404587207206
+                0.005937475051420431
             ],
             "confidence": [
                 "excellent"
-            ]
-        },
-        "herg": {
-            "prediction": [
-                0.9988910754521688
             ],
-            "confidence": [
-                "poor"
-            ]
+            "species": "human"
         },
         "oatp1b1": {
             "prediction": [
-                0.24454797059297562
+                0.033071378245949745
             ],
             "confidence": [
                 "excellent"
-            ]
+            ],
+            "species": "human"
         },
         "cyp3a4-inh": {
             "prediction": [
-                0.04225490832080444
+                0.020719151478260756
             ],
             "confidence": [
                 "excellent"
-            ]
+            ],
+            "species": "human"
         },
         "cyp2d6-sub": {
             "prediction": [
-                0.5528666774431864
+                0.6521885196367899
             ],
             "confidence": [
                 "medium"
-            ]
+            ],
+            "species": "human"
+        },
+        "H-HT": {
+            "prediction": [
+                0.5306512316068014
+            ],
+            "confidence": [
+                "medium"
+            ],
+            "species": "human"
+        },
+        "Hepatotoxicity": {
+            "prediction": [
+                0.804535448551178
+            ],
+            "confidence": [
+                "poor"
+            ],
+            "species": "human"
         },
         "cyp3a4-sub": {
             "prediction": [
-                0.9180518190066019
+                0.9807295401891073
             ],
             "confidence": [
                 "poor"
-            ]
+            ],
+            "species": "human"
         },
         "aggregators": {
             "prediction": [
-                0.4124722306927045
+                0.3680221699178219
             ],
             "confidence": [
                 "medium"
-            ]
+            ],
+            "species": "common"
         },
         "oatp1b3": {
             "prediction": [
-                0.4642954170703888
-            ],
-            "confidence": [
-                "medium"
-            ]
-        },
-        "pgp_sub": {
-            "prediction": [
-                0.9194231430689493
-            ],
-            "confidence": [
-                "poor"
-            ]
-        },
-        "cyp2d6-inh": {
-            "prediction": [
-                0.9768543044726054
-            ],
-            "confidence": [
-                "poor"
-            ]
-        },
-        "carcinogenicity": {
-            "prediction": [
-                0.003418270517916729
+                0.07731173808375995
             ],
             "confidence": [
                 "excellent"
-            ]
+            ],
+            "species": "human"
+        },
+        "pgp_sub": {
+            "prediction": [
+                0.839605967203776
+            ],
+            "confidence": [
+                "poor"
+            ],
+            "species": "human"
+        },
+        "cyp2d6-inh": {
+            "prediction": [
+                0.9708660443623861
+            ],
+            "confidence": [
+                "poor"
+            ],
+            "species": "human"
+        },
+        "carcinogenicity": {
+            "prediction": [
+                0.03742001376425227
+            ],
+            "confidence": [
+                "excellent"
+            ],
+            "species": "human"
         },
         "bbb": {
             "prediction": [
-                0.3852569858233134
+                0.5292815566062927
             ],
             "confidence": [
                 "medium"
-            ]
+            ],
+            "species": "human"
         },
         "Physicochemical_Property": {
             "TPSA": 43.7,
@@ -1569,7 +2177,6 @@
             "nHA": 3,
             "nHD": 2,
             "MW": 547.7830000000002,
-            "LogP": 7.64830000000001,
             "QED": 0.22621015642265097,
             "SAscore": 3.0597789972888183,
             "Lipinski": {
@@ -1670,140 +2277,150 @@
     "CC1=C(C)C2=C(C=C1)OC(C)(COC3=CC=C(CC4SC(=O)NC4=O)C=C3)CC2": {
         "logp": {
             "prediction": [
-                4.113840485006761
+                4.113840448905736
             ],
             "uncertainty": [
-                0.07765750749843292
+                0.07765753108535023
             ],
             "confidence": [
                 "Low-confidence"
             ],
+            "species": "common",
             "interpretation": [
                 "poor"
             ]
         },
         "pka_acidic": {
             "prediction": [
-                8.316042332079276
+                8.31604229858839
             ],
             "uncertainty": [
-                0.3817962928643368
+                0.38179632183081935
             ],
             "confidence": [
                 "Low-confidence"
             ],
+            "species": "common",
             "interpretation": [
                 null
             ]
         },
         "cl-plasma": {
             "prediction": [
-                5.02534320053017
+                5.02534335353652
             ],
             "uncertainty": [
-                1.3033068240657713
+                1.3033076785212465
             ],
             "confidence": [
                 "Low-confidence"
             ],
+            "species": "human",
             "interpretation": [
                 null
             ]
         },
         "logs": {
             "prediction": [
-                -5.606199534093039
+                -5.606199361269382
             ],
             "uncertainty": [
-                0.19879621038869288
+                0.198795998637447
             ],
             "confidence": [
                 "Low-confidence"
             ],
+            "species": "common",
             "interpretation": [
                 "poor"
             ]
         },
         "logvdss": {
             "prediction": [
-                -0.15176445043707146
+                -0.15176448172138732
             ],
             "uncertainty": [
-                0.002744712320902714
+                0.002744712117020369
             ],
             "confidence": [
                 "Low-confidence"
             ],
+            "species": "human",
             "interpretation": [
                 "excellent"
             ]
         },
         "pka_basic": {
             "prediction": [
-                3.7418431341472034
+                3.7418432593589555
             ],
             "uncertainty": [
-                0.4422162488641703
+                0.4422164119079781
             ],
             "confidence": [
                 "Low-confidence"
             ],
+            "species": "common",
             "interpretation": [
                 null
             ]
         },
         "t12": {
             "prediction": [
-                0.6143791611215449
+                0.6143791794161277
             ],
             "uncertainty": [
-                0.022650182877661407
+                0.022650171697898902
             ],
             "confidence": [
                 "Low-confidence"
             ],
+            "species": "human",
             "interpretation": [
                 "poor"
             ]
         },
         "logd": {
             "prediction": [
-                3.540410325780691
+                3.540410300760081
             ],
             "uncertainty": [
-                0.007753723528463041
+                0.0077537310539597115
             ],
             "confidence": [
                 "High-confidence"
             ],
+            "species": "common",
             "interpretation": [
                 "poor"
             ]
         },
         "mdck": {
             "prediction": [
-                -4.586210987377991
+                -4.586210955126151
             ],
             "uncertainty": [
-                0.00026385911479209767
+                0.0002638585598155885
             ],
             "confidence": [
                 "High-confidence"
             ],
+            "species": "dog",
             "interpretation": [
                 "poor"
             ]
         },
         "caco2": {
             "prediction": [
-                -4.897783113140814
+                -4.897783081171619
             ],
             "uncertainty": [
-                0.003595860005777496
+                0.0035958598241769835
             ],
             "confidence": [
                 "Low-confidence"
             ],
+            "species": "human",
             "interpretation": [
                 "excellent"
             ]
@@ -1818,167 +2435,196 @@
             "confidence": [
                 "High-confidence"
             ],
+            "species": "human",
             "interpretation": [
                 "poor"
             ]
         },
         "cl-int": {
             "prediction": [
-                -1.5816235010342463
+                -1.5816235046293672
             ],
             "uncertainty": [
-                0.040848493457949164
+                0.04084848716051237
             ],
             "confidence": [
                 "Low-confidence"
             ],
+            "species": "human",
             "interpretation": [
                 null
             ]
         },
         "ames": {
             "prediction": [
-                0.7623372475306193
+                0.13502724717060724
             ],
             "confidence": [
-                "poor"
-            ]
+                "excellent"
+            ],
+            "species": "rat"
         },
         "lm-human": {
             "prediction": [
-                0.34071187302470207
+                0.35166724522908527
             ],
             "confidence": [
                 "medium"
-            ]
+            ],
+            "species": "human"
         },
         "herg-10um": {
             "prediction": [
-                0.27125653624534607
+                0.03268168214708567
             ],
             "confidence": [
                 "excellent"
-            ]
+            ],
+            "species": "human"
         },
         "lm-mouse": {
             "prediction": [
-                0.8399988214174906
+                0.865058163801829
             ],
             "confidence": [
                 "poor"
-            ]
+            ],
+            "species": "mouse"
         },
         "f50": {
             "prediction": [
-                0.5784525275230408
+                0.7289009094238281
             ],
             "confidence": [
-                "medium"
-            ]
+                "poor"
+            ],
+            "species": "human"
         },
         "pgp_inh": {
             "prediction": [
-                0.9833917220433553
+                0.8816606402397156
             ],
             "confidence": [
                 "poor"
-            ]
+            ],
+            "species": "human"
         },
         "dili": {
             "prediction": [
-                0.9464705983797709
+                0.9989317655563354
             ],
             "confidence": [
                 "poor"
-            ]
-        },
-        "herg": {
-            "prediction": [
-                0.22756323218345642
             ],
-            "confidence": [
-                "excellent"
-            ]
+            "species": "human"
         },
         "oatp1b1": {
             "prediction": [
-                0.8611011703809103
+                0.6690885027249655
             ],
             "confidence": [
-                "poor"
-            ]
+                "medium"
+            ],
+            "species": "human"
         },
         "cyp3a4-inh": {
             "prediction": [
-                0.8631448547045389
+                0.9142360289891561
             ],
             "confidence": [
                 "poor"
-            ]
+            ],
+            "species": "human"
         },
         "cyp2d6-sub": {
             "prediction": [
-                0.4934304555257161
+                0.8440434535344442
             ],
             "confidence": [
-                "medium"
-            ]
+                "poor"
+            ],
+            "species": "human"
+        },
+        "H-HT": {
+            "prediction": [
+                0.9680118560791016
+            ],
+            "confidence": [
+                "poor"
+            ],
+            "species": "human"
+        },
+        "Hepatotoxicity": {
+            "prediction": [
+                0.8463420867919922
+            ],
+            "confidence": [
+                "poor"
+            ],
+            "species": "human"
         },
         "cyp3a4-sub": {
             "prediction": [
-                0.9787575801213583
+                0.9749997854232788
             ],
             "confidence": [
                 "poor"
-            ]
+            ],
+            "species": "human"
         },
         "aggregators": {
             "prediction": [
-                0.9296380082766215
+                0.4070122341314952
             ],
             "confidence": [
-                "poor"
-            ]
+                "medium"
+            ],
+            "species": "common"
         },
         "oatp1b3": {
             "prediction": [
-                0.9137405753135681
+                0.8888346552848816
             ],
             "confidence": [
                 "poor"
-            ]
+            ],
+            "species": "human"
         },
         "pgp_sub": {
             "prediction": [
-                0.054077816739057503
+                0.002403288056181433
             ],
             "confidence": [
                 "excellent"
-            ]
+            ],
+            "species": "human"
         },
         "cyp2d6-inh": {
             "prediction": [
-                0.019968208041973412
+                0.000722845179552678
             ],
             "confidence": [
                 "excellent"
-            ]
+            ],
+            "species": "human"
         },
         "carcinogenicity": {
             "prediction": [
-                0.5857648452123007
+                0.3604243993759155
             ],
             "confidence": [
                 "medium"
-            ]
+            ],
+            "species": "human"
         },
         "bbb": {
             "prediction": [
-                0.32672367493311566
+                0.021814801109333832
             ],
             "confidence": [
-                "medium"
-            ]
+                "excellent"
+            ],
+            "species": "human"
         },
         "Physicochemical_Property": {
             "TPSA": 64.63,
@@ -1986,7 +2632,6 @@
             "nHA": 5,
             "nHD": 1,
             "MW": 411.52300000000014,
-            "LogP": 4.360240000000003,
             "QED": 0.7919607727880408,
             "SAscore": 3.4692834693319394,
             "Lipinski": {
@@ -2087,42 +2732,45 @@
     "COC1=CC(=CC(=C1OC)OC)C(=O)NC2CCN(CC2)CCCC3=CC=C(C=C3)F": {
         "logp": {
             "prediction": [
-                3.121772406608106
+                3.121772478810153
             ],
             "uncertainty": [
-                0.004898669021061508
+                0.004898663410587645
             ],
             "confidence": [
                 "Low-confidence"
             ],
+            "species": "common",
             "interpretation": [
                 "poor"
             ]
         },
         "pka_acidic": {
             "prediction": [
-                7.544543696036034
+                7.544543662545149
             ],
             "uncertainty": [
-                1.004622313608607
+                1.00462227867974
             ],
             "confidence": [
                 "Low-confidence"
             ],
+            "species": "common",
             "interpretation": [
                 null
             ]
         },
         "cl-plasma": {
             "prediction": [
-                6.318943715119301
+                6.31894346329635
             ],
             "uncertainty": [
-                1.700174464819682
+                1.7001749535482347
             ],
             "confidence": [
                 "Low-confidence"
             ],
+            "species": "human",
             "interpretation": [
                 null
             ]
@@ -2137,48 +2785,52 @@
             "confidence": [
                 "Low-confidence"
             ],
+            "species": "common",
             "interpretation": [
                 "poor"
             ]
         },
         "logvdss": {
             "prediction": [
-                0.2334297015634336
+                0.23342968748549145
             ],
             "uncertainty": [
-                0.00921092320320753
+                0.009210925146503908
             ],
             "confidence": [
                 "Low-confidence"
             ],
+            "species": "human",
             "interpretation": [
                 "excellent"
             ]
         },
         "pka_basic": {
             "prediction": [
-                8.695811294184338
+                8.695811419396088
             ],
             "uncertainty": [
-                0.012133443159825674
+                0.012133470081280961
             ],
             "confidence": [
                 "High-confidence"
             ],
+            "species": "common",
             "interpretation": [
                 null
             ]
         },
         "t12": {
             "prediction": [
-                1.3330212237707098
+                1.3330212397784695
             ],
             "uncertainty": [
-                0.03199307105473781
+                0.03199304887207477
             ],
             "confidence": [
                 "Low-confidence"
             ],
+            "species": "human",
             "interpretation": [
                 "medium"
             ]
@@ -2188,214 +2840,246 @@
                 2.735808894712521
             ],
             "uncertainty": [
-                0.026818984704807036
+                0.026818964635093145
             ],
             "confidence": [
                 "Low-confidence"
             ],
+            "species": "common",
             "interpretation": [
                 "excellent"
             ]
         },
         "mdck": {
             "prediction": [
-                -4.730133133876582
+                -4.730133121110229
             ],
             "uncertainty": [
-                0.006500252854269917
+                0.006500248765632932
             ],
             "confidence": [
                 "Low-confidence"
             ],
+            "species": "dog",
             "interpretation": [
                 "poor"
             ]
         },
         "caco2": {
             "prediction": [
-                -4.789518133109995
+                -4.789518120322318
             ],
             "uncertainty": [
-                0.009988734628770146
+                0.009988740352440573
             ],
             "confidence": [
                 "Low-confidence"
             ],
+            "species": "human",
             "interpretation": [
                 "excellent"
             ]
         },
         "ppb": {
             "prediction": [
-                84.6259430801013
+                84.62594294388504
             ],
             "uncertainty": [
-                10.904357828635511
+                10.90436912484347
             ],
             "confidence": [
                 "Low-confidence"
             ],
+            "species": "human",
             "interpretation": [
                 "excellent"
             ]
         },
         "cl-int": {
             "prediction": [
-                -1.616577398191626
+                -1.6165774629038054
             ],
             "uncertainty": [
-                0.010166193488841735
+                0.010166188100114493
             ],
             "confidence": [
                 "Low-confidence"
             ],
+            "species": "human",
             "interpretation": [
                 null
             ]
         },
         "ames": {
             "prediction": [
-                0.004747687838971615
+                0.014500525935242573
             ],
             "confidence": [
                 "excellent"
-            ]
+            ],
+            "species": "rat"
         },
         "lm-human": {
             "prediction": [
-                0.10689651966094971
+                0.19032037258148193
             ],
             "confidence": [
                 "excellent"
-            ]
+            ],
+            "species": "human"
         },
         "herg-10um": {
             "prediction": [
-                0.9968737761179606
+                0.9795154929161072
             ],
             "confidence": [
                 "poor"
-            ]
+            ],
+            "species": "human"
         },
         "lm-mouse": {
             "prediction": [
-                0.4671119650204976
+                0.333463321129481
             ],
             "confidence": [
                 "medium"
-            ]
+            ],
+            "species": "mouse"
         },
         "f50": {
             "prediction": [
-                0.9030415018399557
+                0.6766336957613627
             ],
             "confidence": [
-                "poor"
-            ]
+                "medium"
+            ],
+            "species": "human"
         },
         "pgp_inh": {
             "prediction": [
-                0.9754899342854818
+                0.8813925782839457
             ],
             "confidence": [
                 "poor"
-            ]
+            ],
+            "species": "human"
         },
         "dili": {
             "prediction": [
-                0.07330457328741129
+                0.008735488479336103
             ],
             "confidence": [
                 "excellent"
-            ]
-        },
-        "herg": {
-            "prediction": [
-                0.999899665514628
             ],
-            "confidence": [
-                "poor"
-            ]
+            "species": "human"
         },
         "oatp1b1": {
             "prediction": [
-                0.3969736347595851
+                0.46687177817026776
             ],
             "confidence": [
                 "medium"
-            ]
+            ],
+            "species": "human"
         },
         "cyp3a4-inh": {
             "prediction": [
-                0.2812197531263034
+                0.1739056296646595
             ],
             "confidence": [
                 "excellent"
-            ]
+            ],
+            "species": "human"
         },
         "cyp2d6-sub": {
             "prediction": [
-                0.842419445514679
+                0.8914617896080017
             ],
             "confidence": [
                 "poor"
-            ]
+            ],
+            "species": "human"
+        },
+        "H-HT": {
+            "prediction": [
+                0.32370909800132114
+            ],
+            "confidence": [
+                "medium"
+            ],
+            "species": "human"
+        },
+        "Hepatotoxicity": {
+            "prediction": [
+                0.13494229316711426
+            ],
+            "confidence": [
+                "excellent"
+            ],
+            "species": "human"
         },
         "cyp3a4-sub": {
             "prediction": [
-                0.8074823220570883
+                0.7090349396069845
             ],
             "confidence": [
                 "poor"
-            ]
+            ],
+            "species": "human"
         },
         "aggregators": {
             "prediction": [
-                0.021569449144105118
+                0.01063960681979855
             ],
             "confidence": [
                 "excellent"
-            ]
+            ],
+            "species": "common"
         },
         "oatp1b3": {
             "prediction": [
-                0.5886989732583364
+                0.6642518440882365
             ],
             "confidence": [
                 "medium"
-            ]
+            ],
+            "species": "human"
         },
         "pgp_sub": {
             "prediction": [
-                0.6282376050949097
+                0.3120691329240799
             ],
             "confidence": [
                 "medium"
-            ]
+            ],
+            "species": "human"
         },
         "cyp2d6-inh": {
             "prediction": [
-                0.7558287183443705
+                0.6583496928215027
             ],
             "confidence": [
-                "poor"
-            ]
+                "medium"
+            ],
+            "species": "human"
         },
         "carcinogenicity": {
             "prediction": [
-                0.04184850491583347
+                0.0553041206051906
             ],
             "confidence": [
                 "excellent"
-            ]
+            ],
+            "species": "human"
         },
         "bbb": {
             "prediction": [
-                0.9970940152804056
+                0.9799477060635885
             ],
             "confidence": [
                 "poor"
-            ]
+            ],
+            "species": "human"
         },
         "Physicochemical_Property": {
             "TPSA": 60.03000000000001,
@@ -2403,7 +3087,6 @@
             "nHA": 5,
             "nHD": 1,
             "MW": 430.5200000000002,
-            "LogP": 3.6785000000000023,
             "QED": 0.6577615251079998,
             "SAscore": 2.0670533539520495,
             "Lipinski": {
@@ -2504,42 +3187,45 @@
     "CC(C)C1=C(C(=C(N1CC(CC(=O)O)O)C2=CC=C(C=C2)F)C3=CC=CC=C3)C(=O)NC4=CC=CC=C4": {
         "logp": {
             "prediction": [
-                4.502465441057251
+                4.502465585461346
             ],
             "uncertainty": [
-                0.06278679402599252
+                0.06278671177468098
             ],
             "confidence": [
                 "Low-confidence"
             ],
+            "species": "common",
             "interpretation": [
                 "poor"
             ]
         },
         "pka_acidic": {
             "prediction": [
-                6.15429533563999
+                6.154295143067402
             ],
             "uncertainty": [
-                0.1549952542393953
+                0.15499513593491088
             ],
             "confidence": [
                 "Low-confidence"
             ],
+            "species": "common",
             "interpretation": [
                 null
             ]
         },
         "cl-plasma": {
             "prediction": [
-                7.155423847401455
+                7.155424089661509
             ],
             "uncertainty": [
-                5.44872264810553
+                5.448725871204559
             ],
             "confidence": [
                 "Low-confidence"
             ],
+            "species": "human",
             "interpretation": [
                 null
             ]
@@ -2549,270 +3235,306 @@
                 -4.446546438271928
             ],
             "uncertainty": [
-                0.08313320074278607
+                0.08313320560611359
             ],
             "confidence": [
                 "Low-confidence"
             ],
+            "species": "common",
             "interpretation": [
                 "poor"
             ]
         },
         "logvdss": {
             "prediction": [
-                0.3721169687144929
+                0.37211696245762965
             ],
             "uncertainty": [
-                0.01492112835935036
+                0.014921146031613125
             ],
             "confidence": [
                 "Low-confidence"
             ],
+            "species": "human",
             "interpretation": [
                 "excellent"
             ]
         },
         "pka_basic": {
             "prediction": [
-                5.027577756013482
+                5.02757763080173
             ],
             "uncertainty": [
-                0.33359815973718554
+                0.33359807375824246
             ],
             "confidence": [
                 "Low-confidence"
             ],
+            "species": "common",
             "interpretation": [
                 null
             ]
         },
         "t12": {
             "prediction": [
-                1.2216227551248389
+                1.2216228283031703
             ],
             "uncertainty": [
-                0.050499623542040295
+                0.05049962669892705
             ],
             "confidence": [
                 "Low-confidence"
             ],
+            "species": "human",
             "interpretation": [
                 "medium"
             ]
         },
         "logd": {
             "prediction": [
-                2.171543436347701
+                2.171543458240735
             ],
             "uncertainty": [
-                0.019678859687003225
+                0.019678887482050378
             ],
             "confidence": [
                 "Low-confidence"
             ],
+            "species": "common",
             "interpretation": [
                 "excellent"
             ]
         },
         "mdck": {
             "prediction": [
-                -5.117682880535393
+                -5.11768286978478
             ],
             "uncertainty": [
-                0.0029093753305744485
+                0.0029093694875435006
             ],
             "confidence": [
                 "Low-confidence"
             ],
+            "species": "dog",
             "interpretation": [
                 "poor"
             ]
         },
         "caco2": {
             "prediction": [
-                -5.127446996380063
+                -5.127446988387764
             ],
             "uncertainty": [
-                0.01337412989195741
+                0.013374134533268744
             ],
             "confidence": [
                 "Low-confidence"
             ],
+            "species": "human",
             "interpretation": [
                 "excellent"
             ]
         },
         "ppb": {
             "prediction": [
-                98.399373361156
+                98.39937445088606
             ],
             "uncertainty": [
-                2.358006579501307
+                2.35800811297122
             ],
             "confidence": [
                 "High-confidence"
             ],
+            "species": "human",
             "interpretation": [
                 "poor"
             ]
         },
         "cl-int": {
             "prediction": [
-                -0.8878711814967438
+                -0.8878712102577123
             ],
             "uncertainty": [
-                0.0003344801450075874
+                0.0003344808843633862
             ],
             "confidence": [
                 "High-confidence"
             ],
+            "species": "human",
             "interpretation": [
                 null
             ]
         },
         "ames": {
             "prediction": [
-                0.07630082344015439
+                0.0946875736117363
             ],
             "confidence": [
                 "excellent"
-            ]
+            ],
+            "species": "rat"
         },
         "lm-human": {
             "prediction": [
-                0.05716622248291969
+                0.01254276962329944
             ],
             "confidence": [
                 "excellent"
-            ]
+            ],
+            "species": "human"
         },
         "herg-10um": {
             "prediction": [
-                0.10788345833619435
+                0.34445098290840787
             ],
             "confidence": [
-                "excellent"
-            ]
+                "medium"
+            ],
+            "species": "human"
         },
         "lm-mouse": {
             "prediction": [
-                0.06670708566283186
+                0.0492806751281023
             ],
             "confidence": [
                 "excellent"
-            ]
+            ],
+            "species": "mouse"
         },
         "f50": {
             "prediction": [
-                0.8672314683596293
+                0.6756147344907125
             ],
             "confidence": [
-                "poor"
-            ]
+                "medium"
+            ],
+            "species": "human"
         },
         "pgp_inh": {
             "prediction": [
-                0.39987726012865704
+                0.3785346945126851
             ],
             "confidence": [
                 "medium"
-            ]
+            ],
+            "species": "human"
         },
         "dili": {
             "prediction": [
-                0.9759687980016073
+                0.9430063764254252
             ],
             "confidence": [
                 "poor"
-            ]
-        },
-        "herg": {
-            "prediction": [
-                0.4019796550273895
             ],
-            "confidence": [
-                "medium"
-            ]
+            "species": "human"
         },
         "oatp1b1": {
             "prediction": [
-                0.46800175309181213
+                0.2839074333508809
             ],
             "confidence": [
-                "medium"
-            ]
+                "excellent"
+            ],
+            "species": "human"
         },
         "cyp3a4-inh": {
             "prediction": [
-                0.2160427284737428
+                0.23788686096668243
             ],
             "confidence": [
                 "excellent"
-            ]
+            ],
+            "species": "human"
         },
         "cyp2d6-sub": {
             "prediction": [
-                0.18178350230058035
+                0.4198004553715388
             ],
             "confidence": [
-                "excellent"
-            ]
+                "medium"
+            ],
+            "species": "human"
         },
-        "cyp3a4-sub": {
+        "H-HT": {
             "prediction": [
-                0.8852493365605673
+                0.9369529883066813
             ],
             "confidence": [
                 "poor"
-            ]
+            ],
+            "species": "human"
+        },
+        "Hepatotoxicity": {
+            "prediction": [
+                0.9567012786865234
+            ],
+            "confidence": [
+                "poor"
+            ],
+            "species": "human"
+        },
+        "cyp3a4-sub": {
+            "prediction": [
+                0.8161106705665588
+            ],
+            "confidence": [
+                "poor"
+            ],
+            "species": "human"
         },
         "aggregators": {
             "prediction": [
-                0.3005009939273198
+                0.5254591107368469
             ],
             "confidence": [
                 "medium"
-            ]
+            ],
+            "species": "common"
         },
         "oatp1b3": {
             "prediction": [
-                0.5290928284327189
+                0.5020517309506735
             ],
             "confidence": [
                 "medium"
-            ]
+            ],
+            "species": "human"
         },
         "pgp_sub": {
             "prediction": [
-                0.16339987516403198
-            ],
-            "confidence": [
-                "excellent"
-            ]
-        },
-        "cyp2d6-inh": {
-            "prediction": [
-                0.18519180888930956
-            ],
-            "confidence": [
-                "excellent"
-            ]
-        },
-        "carcinogenicity": {
-            "prediction": [
-                0.347648024559021
+                0.5414163569609324
             ],
             "confidence": [
                 "medium"
-            ]
+            ],
+            "species": "human"
         },
-        "bbb": {
+        "cyp2d6-inh": {
             "prediction": [
-                0.06623004314800103
+                0.11904492167135079
             ],
             "confidence": [
                 "excellent"
-            ]
+            ],
+            "species": "human"
+        },
+        "carcinogenicity": {
+            "prediction": [
+                0.29779423276583356
+            ],
+            "confidence": [
+                "excellent"
+            ],
+            "species": "human"
+        },
+        "bbb": {
+            "prediction": [
+                0.10738229937851429
+            ],
+            "confidence": [
+                "excellent"
+            ],
+            "species": "human"
         },
         "Physicochemical_Property": {
             "TPSA": 91.56,
@@ -2820,7 +3542,6 @@
             "nHA": 4,
             "nHD": 3,
             "MW": 500.57000000000016,
-            "LogP": 6.1725000000000065,
             "QED": 0.2562120730329948,
             "SAscore": 2.8617797492668657,
             "Lipinski": {
@@ -2921,315 +3642,354 @@
     "CC1=C(C=C(C=C1)NC(=O)C2=CC=C(C=C2)CN3CCN(CC3)C)NC4=NC=CC(=N4)C5=CN=CC=C5": {
         "logp": {
             "prediction": [
-                2.5156522128537193
+                2.5156522850557668
             ],
             "uncertainty": [
-                0.044626518576579954
+                0.04462650933828627
             ],
             "confidence": [
                 "Low-confidence"
             ],
+            "species": "common",
             "interpretation": [
                 "excellent"
             ]
         },
         "pka_acidic": {
             "prediction": [
-                8.3529008258903
+                8.35290069192676
             ],
             "uncertainty": [
-                0.09410794002958767
+                0.09410788418600191
             ],
             "confidence": [
                 "Low-confidence"
             ],
+            "species": "common",
             "interpretation": [
                 null
             ]
         },
         "cl-plasma": {
             "prediction": [
-                8.801830905417008
+                8.80183121142971
             ],
             "uncertainty": [
-                0.21319288312031404
+                0.2131930944615874
             ],
             "confidence": [
                 "High-confidence"
             ],
+            "species": "human",
             "interpretation": [
                 null
             ]
         },
         "logs": {
             "prediction": [
-                -3.109316736911367
+                -3.1093167693158024
             ],
             "uncertainty": [
-                0.1586603935976285
+                0.1586603176020187
             ],
             "confidence": [
                 "Low-confidence"
             ],
+            "species": "common",
             "interpretation": [
                 "excellent"
             ]
         },
         "logvdss": {
             "prediction": [
-                0.6002482191442345
+                0.6002482066305083
             ],
             "uncertainty": [
-                7.745916549262155e-05
+                7.745926832691818e-05
             ],
             "confidence": [
                 "High-confidence"
             ],
+            "species": "human",
             "interpretation": [
                 "excellent"
             ]
         },
         "pka_basic": {
             "prediction": [
-                5.81935678200995
+                5.819356907221702
             ],
             "uncertainty": [
-                0.29467796577169736
+                0.2946779551908776
             ],
             "confidence": [
                 "Low-confidence"
             ],
+            "species": "common",
             "interpretation": [
                 null
             ]
         },
         "t12": {
             "prediction": [
-                0.5750007668138574
+                0.5750008582867713
             ],
             "uncertainty": [
-                0.006552251591880387
+                0.006552261358935774
             ],
             "confidence": [
                 "High-confidence"
             ],
+            "species": "human",
             "interpretation": [
                 "poor"
             ]
         },
         "logd": {
             "prediction": [
-                2.6017268201219514
+                2.601726807611646
             ],
             "uncertainty": [
-                0.019214712495725372
+                0.019214716546017918
             ],
             "confidence": [
                 "Low-confidence"
             ],
+            "species": "common",
             "interpretation": [
                 "excellent"
             ]
         },
         "mdck": {
             "prediction": [
-                -4.973999221615447
+                -4.973999189363606
             ],
             "uncertainty": [
-                0.0014747369706178404
+                0.0014747384723143853
             ],
             "confidence": [
                 "Low-confidence"
             ],
+            "species": "dog",
             "interpretation": [
                 "poor"
             ]
         },
         "caco2": {
             "prediction": [
-                -5.319655759069723
+                -5.319655784645079
             ],
             "uncertainty": [
-                0.0006429218499199862
+                0.00064292277054534
             ],
             "confidence": [
                 "High-confidence"
             ],
+            "species": "human",
             "interpretation": [
                 "poor"
             ]
         },
         "ppb": {
             "prediction": [
-                95.53927112369983
+                95.53927057883482
             ],
             "uncertainty": [
-                0.6644351574959728
+                0.6644355390835699
             ],
             "confidence": [
                 "High-confidence"
             ],
+            "species": "human",
             "interpretation": [
                 "poor"
             ]
         },
         "cl-int": {
             "prediction": [
-                -1.788197739474315
+                -1.7881977682352834
             ],
             "uncertainty": [
-                0.0007966548639464222
+                0.0007966534765793121
             ],
             "confidence": [
                 "High-confidence"
             ],
+            "species": "human",
             "interpretation": [
                 null
             ]
         },
         "ames": {
             "prediction": [
-                0.2942487994829814
+                0.2404990941286087
             ],
             "confidence": [
                 "excellent"
-            ]
+            ],
+            "species": "rat"
         },
         "lm-human": {
             "prediction": [
-                0.8944377303123474
+                0.8502134879430135
             ],
             "confidence": [
                 "poor"
-            ]
+            ],
+            "species": "human"
         },
         "herg-10um": {
             "prediction": [
-                0.6502132018407186
+                0.6563078761100769
             ],
             "confidence": [
                 "medium"
-            ]
+            ],
+            "species": "human"
         },
         "lm-mouse": {
             "prediction": [
-                0.9851343830426534
+                0.9775809049606323
             ],
             "confidence": [
                 "poor"
-            ]
+            ],
+            "species": "mouse"
         },
         "f50": {
             "prediction": [
-                0.27271516621112823
+                0.5888537565867106
             ],
             "confidence": [
-                "excellent"
-            ]
+                "medium"
+            ],
+            "species": "human"
         },
         "pgp_inh": {
             "prediction": [
-                0.79917045434316
+                0.9062177538871765
             ],
             "confidence": [
                 "poor"
-            ]
+            ],
+            "species": "human"
         },
         "dili": {
             "prediction": [
-                0.9957207043965658
+                0.992530882358551
             ],
             "confidence": [
                 "poor"
-            ]
-        },
-        "herg": {
-            "prediction": [
-                0.9618815183639526
             ],
-            "confidence": [
-                "poor"
-            ]
+            "species": "human"
         },
         "oatp1b1": {
             "prediction": [
-                0.9720011552174886
+                0.5684349338213602
             ],
             "confidence": [
-                "poor"
-            ]
+                "medium"
+            ],
+            "species": "human"
         },
         "cyp3a4-inh": {
             "prediction": [
-                0.8668694694836935
+                0.9053190549214681
             ],
             "confidence": [
                 "poor"
-            ]
+            ],
+            "species": "human"
         },
         "cyp2d6-sub": {
             "prediction": [
-                0.2937178661425908
+                0.2970360442996025
             ],
             "confidence": [
                 "excellent"
-            ]
+            ],
+            "species": "human"
+        },
+        "H-HT": {
+            "prediction": [
+                0.9713783860206604
+            ],
+            "confidence": [
+                "poor"
+            ],
+            "species": "human"
+        },
+        "Hepatotoxicity": {
+            "prediction": [
+                0.8876946171124777
+            ],
+            "confidence": [
+                "poor"
+            ],
+            "species": "human"
         },
         "cyp3a4-sub": {
             "prediction": [
-                0.4472120801607768
+                0.8795077204704285
             ],
             "confidence": [
-                "medium"
-            ]
+                "poor"
+            ],
+            "species": "human"
         },
         "aggregators": {
             "prediction": [
-                0.21499872455994287
+                0.3362872650225957
             ],
             "confidence": [
-                "excellent"
-            ]
+                "medium"
+            ],
+            "species": "common"
         },
         "oatp1b3": {
             "prediction": [
-                0.9925647377967834
+                0.523746112982432
             ],
             "confidence": [
-                "poor"
-            ]
+                "medium"
+            ],
+            "species": "human"
         },
         "pgp_sub": {
             "prediction": [
-                0.36159276962280273
-            ],
-            "confidence": [
-                "medium"
-            ]
-        },
-        "cyp2d6-inh": {
-            "prediction": [
-                0.7499319513638815
+                0.8553329507509867
             ],
             "confidence": [
                 "poor"
-            ]
+            ],
+            "species": "human"
+        },
+        "cyp2d6-inh": {
+            "prediction": [
+                0.7240724563598633
+            ],
+            "confidence": [
+                "poor"
+            ],
+            "species": "human"
         },
         "carcinogenicity": {
             "prediction": [
-                0.14711332321166992
-            ],
-            "confidence": [
-                "excellent"
-            ]
-        },
-        "bbb": {
-            "prediction": [
-                0.5986308852831522
+                0.35912779966990155
             ],
             "confidence": [
                 "medium"
-            ]
+            ],
+            "species": "human"
+        },
+        "bbb": {
+            "prediction": [
+                0.23059846957524618
+            ],
+            "confidence": [
+                "excellent"
+            ],
+            "species": "human"
         },
         "Physicochemical_Property": {
             "TPSA": 86.28000000000002,
@@ -3237,7 +3997,6 @@
             "nHA": 7,
             "nHD": 2,
             "MW": 493.61500000000024,
-            "LogP": 4.590320000000003,
             "QED": 0.38941616262964607,
             "SAscore": 2.3316597651325157,
             "Lipinski": {
@@ -3338,315 +4097,354 @@
     "COC1=CC2=C(C=C1)N=C(N2)CS(=O)C3=NC4=C(N3)C=C(C=C4)OC": {
         "logp": {
             "prediction": [
-                2.05035134960657
+                2.0503513225308025
             ],
             "uncertainty": [
-                0.016169155074225117
+                0.016169157008615542
             ],
             "confidence": [
                 "Low-confidence"
             ],
+            "species": "common",
             "interpretation": [
                 "excellent"
             ]
         },
         "pka_acidic": {
             "prediction": [
-                9.961905483902866
+                9.961905550884635
             ],
             "uncertainty": [
-                0.35136118155534746
+                0.3513611808462116
             ],
             "confidence": [
                 "Low-confidence"
             ],
+            "species": "common",
             "interpretation": [
                 null
             ]
         },
         "cl-plasma": {
             "prediction": [
-                4.399247233409354
+                4.399247112279327
             ],
             "uncertainty": [
-                0.260074649781199
+                0.2600746601779811
             ],
             "confidence": [
                 "High-confidence"
             ],
+            "species": "human",
             "interpretation": [
                 null
             ]
         },
         "logs": {
             "prediction": [
-                -4.049509230074287
+                -4.049509165265416
             ],
             "uncertainty": [
-                0.15610690011576622
+                0.15610683899116395
             ],
             "confidence": [
                 "Low-confidence"
             ],
+            "species": "common",
             "interpretation": [
                 "poor"
             ]
         },
         "logvdss": {
             "prediction": [
-                -0.4721368085706101
+                -0.4721368210843364
             ],
             "uncertainty": [
-                0.002767035605011542
+                0.0027670355302829575
             ],
             "confidence": [
                 "Low-confidence"
             ],
+            "species": "human",
             "interpretation": [
                 "excellent"
             ]
         },
         "pka_basic": {
             "prediction": [
-                4.408848578818265
+                4.408848672727079
             ],
             "uncertainty": [
-                0.25798408137840667
+                0.2579839055174453
             ],
             "confidence": [
                 "Low-confidence"
             ],
+            "species": "common",
             "interpretation": [
                 null
             ]
         },
         "t12": {
             "prediction": [
-                0.7411952150615964
+                0.741195205914305
             ],
             "uncertainty": [
-                0.008560667028994384
+                0.008560662488717785
             ],
             "confidence": [
                 "High-confidence"
             ],
+            "species": "human",
             "interpretation": [
                 "poor"
             ]
         },
         "logd": {
             "prediction": [
-                2.4715085822581986
+                2.4715086119701737
             ],
             "uncertainty": [
-                0.011781005121179966
+                0.011781009607267912
             ],
             "confidence": [
                 "Low-confidence"
             ],
+            "species": "common",
             "interpretation": [
                 "excellent"
             ]
         },
         "mdck": {
             "prediction": [
-                -5.024090984978108
+                -5.0240909903534146
             ],
             "uncertainty": [
-                0.0018866632067080502
+                0.0018866624841429314
             ],
             "confidence": [
                 "Low-confidence"
             ],
+            "species": "dog",
             "interpretation": [
                 "poor"
             ]
         },
         "caco2": {
             "prediction": [
-                -4.927418492097007
+                -4.9274184793093285
             ],
             "uncertainty": [
-                0.007578766146096427
+                0.007578770050130856
             ],
             "confidence": [
                 "Low-confidence"
             ],
+            "species": "human",
             "interpretation": [
                 "excellent"
             ]
         },
         "ppb": {
             "prediction": [
-                93.18677114013992
+                93.18677032284239
             ],
             "uncertainty": [
-                5.334731956181713
+                5.334729541855268
             ],
             "confidence": [
                 "Low-confidence"
             ],
+            "species": "human",
             "interpretation": [
                 "poor"
             ]
         },
         "cl-int": {
             "prediction": [
-                -1.218114575648311
+                -1.2181145630653871
             ],
             "uncertainty": [
-                0.001544851749528453
+                0.0015448527424615222
             ],
             "confidence": [
                 "High-confidence"
             ],
+            "species": "human",
             "interpretation": [
                 null
             ]
         },
         "ames": {
             "prediction": [
-                0.7176785270373026
+                0.2587018956740697
             ],
             "confidence": [
-                "poor"
-            ]
+                "excellent"
+            ],
+            "species": "rat"
         },
         "lm-human": {
             "prediction": [
-                0.6134011050065359
+                0.9725435773531595
             ],
             "confidence": [
-                "medium"
-            ]
+                "poor"
+            ],
+            "species": "human"
         },
         "herg-10um": {
             "prediction": [
-                0.2454535812139511
+                0.6625906527042389
             ],
             "confidence": [
-                "excellent"
-            ]
+                "medium"
+            ],
+            "species": "human"
         },
         "lm-mouse": {
             "prediction": [
-                0.7626172105471293
+                0.8394464453061422
             ],
             "confidence": [
                 "poor"
-            ]
+            ],
+            "species": "mouse"
         },
         "f50": {
             "prediction": [
-                0.8985893328984579
+                0.8624826868375143
             ],
             "confidence": [
                 "poor"
-            ]
+            ],
+            "species": "human"
         },
         "pgp_inh": {
             "prediction": [
-                0.4596826136112213
+                0.7056073943773905
             ],
             "confidence": [
-                "medium"
-            ]
+                "poor"
+            ],
+            "species": "human"
         },
         "dili": {
             "prediction": [
-                0.9744567473729452
+                0.9999423027038574
             ],
             "confidence": [
                 "poor"
-            ]
-        },
-        "herg": {
-            "prediction": [
-                0.1276826448738575
             ],
-            "confidence": [
-                "excellent"
-            ]
+            "species": "human"
         },
         "oatp1b1": {
             "prediction": [
-                0.17826315201818943
+                0.024907586785654228
             ],
             "confidence": [
                 "excellent"
-            ]
+            ],
+            "species": "human"
         },
         "cyp3a4-inh": {
             "prediction": [
-                0.9802401860555013
+                0.9976822137832642
             ],
             "confidence": [
                 "poor"
-            ]
+            ],
+            "species": "human"
         },
         "cyp2d6-sub": {
             "prediction": [
-                0.5812503198782603
+                0.9298288623491923
             ],
             "confidence": [
-                "medium"
-            ]
+                "poor"
+            ],
+            "species": "human"
+        },
+        "H-HT": {
+            "prediction": [
+                0.9995808800061544
+            ],
+            "confidence": [
+                "poor"
+            ],
+            "species": "human"
+        },
+        "Hepatotoxicity": {
+            "prediction": [
+                0.9907650152842203
+            ],
+            "confidence": [
+                "poor"
+            ],
+            "species": "human"
         },
         "cyp3a4-sub": {
             "prediction": [
-                0.7335649132728577
+                0.8814439376195272
             ],
             "confidence": [
                 "poor"
-            ]
+            ],
+            "species": "human"
         },
         "aggregators": {
             "prediction": [
-                0.13756927102804184
+                0.45722060402234393
             ],
             "confidence": [
-                "excellent"
-            ]
+                "medium"
+            ],
+            "species": "common"
         },
         "oatp1b3": {
             "prediction": [
-                0.25339250701169175
+                0.07877293135970831
             ],
             "confidence": [
                 "excellent"
-            ]
+            ],
+            "species": "human"
         },
         "pgp_sub": {
             "prediction": [
-                0.6830637554327647
+                0.3269580515722434
             ],
             "confidence": [
                 "medium"
-            ]
+            ],
+            "species": "human"
         },
         "cyp2d6-inh": {
             "prediction": [
-                0.33370839059352875
+                0.5613493025302887
             ],
             "confidence": [
                 "medium"
-            ]
+            ],
+            "species": "human"
         },
         "carcinogenicity": {
             "prediction": [
-                0.7121031483014425
+                0.7847722768783569
             ],
             "confidence": [
                 "poor"
-            ]
+            ],
+            "species": "human"
         },
         "bbb": {
             "prediction": [
-                0.020867342585309718
+                0.00034047707170733094
             ],
             "confidence": [
                 "excellent"
-            ]
+            ],
+            "species": "human"
         },
         "Physicochemical_Property": {
             "TPSA": 92.89,
@@ -3654,7 +4452,6 @@
             "nHA": 5,
             "nHD": 2,
             "MW": 356.4070000000001,
-            "LogP": 2.7642000000000007,
             "QED": 0.5734850182316669,
             "SAscore": 3.029604307096001,
             "Lipinski": {
@@ -3755,56 +4552,60 @@
     "CN1CCN(CC1)C2=NC3=CC=CC=C3NC4=C2C=C(C=C4)Cl": {
         "logp": {
             "prediction": [
-                3.2620088906016953
+                3.262008818399648
             ],
             "uncertainty": [
-                0.0029115084996256257
+                0.002911506863956248
             ],
             "confidence": [
                 "High-confidence"
             ],
+            "species": "common",
             "interpretation": [
                 "poor"
             ]
         },
         "pka_acidic": {
             "prediction": [
-                9.242723227034597
+                9.242723427979907
             ],
             "uncertainty": [
-                0.14052852780010028
+                0.1405286239116066
             ],
             "confidence": [
                 "Low-confidence"
             ],
+            "species": "common",
             "interpretation": [
                 null
             ]
         },
         "cl-plasma": {
             "prediction": [
-                3.9298988258475682
+                3.9298988385980973
             ],
             "uncertainty": [
-                0.5842710494879597
+                0.5842705802595791
             ],
             "confidence": [
                 "Low-confidence"
             ],
+            "species": "human",
             "interpretation": [
                 null
             ]
         },
         "logs": {
             "prediction": [
-                -3.6776695167727795
+                -3.677669559978695
             ],
             "uncertainty": [
-                0.07427483859988726
+                0.0742748209848898
             ],
             "confidence": [
                 "Low-confidence"
             ],
+            "species": "common",
             "interpretation": [
                 "excellent"
             ]
@@ -3814,256 +4615,291 @@
                 0.3431264063699319
             ],
             "uncertainty": [
-                0.0010223233098965723
+                0.0010223232623569611
             ],
             "confidence": [
                 "High-confidence"
             ],
+            "species": "human",
             "interpretation": [
                 "excellent"
             ]
         },
         "pka_basic": {
             "prediction": [
-                7.188679431852944
+                7.188679474894485
             ],
             "uncertainty": [
-                0.5521721604327041
+                0.5521721117569953
             ],
             "confidence": [
                 "Low-confidence"
             ],
+            "species": "common",
             "interpretation": [
                 null
             ]
         },
         "t12": {
             "prediction": [
-                1.988175841522452
+                1.9881758689643263
             ],
             "uncertainty": [
-                0.18435984454069665
+                0.18435977933315328
             ],
             "confidence": [
                 "Low-confidence"
             ],
+            "species": "human",
             "interpretation": [
                 "medium"
             ]
         },
         "logd": {
             "prediction": [
-                2.7267088986259256
+                2.7267088861156203
             ],
             "uncertainty": [
-                0.01897285928201864
+                0.01897286321736491
             ],
             "confidence": [
                 "Low-confidence"
             ],
+            "species": "common",
             "interpretation": [
                 "excellent"
             ]
         },
         "mdck": {
             "prediction": [
-                -4.598964972341271
+                -4.598964961590657
             ],
             "uncertainty": [
-                0.0014119427126288997
+                0.0014119412029316436
             ],
             "confidence": [
                 "High-confidence"
             ],
+            "species": "dog",
             "interpretation": [
                 "poor"
             ]
         },
         "caco2": {
             "prediction": [
-                -4.5779783212754115
+                -4.577978282912379
             ],
             "uncertainty": [
-                0.00023590123413441688
+                0.0002359002796517018
             ],
             "confidence": [
                 "High-confidence"
             ],
+            "species": "human",
             "interpretation": [
                 "excellent"
             ]
         },
         "ppb": {
             "prediction": [
-                94.75549258803504
+                94.7554936777651
             ],
             "uncertainty": [
-                1.5213945128743944
+                1.521395802297775
             ],
             "confidence": [
                 "High-confidence"
             ],
+            "species": "human",
             "interpretation": [
                 "poor"
             ]
         },
         "cl-int": {
             "prediction": [
-                -1.0311788981684102
+                -1.0311788622171996
             ],
             "uncertainty": [
-                0.0009826754284114614
+                0.0009826769172514016
             ],
             "confidence": [
                 "High-confidence"
             ],
+            "species": "human",
             "interpretation": [
                 null
             ]
         },
         "ames": {
             "prediction": [
-                0.07308405855049689
+                0.012473054540654024
             ],
             "confidence": [
                 "excellent"
-            ]
+            ],
+            "species": "rat"
         },
         "lm-human": {
             "prediction": [
-                0.14495845284545794
+                0.5034380257129669
             ],
             "confidence": [
-                "excellent"
-            ]
+                "medium"
+            ],
+            "species": "human"
         },
         "herg-10um": {
             "prediction": [
-                0.7023872335751852
+                0.5689019560813904
             ],
             "confidence": [
-                "poor"
-            ]
+                "medium"
+            ],
+            "species": "human"
         },
         "lm-mouse": {
             "prediction": [
-                0.9978867570559183
+                0.9991123080253601
             ],
             "confidence": [
                 "poor"
-            ]
+            ],
+            "species": "mouse"
         },
         "f50": {
             "prediction": [
-                0.5876414775848389
+                0.563758373260498
             ],
             "confidence": [
                 "medium"
-            ]
+            ],
+            "species": "human"
         },
         "pgp_inh": {
             "prediction": [
-                0.9828821818033854
+                0.9787096579869589
             ],
             "confidence": [
                 "poor"
-            ]
+            ],
+            "species": "human"
         },
         "dili": {
             "prediction": [
-                0.964864989121755
+                0.9334415396054586
             ],
             "confidence": [
                 "poor"
-            ]
-        },
-        "herg": {
-            "prediction": [
-                0.9907732208569845
             ],
-            "confidence": [
-                "poor"
-            ]
+            "species": "human"
         },
         "oatp1b1": {
             "prediction": [
-                0.9037699302037557
+                0.8534545501073202
             ],
             "confidence": [
                 "poor"
-            ]
+            ],
+            "species": "human"
         },
         "cyp3a4-inh": {
             "prediction": [
-                0.021613399071308475
+                0.002617663897884389
             ],
             "confidence": [
                 "excellent"
-            ]
+            ],
+            "species": "human"
         },
         "cyp2d6-sub": {
             "prediction": [
-                0.9258901278177897
+                0.9829896688461304
             ],
             "confidence": [
                 "poor"
-            ]
+            ],
+            "species": "human"
+        },
+        "H-HT": {
+            "prediction": [
+                0.8731671770413717
+            ],
+            "confidence": [
+                "poor"
+            ],
+            "species": "human"
+        },
+        "Hepatotoxicity": {
+            "prediction": [
+                0.9347764054934183
+            ],
+            "confidence": [
+                "poor"
+            ],
+            "species": "human"
         },
         "cyp3a4-sub": {
             "prediction": [
-                0.9749636252721151
+                0.9950354099273682
             ],
             "confidence": [
                 "poor"
-            ]
+            ],
+            "species": "human"
         },
         "aggregators": {
             "prediction": [
-                0.04480383296807607
+                0.03170141081015269
             ],
             "confidence": [
                 "excellent"
-            ]
+            ],
+            "species": "common"
         },
         "oatp1b3": {
             "prediction": [
-                0.9020891984303793
+                0.8080893754959106
             ],
             "confidence": [
                 "poor"
-            ]
+            ],
+            "species": "human"
         },
         "pgp_sub": {
             "prediction": [
-                0.48220545798540115
+                0.5747273862361908
             ],
             "confidence": [
                 "medium"
-            ]
+            ],
+            "species": "human"
         },
         "cyp2d6-inh": {
             "prediction": [
-                0.9218221108118693
+                0.968324343363444
             ],
             "confidence": [
                 "poor"
-            ]
+            ],
+            "species": "human"
         },
         "carcinogenicity": {
             "prediction": [
-                0.021686977551629145
+                0.04616598590898017
             ],
             "confidence": [
                 "excellent"
-            ]
+            ],
+            "species": "human"
         },
         "bbb": {
             "prediction": [
-                0.9998976389567057
+                0.9998860160509745
             ],
             "confidence": [
                 "poor"
-            ]
+            ],
+            "species": "human"
         },
         "Physicochemical_Property": {
             "TPSA": 30.869999999999997,
@@ -4071,7 +4907,6 @@
             "nHA": 4,
             "nHD": 1,
             "MW": 326.831,
-            "LogP": 3.7227000000000023,
             "QED": 0.8001222420891723,
             "SAscore": 2.3303103814698147,
             "Lipinski": {
@@ -4172,154 +5007,165 @@
     "CC1=C2C(C(=O)C3(C(CC4C(C3C(C(C2(C)C)(CC1OC(=O)C(C(C5=CC=CC=C5)NC(=O)C6=CC=CC=C6)O)O)OC(=O)C7=CC=CC=C7)(CO4)OC(=O)C)O)C)OC(=O)C": {
         "logp": {
             "prediction": [
-                2.5575831005205765
+                2.557583118571088
             ],
             "uncertainty": [
-                0.019489991541278506
+                0.019489990121900114
             ],
             "confidence": [
                 "Low-confidence"
             ],
+            "species": "common",
             "interpretation": [
                 "excellent"
             ]
         },
         "pka_acidic": {
             "prediction": [
-                6.061540839661505
+                6.061540940134161
             ],
             "uncertainty": [
-                0.020965408047636913
+                0.020965455472151007
             ],
             "confidence": [
                 "High-confidence"
             ],
+            "species": "common",
             "interpretation": [
                 null
             ]
         },
         "cl-plasma": {
             "prediction": [
-                6.360468567542488
+                6.360468797052015
             ],
             "uncertainty": [
-                0.2353504855226447
+                0.2353503831699726
             ],
             "confidence": [
                 "High-confidence"
             ],
+            "species": "human",
             "interpretation": [
                 null
             ]
         },
         "logs": {
             "prediction": [
-                -4.063513649545414
+                -4.063513779163157
             ],
             "uncertainty": [
-                0.23785510850089508
+                0.2378551085009022
             ],
             "confidence": [
                 "Low-confidence"
             ],
+            "species": "common",
             "interpretation": [
                 "poor"
             ]
         },
         "logvdss": {
             "prediction": [
-                -0.13016715091216458
+                -0.1301671712469699
             ],
             "uncertainty": [
-                0.026720110034404082
+                0.02672011487552524
             ],
             "confidence": [
                 "Low-confidence"
             ],
+            "species": "human",
             "interpretation": [
                 "excellent"
             ]
         },
         "pka_basic": {
             "prediction": [
-                6.160801529261793
+                6.160801513610323
             ],
             "uncertainty": [
-                0.20960527620244562
+                0.20960525857152135
             ],
             "confidence": [
                 "Low-confidence"
             ],
+            "species": "common",
             "interpretation": [
                 null
             ]
         },
         "t12": {
             "prediction": [
-                4.555575702719973
+                4.555575849076636
             ],
             "uncertainty": [
-                0.01802709206222275
+                0.018027147621481276
             ],
             "confidence": [
                 "Low-confidence"
             ],
+            "species": "human",
             "interpretation": [
                 "medium"
             ]
         },
         "logd": {
             "prediction": [
-                2.9996231294184263
+                2.999623079377205
             ],
             "uncertainty": [
-                0.010926029183801589
+                0.010926042398407887
             ],
             "confidence": [
                 "Low-confidence"
             ],
+            "species": "common",
             "interpretation": [
                 "excellent"
             ]
         },
         "mdck": {
             "prediction": [
-                -4.9281350993887765
+                -4.92813506176163
             ],
             "uncertainty": [
-                0.000723394228629104
+                0.0007233946193458962
             ],
             "confidence": [
                 "High-confidence"
             ],
+            "species": "dog",
             "interpretation": [
                 "poor"
             ]
         },
         "caco2": {
             "prediction": [
-                -5.945758230432962
+                -5.945758204857607
             ],
             "uncertainty": [
-                0.0025961675447661037
+                0.0025961638659524056
             ],
             "confidence": [
                 "High-confidence"
             ],
+            "species": "human",
             "interpretation": [
                 "poor"
             ]
         },
         "ppb": {
             "prediction": [
-                94.04897972744091
+                94.04898081717097
             ],
             "uncertainty": [
-                4.061519432651039
+                4.061525356955826
             ],
             "confidence": [
                 "Low-confidence"
             ],
+            "species": "human",
             "interpretation": [
                 "poor"
             ]
@@ -4329,158 +5175,186 @@
                 -0.80173295785527
             ],
             "uncertainty": [
-                0.0002909983434936647
+                0.00029099724705217156
             ],
             "confidence": [
                 "High-confidence"
             ],
+            "species": "human",
             "interpretation": [
                 null
             ]
         },
         "ames": {
             "prediction": [
-                0.15961668019493422
+                0.07395581538245703
             ],
             "confidence": [
                 "excellent"
-            ]
+            ],
+            "species": "rat"
         },
         "lm-human": {
             "prediction": [
-                0.3053349455197652
+                0.10510719877978165
             ],
             "confidence": [
-                "medium"
-            ]
+                "excellent"
+            ],
+            "species": "human"
         },
         "herg-10um": {
             "prediction": [
-                0.03602961109330257
+                0.047845395834883675
             ],
             "confidence": [
                 "excellent"
-            ]
+            ],
+            "species": "human"
         },
         "lm-mouse": {
             "prediction": [
-                0.4788958877325058
+                0.10014529215792815
             ],
             "confidence": [
-                "medium"
-            ]
+                "excellent"
+            ],
+            "species": "mouse"
         },
         "f50": {
             "prediction": [
-                0.13615302741527557
+                0.0497467378154397
             ],
             "confidence": [
                 "excellent"
-            ]
+            ],
+            "species": "human"
         },
         "pgp_inh": {
             "prediction": [
-                0.947489321231842
+                0.9445867339769999
             ],
             "confidence": [
                 "poor"
-            ]
+            ],
+            "species": "human"
         },
         "dili": {
             "prediction": [
-                0.883798082669576
+                0.9825662771860758
             ],
             "confidence": [
                 "poor"
-            ]
-        },
-        "herg": {
-            "prediction": [
-                0.13386523878822723
             ],
-            "confidence": [
-                "excellent"
-            ]
+            "species": "human"
         },
         "oatp1b1": {
             "prediction": [
-                0.32790657381216687
+                0.07886448130011559
             ],
             "confidence": [
-                "medium"
-            ]
+                "excellent"
+            ],
+            "species": "human"
         },
         "cyp3a4-inh": {
             "prediction": [
-                0.6825996239980062
+                0.1802174411714077
             ],
             "confidence": [
-                "medium"
-            ]
+                "excellent"
+            ],
+            "species": "human"
         },
         "cyp2d6-sub": {
             "prediction": [
-                0.08656748694678147
+                0.0406366145859162
             ],
             "confidence": [
                 "excellent"
-            ]
+            ],
+            "species": "human"
+        },
+        "H-HT": {
+            "prediction": [
+                0.891183336575826
+            ],
+            "confidence": [
+                "poor"
+            ],
+            "species": "human"
+        },
+        "Hepatotoxicity": {
+            "prediction": [
+                0.8480339447657267
+            ],
+            "confidence": [
+                "poor"
+            ],
+            "species": "human"
         },
         "cyp3a4-sub": {
             "prediction": [
-                0.9734259843826294
+                0.9345769286155701
             ],
             "confidence": [
                 "poor"
-            ]
+            ],
+            "species": "human"
         },
         "aggregators": {
             "prediction": [
-                0.09133638193209966
+                0.04544999811332673
             ],
             "confidence": [
                 "excellent"
-            ]
+            ],
+            "species": "common"
         },
         "oatp1b3": {
             "prediction": [
-                0.35749400158723194
+                0.2532359262307485
             ],
             "confidence": [
-                "medium"
-            ]
+                "excellent"
+            ],
+            "species": "human"
         },
         "pgp_sub": {
             "prediction": [
-                0.8622007171312968
+                0.8353268504142761
             ],
             "confidence": [
                 "poor"
-            ]
+            ],
+            "species": "human"
         },
         "cyp2d6-inh": {
             "prediction": [
-                0.011398229437569777
+                0.023463280262755386
             ],
             "confidence": [
                 "excellent"
-            ]
+            ],
+            "species": "human"
         },
         "carcinogenicity": {
             "prediction": [
-                0.16927252213160196
+                0.11350624387462933
             ],
             "confidence": [
                 "excellent"
-            ]
+            ],
+            "species": "human"
         },
         "bbb": {
             "prediction": [
-                0.284831166267395
+                0.06797990869381465
             ],
             "confidence": [
                 "excellent"
-            ]
+            ],
+            "species": "human"
         },
         "Physicochemical_Property": {
             "TPSA": 221.28999999999996,
@@ -4488,7 +5362,6 @@
             "nHA": 14,
             "nHD": 4,
             "MW": 853.9180000000003,
-            "LogP": 3.735700000000004,
             "QED": 0.12978619445124503,
             "SAscore": 5.915623958602232,
             "Lipinski": {
@@ -4589,28 +5462,30 @@
     "CN1CCC23C4C1CC5=C2C(=C(C=C5)O)OC3C(C=C4)O": {
         "logp": {
             "prediction": [
-                0.762876830506535
+                0.7628767944055115
             ],
             "uncertainty": [
-                0.0015881407884479337
+                0.0015881435369327068
             ],
             "confidence": [
                 "High-confidence"
             ],
+            "species": "common",
             "interpretation": [
                 "excellent"
             ]
         },
         "pka_acidic": {
             "prediction": [
-                9.926099307185188
+                9.926099374166958
             ],
             "uncertainty": [
-                0.03694612524917318
+                0.036946100039983776
             ],
             "confidence": [
                 "High-confidence"
             ],
+            "species": "common",
             "interpretation": [
                 null
             ]
@@ -4625,20 +5500,22 @@
             "confidence": [
                 "Low-confidence"
             ],
+            "species": "human",
             "interpretation": [
                 null
             ]
         },
         "logs": {
             "prediction": [
-                -2.5612280278074904
+                -2.5612280170060115
             ],
             "uncertainty": [
-                0.07366352351979621
+                0.0736635117467408
             ],
             "confidence": [
                 "Low-confidence"
             ],
+            "species": "common",
             "interpretation": [
                 "excellent"
             ]
@@ -4648,53 +5525,57 @@
                 0.36688593077152015
             ],
             "uncertainty": [
-                0.0010965893691086137
+                0.0010965902900907931
             ],
             "confidence": [
                 "High-confidence"
             ],
+            "species": "human",
             "interpretation": [
                 "excellent"
             ]
         },
         "pka_basic": {
             "prediction": [
-                8.01155980884799
+                8.011559621030363
             ],
             "uncertainty": [
-                0.05671356463443544
+                0.05671345021931984
             ],
             "confidence": [
                 "Low-confidence"
             ],
+            "species": "common",
             "interpretation": [
                 null
             ]
         },
         "t12": {
             "prediction": [
-                2.5481143506565385
+                2.5481144238348694
             ],
             "uncertainty": [
-                0.023532771248460982
+                0.02353278611101306
             ],
             "confidence": [
                 "Low-confidence"
             ],
+            "species": "human",
             "interpretation": [
                 "medium"
             ]
         },
         "logd": {
             "prediction": [
-                0.3448658583799731
+                0.3448657582975305
             ],
             "uncertainty": [
-                0.021767003098074722
+                0.02176697023531589
             ],
             "confidence": [
                 "Low-confidence"
             ],
+            "species": "common",
             "interpretation": [
                 "poor"
             ]
@@ -4704,11 +5585,12 @@
                 -4.762955733887185
             ],
             "uncertainty": [
-                0.030150267365446126
+                0.030150270890420217
             ],
             "confidence": [
                 "Low-confidence"
             ],
+            "species": "dog",
             "interpretation": [
                 "poor"
             ]
@@ -4718,11 +5600,12 @@
                 -4.987524681776272
             ],
             "uncertainty": [
-                0.0003671596491798823
+                0.0003671593181096
             ],
             "confidence": [
                 "High-confidence"
             ],
+            "species": "human",
             "interpretation": [
                 "excellent"
             ]
@@ -4737,167 +5620,196 @@
             "confidence": [
                 "High-confidence"
             ],
+            "species": "human",
             "interpretation": [
                 "excellent"
             ]
         },
         "cl-int": {
             "prediction": [
-                -1.1956630009717168
+                -1.1956629758058697
             ],
             "uncertainty": [
-                0.010127192804375573
+                0.010127194795521488
             ],
             "confidence": [
                 "Low-confidence"
             ],
+            "species": "human",
             "interpretation": [
                 null
             ]
         },
         "ames": {
             "prediction": [
-                0.04165966063737869
+                0.0351372060055534
             ],
             "confidence": [
                 "excellent"
-            ]
+            ],
+            "species": "rat"
         },
         "lm-human": {
             "prediction": [
-                3.0410824213807548e-05
+                0.0007623078193622254
             ],
             "confidence": [
                 "excellent"
-            ]
+            ],
+            "species": "human"
         },
         "herg-10um": {
             "prediction": [
-                0.26667986686031026
+                0.25926533713936806
             ],
             "confidence": [
                 "excellent"
-            ]
+            ],
+            "species": "human"
         },
         "lm-mouse": {
             "prediction": [
-                0.4864032218853633
+                0.14004008720318475
             ],
             "confidence": [
-                "medium"
-            ]
+                "excellent"
+            ],
+            "species": "mouse"
         },
         "f50": {
             "prediction": [
-                0.12783712148666382
+                0.1264484723409017
             ],
             "confidence": [
                 "excellent"
-            ]
+            ],
+            "species": "human"
         },
         "pgp_inh": {
             "prediction": [
-                0.0001457151023108357
+                0.03836966142262099
             ],
             "confidence": [
                 "excellent"
-            ]
+            ],
+            "species": "human"
         },
         "dili": {
             "prediction": [
-                0.0005903260635022889
+                0.0007961166047607549
             ],
             "confidence": [
                 "excellent"
-            ]
-        },
-        "herg": {
-            "prediction": [
-                0.021734070498496294
             ],
-            "confidence": [
-                "excellent"
-            ]
+            "species": "human"
         },
         "oatp1b1": {
             "prediction": [
-                0.19733157753944397
+                0.049464053163925804
             ],
             "confidence": [
                 "excellent"
-            ]
+            ],
+            "species": "human"
         },
         "cyp3a4-inh": {
             "prediction": [
-                3.054179126138479e-05
+                7.791668208293838e-05
             ],
             "confidence": [
                 "excellent"
-            ]
+            ],
+            "species": "human"
         },
         "cyp2d6-sub": {
             "prediction": [
-                0.986333946386973
+                0.9929778575897217
             ],
             "confidence": [
                 "poor"
-            ]
-        },
-        "cyp3a4-sub": {
-            "prediction": [
-                0.9989452560742696
             ],
-            "confidence": [
-                "poor"
-            ]
+            "species": "human"
         },
-        "aggregators": {
+        "H-HT": {
             "prediction": [
-                0.24753838777542114
-            ],
-            "confidence": [
-                "excellent"
-            ]
-        },
-        "oatp1b3": {
-            "prediction": [
-                0.3990067144234975
+                0.6323853929837545
             ],
             "confidence": [
                 "medium"
-            ]
+            ],
+            "species": "human"
+        },
+        "Hepatotoxicity": {
+            "prediction": [
+                0.37282758951187134
+            ],
+            "confidence": [
+                "medium"
+            ],
+            "species": "human"
+        },
+        "cyp3a4-sub": {
+            "prediction": [
+                0.9312601486841837
+            ],
+            "confidence": [
+                "poor"
+            ],
+            "species": "human"
+        },
+        "aggregators": {
+            "prediction": [
+                0.13472660134236017
+            ],
+            "confidence": [
+                "excellent"
+            ],
+            "species": "common"
+        },
+        "oatp1b3": {
+            "prediction": [
+                0.36295541127522785
+            ],
+            "confidence": [
+                "medium"
+            ],
+            "species": "human"
         },
         "pgp_sub": {
             "prediction": [
-                0.7233485778172811
+                0.4901880199710528
             ],
             "confidence": [
-                "poor"
-            ]
+                "medium"
+            ],
+            "species": "human"
         },
         "cyp2d6-inh": {
             "prediction": [
-                0.00716966821346432
+                0.11083921262373526
             ],
             "confidence": [
                 "excellent"
-            ]
+            ],
+            "species": "human"
         },
         "carcinogenicity": {
             "prediction": [
-                0.022737088923652966
+                0.020251067355275154
             ],
             "confidence": [
                 "excellent"
-            ]
+            ],
+            "species": "human"
         },
         "bbb": {
             "prediction": [
-                0.9999616543451945
+                0.9994319478670756
             ],
             "confidence": [
                 "poor"
-            ]
+            ],
+            "species": "human"
         },
         "Physicochemical_Property": {
             "TPSA": 52.93000000000001,
@@ -4905,7 +5817,6 @@
             "nHA": 4,
             "nHD": 2,
             "MW": 285.343,
-            "LogP": 1.1981,
             "QED": 0.7033474919154648,
             "SAscore": 5.273601698417644,
             "Lipinski": {
